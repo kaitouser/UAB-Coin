@@ -25,9 +25,9 @@
 
 
 ## Authors
-José Francisco Aguilera Oliver - <a href="https://github.com/kaitouser">kaitouser</a> - 1604190 <br />
+José Francisco Aguilera Oliver - <a href="https://github.com/kaitouser">kaitouser</a> - 1601361  <br />
 Marina Bermúdez Granados - <a href="https://github.com/nara-on">nara-on</a> - 1599120 <br /> 
-Pau Bermúdez Valle - <a https://github.com/SrKoko>SrKoko</a> - 1601361 <br />
+Pau Bermúdez Valle - <a href="https://github.com/SrKoko">SrKoko</a> - 1604190 <br />
 Adrian Vargas Orellana - <a href="https://github.com/adriend1102">adriend1102</a> - 1606868<br />
 
 
