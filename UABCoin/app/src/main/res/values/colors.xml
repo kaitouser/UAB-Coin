@@ -7,4 +7,8 @@
     <color name="teal_700">#FF018786</color>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
+    <color name="yellowUabCoin">#FCA311</color>
+    <color name="darkBlueUabCoin">#14213D</color>
+    <color name="lightBrownUabCoin">#836542</color>
+    <color name="whiteUabCoin">#FBFBFB</color>
 </resources>
