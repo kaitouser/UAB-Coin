@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/whiteUabCoin"
-    tools:context=".WelcomeActivity"
+    tools:context=".activities.WelcomeActivity"
     android:backgroundTintMode="src_in">
 
     <LinearLayout
@@ -24,6 +24,22 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent">
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/buttonSignOut"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/white"
+            android:text="Sign out"
+            android:textColor="@color/black" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/buttonProfile"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/white"
+            android:text="Profile"
+            android:textColor="@color/black" />
 
         <ImageButton
             android:id="@+id/imageButtonMenu"
