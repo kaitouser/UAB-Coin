@@ -95,7 +95,7 @@
             android:layout_height="wrap_content"
             android:backgroundTint="@color/yellowUabCoin"
             android:fontFamily="@font/mada_bold"
-            android:text="News >>"
+            android:text="News"
             android:textColor="@color/black" />
     </LinearLayout>
 

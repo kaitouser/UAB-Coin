@@ -126,11 +126,12 @@
         android:gravity="center"
         android:orientation="vertical">
 
-        <TextView
+        <Button
+            android:id="@+id/buttonEdit"
             android:layout_width="150dp"
             android:layout_height="50dp"
             android:background="@drawable/edit_btn"
-            android:text="Edit Profile"
+            android:text="Edit"
             android:gravity="center"
             android:textSize="18dp"
             android:drawableLeft="@drawable/ic_edit"
