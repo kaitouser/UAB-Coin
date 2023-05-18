@@ -41,7 +41,7 @@ class EditProfileActivity : AppCompatActivity() {
         fetchUser()
 
         findViewById<ImageButton>(R.id.buttonBack).setOnClickListener {
-            val intent : Intent = Intent(this, WelcomeActivity::class.java)
+            val intent : Intent = Intent(this, ProfileActivity::class.java)
             intent.putExtra("id", userId)
             startActivity(intent)
         }

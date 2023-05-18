@@ -4,6 +4,7 @@ import android.app.Activity
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.util.Log
 import android.widget.Button
 import android.widget.Toast
 import androidx.activity.result.contract.ActivityResultContracts
@@ -75,8 +76,7 @@ class MainActivity : AppCompatActivity() {
         val credential = GoogleAuthProvider.getCredential(account.idToken, null)
         auth.signInWithCredential(credential).addOnCompleteListener{
             if (it.isSuccessful){
-                initUser(account.displayName.toString(),account.email.toString(),account.id.toString())
-
+                initUser(account.displayName.toString(),account.email.toString(),account.id.toString(),account.photoUrl.toString())
                 val intent : Intent  = Intent(this, WelcomeActivity::class.java)
                 intent.putExtra("id", account.id)
                 startActivity(intent)
@@ -86,13 +86,13 @@ class MainActivity : AppCompatActivity() {
         }
     }
 
-    private fun initUser(userName : String, userEmail : String, userId : String) {
+    private fun initUser(userName : String, userEmail : String, userId : String, userPhoto : String) {
         dbRef = FirebaseDatabase.getInstance().getReference("Users").child(userId)
 
         dbRef.addValueEventListener(object : ValueEventListener{
             override fun onDataChange(snapshot: DataSnapshot) {
                 if (!snapshot.exists()) {
-                    val user = UserModel(userName, userEmail, 0)
+                    val user = UserModel(userName, userEmail, 0, userPhoto)
                     dbRef.setValue(user)
                         .addOnCompleteListener {
                             Toast.makeText(this@MainActivity, "Data inserted successfully",Toast.LENGTH_LONG).show()

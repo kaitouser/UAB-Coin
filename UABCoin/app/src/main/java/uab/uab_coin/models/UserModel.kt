@@ -4,6 +4,7 @@ data class UserModel(
     var userName: String? = null,
     var userEmail: String? = null,
     var userCoins: Int? = null,
+    var userPhoto: String? = null
 )
 
 
