@@ -4,12 +4,13 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:layout_alignParentRight="true"
     android:background="@color/whiteUabCoin"
-    tools:context=".activities.WelcomeActivity"
-    android:backgroundTintMode="src_in">
+    android:backgroundTintMode="src_in"
+    tools:context=".WelcomeActivity">
 
     <LinearLayout
-        android:id="@+id/topMenu"
+        android:id="@+id/topMenuLinearLayout"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:background="@color/lightBrownUabCoin"
@@ -25,33 +26,18 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent">
 
-        <com.google.android.material.button.MaterialButton
-            android:id="@+id/buttonSignOut"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:backgroundTint="@color/white"
-            android:text="Sign out"
-            android:textColor="@color/black" />
-
-        <com.google.android.material.button.MaterialButton
-            android:id="@+id/buttonProfile"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:backgroundTint="@color/white"
-            android:text="Profile"
-            android:textColor="@color/black" />
-
         <ImageButton
-            android:id="@+id/imageButtonMenu"
+            android:id="@+id/navMenuBtn"
             android:layout_width="48dp"
             android:layout_height="48dp"
             android:background="#00434656"
             android:contentDescription="Menu Button"
+            android:onClick="@string/nav_open"
             app:srcCompat="@android:drawable/ic_menu_sort_by_size" />
     </LinearLayout>
 
     <LinearLayout
-        android:id="@+id/welcomelinearLayout"
+        android:id="@+id/welcomeLinearLayout"
         android:layout_width="0dp"
         android:layout_height="321dp"
         android:gravity="left|center_vertical"
@@ -62,11 +48,11 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/topMenu">
+        app:layout_constraintTop_toBottomOf="@+id/topMenuLinearLayout">
 
         <TextView
             android:id="@+id/textViewWelcomeUser"
-            android:layout_width="match_parent"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:fontFamily="@font/sansita_extrabold"
             android:gravity="fill_horizontal|center_vertical"
@@ -76,12 +62,14 @@
             android:textSize="35sp" />
 
         <TextView
-            android:id="@+id/textViewNCoins"
-            android:layout_width="match_parent"
-            android:layout_height="68dp"
+            android:id="@+id/textViewCoins"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
             android:fontFamily="@font/mada_bold"
             android:gravity="center_vertical"
             android:paddingLeft="10dp"
+            android:paddingTop="5dp"
+            android:paddingRight="10dp"
             android:paddingBottom="5dp"
             android:text="256 coins"
             android:textColor="@color/darkBlueUabCoin"
@@ -90,20 +78,21 @@
             android:textSize="32sp" />
 
         <Button
-            android:id="@+id/buttonNews"
+            android:id="@+id/newsBtn"
             android:layout_width="152dp"
             android:layout_height="wrap_content"
             android:backgroundTint="@color/yellowUabCoin"
             android:fontFamily="@font/mada_bold"
-            android:text="News"
+            android:text="News >>"
             android:textColor="@color/black" />
     </LinearLayout>
 
     <LinearLayout
-        android:id="@+id/welcomeButtonslinearLayout"
+        android:id="@+id/welcomeBtnsLinearLayout"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginBottom="4dp"
+        android:gravity="fill_horizontal"
         android:orientation="vertical"
         android:paddingLeft="10dp"
         android:paddingTop="20dp"
@@ -113,11 +102,11 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/welcomelinearLayout">
+        app:layout_constraintTop_toBottomOf="@+id/welcomeLinearLayout">
 
         <Button
-            android:id="@+id/buttonObtainCoins"
-            android:layout_width="match_parent"
+            android:id="@+id/getCoinsBtn"
+            android:layout_width="320dp"
             android:layout_height="64dp"
             android:backgroundTint="@color/yellowUabCoin"
             android:fontFamily="@font/mada_bold"
@@ -125,8 +114,8 @@
             android:textSize="16sp" />
 
         <Button
-            android:id="@+id/buttonRedeemCoins"
-            android:layout_width="match_parent"
+            android:id="@+id/redeemCoinsBtn"
+            android:layout_width="320dp"
             android:layout_height="64dp"
             android:backgroundTint="@color/yellowUabCoin"
             android:fontFamily="@font/mada_bold"
@@ -134,8 +123,8 @@
             android:textSize="16sp" />
 
         <Button
-            android:id="@+id/buttonStatistics"
-            android:layout_width="match_parent"
+            android:id="@+id/statsBtn"
+            android:layout_width="320dp"
             android:layout_height="64dp"
             android:backgroundTint="@color/yellowUabCoin"
             android:fontFamily="@font/mada_bold"
@@ -143,4 +132,27 @@
             android:textSize="16sp" />
     </LinearLayout>
 
+    <!-- Navigation Drawer -->
+    <androidx.drawerlayout.widget.DrawerLayout
+        android:id="@+id/navMenuId"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:context=".WelcomeActivity"
+        tools:ignore="HardcodedText">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+        <!-- this the navigation view which draws and shows the navigation drawer -->
+        <!-- include the menu created in the menu folder -->
+        <com.google.android.material.navigation.NavigationView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="end"
+            app:menu="@menu/navigation_menu" />
+
+    </androidx.drawerlayout.widget.DrawerLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>

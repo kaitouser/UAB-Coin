@@ -1,0 +1,122 @@
+[
+    {
+        "merged": "C:\\Users\\marin\\.gradle\\daemon\\8.0\\uab.uab_coin.app-merged_res-52:\\layout_activity_getcoins.xml.flat",
+        "source": "C:\\Users\\marin\\.gradle\\daemon\\8.0\\uab.uab_coin.app-main-54:\\layout\\activity_getcoins.xml"
+    },
+    {
+        "merged": "C:\\Users\\marin\\.gradle\\daemon\\8.0\\uab.uab_coin.app-merged_res-52:\\mipmap-mdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\marin\\.gradle\\daemon\\8.0\\uab.uab_coin.app-main-54:\\mipmap-mdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "uab.uab_coin.app-merged_res-52:/drawable_btn_state.xml.flat",
+        "source": "uab.uab_coin.app-main-54:/drawable/btn_state.xml"
+    },
+    {
+        "merged": "C:\\Users\\marin\\.gradle\\daemon\\8.0\\uab.uab_coin.app-merged_res-52:\\mipmap-mdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\marin\\.gradle\\daemon\\8.0\\uab.uab_coin.app-main-54:\\mipmap-mdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\marin\\.gradle\\daemon\\8.0\\uab.uab_coin.app-merged_res-52:\\font_sansita_extrabold.ttf.flat",
+        "source": "C:\\Users\\marin\\.gradle\\daemon\\8.0\\uab.uab_coin.app-main-54:\\font\\sansita_extrabold.ttf"
+    },
+    {
+        "merged": "C:\\Users\\marin\\.gradle\\daemon\\8.0\\uab.uab_coin.app-merged_res-52:\\layout_activity_welcome.xml.flat",
+        "source": "C:\\Users\\marin\\.gradle\\daemon\\8.0\\uab.uab_coin.app-main-54:\\layout\\activity_welcome.xml"
+    },
+    {
+        "merged": "C:\\Users\\marin\\.gradle\\daemon\\8.0\\uab.uab_coin.app-merged_res-52:\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "C:\\Users\\marin\\.gradle\\daemon\\8.0\\uab.uab_coin.app-main-54:\\mipmap-anydpi-v26\\ic_launcher_round.xml"
+    },
+    {
+        "merged": "C:\\Users\\marin\\.gradle\\daemon\\8.0\\uab.uab_coin.app-merged_res-52:\\font_mada_bold.xml.flat",
+        "source": "C:\\Users\\marin\\.gradle\\daemon\\8.0\\uab.uab_coin.app-main-54:\\font\\mada_bold.xml"
+    },
+    {
+        "merged": "C:\\Users\\marin\\.gradle\\daemon\\8.0\\uab.uab_coin.app-merged_res-52:\\mipmap-xxxhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\marin\\.gradle\\daemon\\8.0\\uab.uab_coin.app-main-54:\\mipmap-xxxhdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\marin\\.gradle\\daemon\\8.0\\uab.uab_coin.app-merged_res-52:\\layout_activity_home.xml.flat",
+        "source": "C:\\Users\\marin\\.gradle\\daemon\\8.0\\uab.uab_coin.app-main-54:\\layout\\activity_home.xml"
+    },
+    {
+        "merged": "C:\\Users\\marin\\.gradle\\daemon\\8.0\\uab.uab_coin.app-merged_res-52:\\mipmap-hdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\marin\\.gradle\\daemon\\8.0\\uab.uab_coin.app-main-54:\\mipmap-hdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\marin\\.gradle\\daemon\\8.0\\uab.uab_coin.app-merged_res-52:\\mipmap-hdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\marin\\.gradle\\daemon\\8.0\\uab.uab_coin.app-main-54:\\mipmap-hdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\marin\\.gradle\\daemon\\8.0\\uab.uab_coin.app-merged_res-52:\\drawable-v24_ic_launcher_foreground.xml.flat",
+        "source": "C:\\Users\\marin\\.gradle\\daemon\\8.0\\uab.uab_coin.app-main-54:\\drawable-v24\\ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "C:\\Users\\marin\\.gradle\\daemon\\8.0\\uab.uab_coin.app-merged_res-52:\\layout_activity_profile.xml.flat",
+        "source": "C:\\Users\\marin\\.gradle\\daemon\\8.0\\uab.uab_coin.app-main-54:\\layout\\activity_profile.xml"
+    },
+    {
+        "merged": "C:\\Users\\marin\\.gradle\\daemon\\8.0\\uab.uab_coin.app-merged_res-52:\\xml_data_extraction_rules.xml.flat",
+        "source": "C:\\Users\\marin\\.gradle\\daemon\\8.0\\uab.uab_coin.app-main-54:\\xml\\data_extraction_rules.xml"
+    },
+    {
+        "merged": "C:\\Users\\marin\\.gradle\\daemon\\8.0\\uab.uab_coin.app-merged_res-52:\\layout_activity_main.xml.flat",
+        "source": "C:\\Users\\marin\\.gradle\\daemon\\8.0\\uab.uab_coin.app-main-54:\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\marin\\.gradle\\daemon\\8.0\\uab.uab_coin.app-merged_res-52:\\font_baloo_bhai_2_bold.xml.flat",
+        "source": "C:\\Users\\marin\\.gradle\\daemon\\8.0\\uab.uab_coin.app-main-54:\\font\\baloo_bhai_2_bold.xml"
+    },
+    {
+        "merged": "C:\\Users\\marin\\.gradle\\daemon\\8.0\\uab.uab_coin.app-merged_res-52:\\menu_navigation_menu.xml.flat",
+        "source": "C:\\Users\\marin\\.gradle\\daemon\\8.0\\uab.uab_coin.app-main-54:\\menu\\navigation_menu.xml"
+    },
+    {
+        "merged": "C:\\Users\\marin\\.gradle\\daemon\\8.0\\uab.uab_coin.app-merged_res-52:\\drawable_ic_launcher_background.xml.flat",
+        "source": "C:\\Users\\marin\\.gradle\\daemon\\8.0\\uab.uab_coin.app-main-54:\\drawable\\ic_launcher_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\marin\\.gradle\\daemon\\8.0\\uab.uab_coin.app-merged_res-52:\\mipmap-xhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\marin\\.gradle\\daemon\\8.0\\uab.uab_coin.app-main-54:\\mipmap-xhdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\marin\\.gradle\\daemon\\8.0\\uab.uab_coin.app-merged_res-52:\\xml_backup_rules.xml.flat",
+        "source": "C:\\Users\\marin\\.gradle\\daemon\\8.0\\uab.uab_coin.app-main-54:\\xml\\backup_rules.xml"
+    },
+    {
+        "merged": "C:\\Users\\marin\\.gradle\\daemon\\8.0\\uab.uab_coin.app-merged_res-52:\\mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "C:\\Users\\marin\\.gradle\\daemon\\8.0\\uab.uab_coin.app-main-54:\\mipmap-anydpi-v26\\ic_launcher.xml"
+    },
+    {
+        "merged": "C:\\Users\\marin\\.gradle\\daemon\\8.0\\uab.uab_coin.app-merged_res-52:\\layout_activity_redeemcoins.xml.flat",
+        "source": "C:\\Users\\marin\\.gradle\\daemon\\8.0\\uab.uab_coin.app-main-54:\\layout\\activity_redeemcoins.xml"
+    },
+    {
+        "merged": "C:\\Users\\marin\\.gradle\\daemon\\8.0\\uab.uab_coin.app-merged_res-52:\\font_sansita_bold.xml.flat",
+        "source": "C:\\Users\\marin\\.gradle\\daemon\\8.0\\uab.uab_coin.app-main-54:\\font\\sansita_bold.xml"
+    },
+    {
+        "merged": "C:\\Users\\marin\\.gradle\\daemon\\8.0\\uab.uab_coin.app-merged_res-52:\\drawable_btn_state.xml.flat",
+        "source": "C:\\Users\\marin\\.gradle\\daemon\\8.0\\uab.uab_coin.app-main-54:\\drawable\\btn_state.xml"
+    },
+    {
+        "merged": "C:\\Users\\marin\\.gradle\\daemon\\8.0\\uab.uab_coin.app-merged_res-52:\\mipmap-xxxhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\marin\\.gradle\\daemon\\8.0\\uab.uab_coin.app-main-54:\\mipmap-xxxhdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\marin\\.gradle\\daemon\\8.0\\uab.uab_coin.app-merged_res-52:\\mipmap-xhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\marin\\.gradle\\daemon\\8.0\\uab.uab_coin.app-main-54:\\mipmap-xhdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\marin\\.gradle\\daemon\\8.0\\uab.uab_coin.app-merged_res-52:\\mipmap-xxhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\marin\\.gradle\\daemon\\8.0\\uab.uab_coin.app-main-54:\\mipmap-xxhdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\marin\\.gradle\\daemon\\8.0\\uab.uab_coin.app-merged_res-52:\\layout_activity_statistics.xml.flat",
+        "source": "C:\\Users\\marin\\.gradle\\daemon\\8.0\\uab.uab_coin.app-main-54:\\layout\\activity_statistics.xml"
+    },
+    {
+        "merged": "C:\\Users\\marin\\.gradle\\daemon\\8.0\\uab.uab_coin.app-merged_res-52:\\mipmap-xxhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\marin\\.gradle\\daemon\\8.0\\uab.uab_coin.app-main-54:\\mipmap-xxhdpi\\ic_launcher.webp"
+    }
+]
