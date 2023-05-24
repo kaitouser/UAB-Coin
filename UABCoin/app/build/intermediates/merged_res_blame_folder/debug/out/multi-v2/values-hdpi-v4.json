@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "uab.uab_coin.app-mergeDebugResources-50:/values-hdpi-v4/values-hdpi-v4.xml",
+            "outputFile": "uab.uab_coin.app-mergeDebugResources-30:/values-hdpi-v4/values-hdpi-v4.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\marin\\.gradle\\caches\\transforms-3\\2d82247bc56c74c449adef124963cf5b\\transformed\\appcompat-1.4.1\\res\\values-hdpi-v4\\values-hdpi-v4.xml",
+                    "source": "C:\\Users\\Hp\\.gradle\\caches\\transforms-3\\2d82247bc56c74c449adef124963cf5b\\transformed\\appcompat-1.4.1\\res\\values-hdpi-v4\\values-hdpi-v4.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",

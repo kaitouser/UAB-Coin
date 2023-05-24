@@ -7,7 +7,7 @@
     <item android:title="Item" />
     <item
         android:id="@+id/nav_profile"
-        android:title="Edit Profile" />
+        android:title="Edit Profile"/>
     <item
         android:id="@+id/nav_settings"
         android:title="Settings" />

@@ -43,8 +43,9 @@
     <string name="nav_open">Open</string>
     <string name="project_id" translatable="false">uab-coin</string>
     <string name="title_activity_welcome_navigation">WelcomeNavigation</string>
-    <style name="Theme.UABCoin" parent="Theme.AppCompat.Light.NoActionBar">
+    <style name="Theme.UABCoin" parent="Theme.MaterialComponents.DayNight.NoActionBar">
         
+        <item name="colorPrimary">@color/purple_500</item>
         <item name="colorPrimaryVariant">@color/purple_700</item>
         <item name="colorOnPrimary">@color/white</item>
         

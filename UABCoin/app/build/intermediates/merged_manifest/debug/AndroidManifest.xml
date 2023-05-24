@@ -28,13 +28,25 @@
         android:testOnly="true"
         android:theme="@style/Theme.UABCoin" >
         <activity
-            android:name="uab.uab_coin.WelcomeActivity"
+            android:name="uab.uab_coin.activities.StatisticsActivity"
             android:exported="false" />
         <activity
-            android:name="uab.uab_coin.HomeActivity"
+            android:name="uab.uab_coin.activities.RedeemCoinsActivity"
             android:exported="false" />
         <activity
-            android:name="uab.uab_coin.MainActivity"
+            android:name="uab.uab_coin.activities.GetCoinsActivity"
+            android:exported="false" />
+        <activity
+            android:name="uab.uab_coin.activities.EditProfileActivity"
+            android:exported="false" />
+        <activity
+            android:name="uab.uab_coin.activities.ProfileActivity"
+            android:exported="false" />
+        <activity
+            android:name="uab.uab_coin.activities.WelcomeActivity"
+            android:exported="false" />
+        <activity
+            android:name="uab.uab_coin.activities.MainActivity"
             android:exported="true" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -42,19 +54,6 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity
-            android:name="uab.uab_coin.GetCoinsActivity"
-            android:exported="false" />
-        <activity
-            android:name="uab.uab_coin.RedeemCoinsActivity"
-            android:exported="false" />
-        <activity
-            android:name="uab.uab_coin.ProfileActivity"
-            android:exported="false" />
-
-        <meta-data
-            android:name="preloaded_fonts"
-            android:resource="@array/preloaded_fonts" />
 
         <service
             android:name="com.google.firebase.components.ComponentDiscoveryService"
@@ -70,6 +69,9 @@
                 android:name="com.google.firebase.components:com.google.firebase.analytics.ktx.FirebaseAnalyticsKtxRegistrar"
                 android:value="com.google.firebase.components.ComponentRegistrar" />
             <meta-data
+                android:name="com.google.firebase.components:com.google.firebase.database.ktx.FirebaseDatabaseKtxRegistrar"
+                android:value="com.google.firebase.components.ComponentRegistrar" />
+            <meta-data
                 android:name="com.google.firebase.components:com.google.firebase.firestore.ktx.FirebaseFirestoreKtxRegistrar"
                 android:value="com.google.firebase.components.ComponentRegistrar" />
             <meta-data
@@ -77,6 +79,9 @@
                 android:value="com.google.firebase.components.ComponentRegistrar" />
             <meta-data
                 android:name="com.google.firebase.components:com.google.firebase.firestore.FirestoreRegistrar"
+                android:value="com.google.firebase.components.ComponentRegistrar" />
+            <meta-data
+                android:name="com.google.firebase.components:com.google.firebase.database.DatabaseRegistrar"
                 android:value="com.google.firebase.components.ComponentRegistrar" />
             <meta-data
                 android:name="com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar"
@@ -122,14 +127,6 @@
                     android:scheme="recaptcha" />
             </intent-filter>
         </activity>
-
-        <uses-library
-            android:name="androidx.window.extensions"
-            android:required="false" />
-        <uses-library
-            android:name="androidx.window.sidecar"
-            android:required="false" />
-
         <activity
             android:name="com.google.android.gms.auth.api.signin.internal.SignInHubActivity"
             android:excludeFromRecents="true"
@@ -145,17 +142,17 @@
             android:permission="com.google.android.gms.auth.api.signin.permission.REVOCATION_NOTIFICATION"
             android:visibleToInstantApps="true" />
 
-        <activity
-            android:name="com.google.android.gms.common.api.GoogleApiActivity"
-            android:exported="false"
-            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
-
         <provider
             android:name="com.google.firebase.provider.FirebaseInitProvider"
             android:authorities="uab.uab_coin.firebaseinitprovider"
             android:directBootAware="true"
             android:exported="false"
             android:initOrder="100" />
+
+        <activity
+            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+            android:exported="false"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
 
         <receiver
             android:name="com.google.android.gms.measurement.AppMeasurementReceiver"
