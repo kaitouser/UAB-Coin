@@ -5,74 +5,8 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/whiteUabCoin"
-    tools:context=".activities.WelcomeActivity"
-    android:backgroundTintMode="src_in">
-
-    <androidx.drawerlayout.widget.DrawerLayout
-        android:id="@+id/navMenuId"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        tools:context=".WelcomeActivity"
-        tools:ignore="HardcodedText">
-
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="match_parent" />
-
-        <!-- this the navigation view which draws and shows the navigation drawer -->
-        <!-- include the menu created in the menu folder -->
-        <com.google.android.material.navigation.NavigationView
-            android:layout_width="wrap_content"
-            android:layout_height="match_parent"
-            android:layout_gravity="end"
-            app:menu="@menu/navigation_menu" />
-
-    </androidx.drawerlayout.widget.DrawerLayout>
-
-    <LinearLayout
-        android:id="@+id/topMenu"
-        android:layout_width="0dp"
-        android:layout_height="wrap_content"
-        android:background="@color/lightBrownUabCoin"
-        android:gravity="right|center_vertical"
-        android:orientation="vertical"
-        android:paddingStart="15dp"
-        android:paddingLeft="15dp"
-        android:paddingTop="10dp"
-        android:paddingEnd="15dp"
-        android:paddingRight="15dp"
-        android:paddingBottom="10dp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent">
-
-        <com.google.android.material.button.MaterialButton
-            android:id="@+id/buttonSignOut"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:backgroundTint="@color/white"
-            android:text="Sign out"
-            android:textColor="@color/black" />
-
-        <com.google.android.material.button.MaterialButton
-            android:id="@+id/buttonProfile"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:backgroundTint="@color/white"
-            android:text="Profile"
-            android:textColor="@color/black" />
-
-        <ImageButton
-            android:id="@+id/imageButtonMenu"
-            android:layout_width="48dp"
-            android:layout_height="48dp"
-            android:background="#00434656"
-            android:contentDescription="Menu Button"
-            android:onClick="@string/nav_open"
-            app:srcCompat="@android:drawable/ic_menu_sort_by_size" />
-    </LinearLayout>
+    android:backgroundTintMode="src_in"
+    tools:context=".activities.WelcomeActivity">
 
     <LinearLayout
         android:id="@+id/welcomelinearLayout"
@@ -86,7 +20,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/topMenu">
+        app:layout_constraintTop_toTopOf="parent">
 
         <TextView
             android:id="@+id/textViewWelcomeUser"

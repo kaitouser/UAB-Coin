@@ -28,6 +28,9 @@
         android:testOnly="true"
         android:theme="@style/Theme.UABCoin" >
         <activity
+            android:name="uab.uab_coin.activities.DrawerBaseActivity"
+            android:exported="false" />
+        <activity
             android:name="uab.uab_coin.activities.StatisticsActivity"
             android:exported="false" />
         <activity
@@ -37,10 +40,16 @@
             android:name="uab.uab_coin.activities.GetCoinsActivity"
             android:exported="false" />
         <activity
+            android:name="uab.uab_coin.activities.NewsActivity"
+            android:exported="false" />
+        <activity
             android:name="uab.uab_coin.activities.EditProfileActivity"
             android:exported="false" />
         <activity
             android:name="uab.uab_coin.activities.ProfileActivity"
+            android:exported="false" />
+        <activity
+            android:name="uab.uab_coin.activities.SettingsActivity"
             android:exported="false" />
         <activity
             android:name="uab.uab_coin.activities.WelcomeActivity"

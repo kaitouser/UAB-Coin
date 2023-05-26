@@ -7,7 +7,6 @@
     tools:context=".activities.RedeemCoinsActivity">
 
     <LinearLayout
-        android:id="@+id/welcomeLinearLayout"
         android:layout_width="0dp"
         android:layout_height="250dp"
         android:gravity="center_horizontal|center_vertical"
@@ -18,10 +17,9 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/topMenuLinearLayout">
+        app:layout_constraintTop_toTopOf="parent">
 
         <TextView
-            android:id="@+id/textViewRedeemCoins"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:fontFamily="@font/sansita_extrabold"
@@ -32,39 +30,4 @@
             android:textSize="35sp" />
     </LinearLayout>
 
-    <LinearLayout
-        android:id="@+id/topMenuLinearLayout"
-        android:layout_width="0dp"
-        android:layout_height="wrap_content"
-        android:background="@color/lightBrownUabCoin"
-        android:gravity="right|center_vertical"
-        android:orientation="vertical"
-        android:paddingStart="15dp"
-        android:paddingLeft="15dp"
-        android:paddingTop="10dp"
-        android:paddingEnd="15dp"
-        android:paddingRight="15dp"
-        android:paddingBottom="10dp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent">
-
-        <ImageButton
-            android:layout_width="48dp"
-            android:layout_height="48dp"
-            android:background="#00434656"
-            android:contentDescription="Menu Button"
-            android:onClick="@string/nav_open"
-            app:srcCompat="@android:drawable/ic_menu_sort_by_size" />
-    </LinearLayout>
-
-    <LinearLayout
-        android:layout_width="409dp"
-        android:layout_height="411dp"
-        android:orientation="vertical"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="@+id/welcomeLinearLayout"
-        app:layout_constraintStart_toStartOf="parent">
-
-    </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>

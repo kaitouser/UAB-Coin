@@ -2639,6 +2639,7 @@ id action_mode_bar_stub
 id action_mode_close_button
 id action_text
 id actions
+id activityContainer
 id activity_chooser_view_content
 id add
 id adjust_height
@@ -2652,6 +2653,7 @@ id animateToEnd
 id animateToStart
 id antiClockwise
 id anticipate
+id appBarLayout
 id arc
 id asConfigured
 id async
@@ -2682,9 +2684,7 @@ id buttonEdit
 id buttonNews
 id buttonObtainCoins
 id buttonPanel
-id buttonProfile
 id buttonRedeemCoins
-id buttonSignOut
 id buttonStatistics
 id cache_measures
 id callMeasure
@@ -2805,7 +2805,6 @@ id ifRoom
 id ignore
 id ignoreRequest
 id image
-id imageButtonMenu
 id immediateStop
 id included
 id info
@@ -2883,10 +2882,10 @@ id mtrl_picker_text_input_range_start
 id mtrl_picker_title_text
 id mtrl_view_tag_bottom_padding
 id multiply
-id navMenuId
 id nav_logout
 id nav_profile
 id nav_settings
+id nav_view
 id navigation_bar_item_active_indicator_view
 id navigation_bar_item_icon_container
 id navigation_bar_item_icon_view
@@ -3029,8 +3028,6 @@ id textTop
 id textUserName
 id textUserNameBig
 id textViewNCoins
-id textViewRedeemCoins
-id textViewRedeemCoins2
 id textViewWelcomeUser
 id text_input_end_icon
 id text_input_error_icon
@@ -3046,9 +3043,8 @@ id title
 id titleDividerNoCustom
 id title_template
 id toggle
+id toolBar
 id top
-id topMenu
-id topMenuLinearLayout
 id topPanel
 id touch_outside
 id transitionToEnd
@@ -3074,7 +3070,6 @@ id view_tree_view_model_store_owner
 id visible
 id visible_removing_fragment_view_tag
 id welcomeButtonslinearLayout
-id welcomeLinearLayout
 id welcomelinearLayout
 id west
 id wide
@@ -3172,15 +3167,19 @@ layout abc_search_dropdown_item_icons_2line
 layout abc_search_view
 layout abc_select_dialog_material
 layout abc_tooltip
+layout activity_drawer_base
 layout activity_edit_profile
 layout activity_get_coins
 layout activity_main
+layout activity_news
 layout activity_profile
 layout activity_redeem_coins
+layout activity_settings
 layout activity_statistics
 layout activity_welcome
 layout browser_actions_context_menu_page
 layout browser_actions_context_menu_row
+layout content_layout
 layout custom_dialog
 layout design_bottom_navigation_item
 layout design_bottom_sheet_dialog
@@ -3200,6 +3199,7 @@ layout design_text_input_start_icon
 layout m3_alert_dialog
 layout m3_alert_dialog_actions
 layout m3_alert_dialog_title
+layout main_drawer_header
 layout material_chip_input_combo
 layout material_clock_display
 layout material_clock_display_divider
@@ -3269,7 +3269,7 @@ layout text_view_with_line_height_from_style
 layout text_view_with_theme_line_height
 layout text_view_without_line_height
 layout toolbar
-menu navigation_menu
+menu main_drawer_menu
 mipmap ic_launcher
 mipmap ic_launcher_round
 plurals mtrl_badge_content_description
@@ -3392,6 +3392,8 @@ string material_timepicker_minute
 string material_timepicker_pm
 string material_timepicker_select_time
 string material_timepicker_text_input_mode_description
+string menu_drawer_close
+string menu_drawer_open
 string mtrl_badge_numberless_content_description
 string mtrl_chip_close_icon_content_description
 string mtrl_exceed_max_badge_number_content_description
@@ -3428,8 +3430,6 @@ string mtrl_picker_toggle_to_day_selection
 string mtrl_picker_toggle_to_text_input_mode
 string mtrl_picker_toggle_to_year_selection
 string mtrl_timepicker_confirm
-string nav_close
-string nav_open
 string password_toggle_content_description
 string path_password_eye
 string path_password_eye_mask_strike_through

@@ -2,7 +2,7 @@
     <string name="app_name">UAB-Coin</string>
     <string name="title_activity_welcome_navigation">WelcomeNavigation</string>
 
-    <!-- to toggle the open close button of the navigation drawer -->
-    <string name="nav_open">Open</string>
-    <string name="nav_close">Close</string>
+    <!-- Drawer Layout -->
+    <string name="menu_drawer_open">Drawer Open</string>
+    <string name="menu_drawer_close">Drawer Close</string>
 </resources>

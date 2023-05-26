@@ -20,44 +20,28 @@ import com.google.firebase.database.ValueEventListener
 import com.google.firebase.firestore.auth.User
 import uab.uab_coin.R
 import uab.uab_coin.models.UserModel
+import uab.uab_coin.databinding.ActivityWelcomeBinding
 
-class WelcomeActivity : AppCompatActivity() {
+
+class WelcomeActivity : DrawerBaseActivity() {
 
     private lateinit var dbRef : DatabaseReference
     private lateinit var auth : FirebaseAuth
 
     private lateinit var userId : String
 
-    lateinit var drawerLayout: DrawerLayout
-    lateinit var actionBarDrawerToggle: ActionBarDrawerToggle
+    var activityWelcomeBinding: ActivityWelcomeBinding? = null
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_welcome)
+        activityWelcomeBinding = ActivityWelcomeBinding.inflate(layoutInflater)
+        setContentView(activityWelcomeBinding!!.root)
 
         auth = FirebaseAuth.getInstance()
 
         userId = intent.getStringExtra("id").toString()
 
         fetchUser()
-
-        // Drawer Layout
-        drawerLayout = findViewById(R.id.navMenuId)
-        actionBarDrawerToggle = ActionBarDrawerToggle(this, drawerLayout, R.string.nav_open, R.string.nav_close)
-        drawerLayout.addDrawerListener(actionBarDrawerToggle)
-        actionBarDrawerToggle.syncState()
-        supportActionBar?.setDisplayHomeAsUpEnabled(true)
-
-        findViewById<Button>(R.id.buttonSignOut).setOnClickListener {
-            auth.signOut()
-            startActivity(Intent(this, MainActivity::class.java))
-        }
-
-        findViewById<Button>(R.id.buttonProfile).setOnClickListener {
-            val intent : Intent  = Intent(this, ProfileActivity::class.java)
-            intent.putExtra("id", userId)
-            startActivity(intent)
-        }
 
         findViewById<Button>(R.id.buttonObtainCoins).setOnClickListener {
             startActivity(Intent(this, GetCoinsActivity::class.java))
@@ -68,16 +52,11 @@ class WelcomeActivity : AppCompatActivity() {
         findViewById<Button>(R.id.buttonStatistics).setOnClickListener {
             startActivity(Intent(this, StatisticsActivity::class.java))
         }
+        findViewById<Button>(R.id.buttonNews).setOnClickListener {
+            startActivity(Intent(this, NewsActivity::class.java))
+        }
 
     }
-
-    // Function Drawer Layout
-    override fun onOptionsItemSelected(item: MenuItem): Boolean {
-        return if (actionBarDrawerToggle.onOptionsItemSelected(item)) {
-            true
-        } else super.onOptionsItemSelected(item)
-    }
-
 
     private fun fetchUser() {
         dbRef = FirebaseDatabase.getInstance().getReference("Users").child(userId)
@@ -88,7 +67,7 @@ class WelcomeActivity : AppCompatActivity() {
                     val user = snapshot.getValue(UserModel::class.java)
                     if (user != null) {
                         findViewById<TextView>(R.id.textViewWelcomeUser).text = "Welcome " + user.userName.toString() + "!"
-                        findViewById<TextView>(R.id.textViewNCoins).text = user.userCoins.toString() + "coins"
+                        findViewById<TextView>(R.id.textViewNCoins).text = user.userCoins.toString() + " coins"
                     }
                 }
             }

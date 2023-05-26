@@ -39,8 +39,8 @@
     <string name="google_app_id" translatable="false">1:329847691564:android:ab7ddba926e1c2ffe47489</string>
     <string name="google_crash_reporting_api_key" translatable="false">AIzaSyAmSGYWHDxQ_V21dj3YP3gA6LsvZ-ZVz7k</string>
     <string name="google_storage_bucket" translatable="false">uab-coin.appspot.com</string>
-    <string name="nav_close">Close</string>
-    <string name="nav_open">Open</string>
+    <string name="menu_drawer_close">Drawer Close</string>
+    <string name="menu_drawer_open">Drawer Open</string>
     <string name="project_id" translatable="false">uab-coin</string>
     <string name="title_activity_welcome_navigation">WelcomeNavigation</string>
     <style name="Theme.UABCoin" parent="Theme.MaterialComponents.DayNight.NoActionBar">
