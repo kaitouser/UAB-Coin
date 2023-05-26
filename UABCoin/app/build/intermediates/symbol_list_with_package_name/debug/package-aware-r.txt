@@ -164,6 +164,9 @@ attr behavior_peekHeight
 attr behavior_saveFlags
 attr behavior_skipCollapsed
 attr blendSrc
+attr borderAlpha
+attr borderColor
+attr borderLength
 attr borderRound
 attr borderRoundPercent
 attr borderWidth
@@ -479,6 +482,7 @@ attr fastScrollHorizontalThumbDrawable
 attr fastScrollHorizontalTrackDrawable
 attr fastScrollVerticalThumbDrawable
 attr fastScrollVerticalTrackDrawable
+attr finderOffset
 attr firstBaselineToTopHeight
 attr floatingActionButtonLargePrimaryStyle
 attr floatingActionButtonLargeSecondaryStyle
@@ -615,6 +619,8 @@ attr lStar
 attr labelBehavior
 attr labelStyle
 attr labelVisibilityMode
+attr laserColor
+attr laserEnabled
 attr lastBaselineToBottomHeight
 attr layout
 attr layoutDescription
@@ -713,6 +719,7 @@ attr listPreferredItemPaddingStart
 attr logo
 attr logoDescription
 attr marginHorizontal
+attr maskColor
 attr materialAlertDialogBodyTextStyle
 attr materialAlertDialogButtonSpacerVisibility
 attr materialAlertDialogTheme
@@ -889,6 +896,7 @@ attr rippleColor
 attr rotationCenterId
 attr round
 attr roundPercent
+attr roundedCorner
 attr saturation
 attr scaleFromTextSize
 attr scopeUris
@@ -910,6 +918,7 @@ attr shapeAppearanceMediumComponent
 attr shapeAppearanceOverlay
 attr shapeAppearanceSmallComponent
 attr shortcutMatchRequired
+attr shouldScaleToFill
 attr showAnimationBehavior
 attr showAsAction
 attr showDelay
@@ -937,6 +946,7 @@ attr springDamping
 attr springMass
 attr springStiffness
 attr springStopThreshold
+attr squaredFinder
 attr srcCompat
 attr stackFromEnd
 attr staggered
@@ -1768,6 +1778,7 @@ color mtrl_textinput_focused_box_stroke_color
 color mtrl_textinput_hovered_box_stroke_color
 color notification_action_color_filter
 color notification_icon_bg_color
+color notification_material_background_media_default_color
 color primary_dark_material_dark
 color primary_dark_material_light
 color primary_material_dark
@@ -1799,6 +1810,9 @@ color test_mtrl_calendar_day
 color test_mtrl_calendar_day_selected
 color tooltip_background_dark
 color tooltip_background_light
+color viewfinder_border
+color viewfinder_laser
+color viewfinder_mask
 color white
 color whiteUabCoin
 color yellowDarkUabCoin
@@ -2367,6 +2381,10 @@ dimen notification_small_icon_size_as_large
 dimen notification_subtext_size
 dimen notification_top_pad
 dimen notification_top_pad_large_text
+dimen subtitle_corner_radius
+dimen subtitle_outline_width
+dimen subtitle_shadow_offset
+dimen subtitle_shadow_radius
 dimen test_dimen
 dimen test_mtrl_calendar_day_cornerSize
 dimen test_navigation_bar_active_item_max_width
@@ -2618,6 +2636,7 @@ id accessibility_custom_action_6
 id accessibility_custom_action_7
 id accessibility_custom_action_8
 id accessibility_custom_action_9
+id action0
 id actionDown
 id actionDownUp
 id actionUp
@@ -2676,6 +2695,7 @@ id browser_actions_menu_item_text
 id browser_actions_menu_items
 id browser_actions_menu_view
 id btnEditName
+id btnScan
 id btnSignIn
 id buttonBack
 id buttonEdit
@@ -2688,6 +2708,7 @@ id buttonSignOut
 id buttonStatistics
 id cache_measures
 id callMeasure
+id cancel_action
 id cancel_button
 id carryVelocity
 id center
@@ -2764,6 +2785,7 @@ id edit_query
 id elastic
 id end
 id endToStart
+id end_padder
 id enterAlways
 id enterAlwaysCollapsed
 id etName
@@ -2849,6 +2871,7 @@ id material_timepicker_mode_button
 id material_timepicker_ok_button
 id material_timepicker_view
 id material_value_index
+id media_actions
 id message
 id middle
 id mini
@@ -2930,6 +2953,7 @@ id progress_horizontal
 id radio
 id ratio
 id rectangles
+id result
 id reverseSawtooth
 id right
 id rightToLeft
@@ -2993,6 +3017,7 @@ id startToEnd
 id startVertical
 id staticLayout
 id staticPostLayout
+id status_bar_latest_event_content
 id stop
 id stretch
 id submenuarrow
@@ -3133,6 +3158,8 @@ integer mtrl_view_invisible
 integer mtrl_view_visible
 integer show_password_duration
 integer status_bar_notification_info_maxnum
+integer viewfinder_border_length
+integer viewfinder_border_width
 interpolator btn_checkbox_checked_mtrl_animation_interpolator_0
 interpolator btn_checkbox_checked_mtrl_animation_interpolator_1
 interpolator btn_checkbox_unchecked_mtrl_animation_interpolator_0
@@ -3245,8 +3272,17 @@ layout mtrl_picker_text_input_date
 layout mtrl_picker_text_input_date_range
 layout notification_action
 layout notification_action_tombstone
+layout notification_media_action
+layout notification_media_cancel_action
+layout notification_template_big_media
+layout notification_template_big_media_custom
+layout notification_template_big_media_narrow
+layout notification_template_big_media_narrow_custom
 layout notification_template_custom_big
 layout notification_template_icon_group
+layout notification_template_lines_media
+layout notification_template_media
+layout notification_template_media_custom
 layout notification_template_part_chronometer
 layout notification_template_part_time
 layout select_dialog_item_material
@@ -3859,9 +3895,14 @@ style TextAppearance_AppCompat_Widget_Switch
 style TextAppearance_AppCompat_Widget_TextView_SpinnerItem
 style TextAppearance_Compat_Notification
 style TextAppearance_Compat_Notification_Info
+style TextAppearance_Compat_Notification_Info_Media
 style TextAppearance_Compat_Notification_Line2
+style TextAppearance_Compat_Notification_Line2_Media
+style TextAppearance_Compat_Notification_Media
 style TextAppearance_Compat_Notification_Time
+style TextAppearance_Compat_Notification_Time_Media
 style TextAppearance_Compat_Notification_Title
+style TextAppearance_Compat_Notification_Title_Media
 style TextAppearance_Design_CollapsingToolbar_Expanded
 style TextAppearance_Design_Counter
 style TextAppearance_Design_Counter_Overflow
@@ -4478,6 +4519,7 @@ styleable AppCompatTextHelper android_textAppearance android_drawableTop android
 styleable AppCompatTextView android_textAppearance autoSizeMaxTextSize autoSizeMinTextSize autoSizePresetSizes autoSizeStepGranularity autoSizeTextType drawableBottomCompat drawableEndCompat drawableLeftCompat drawableRightCompat drawableStartCompat drawableTint drawableTintMode drawableTopCompat emojiCompatEnabled firstBaselineToTopHeight fontFamily fontVariationSettings lastBaselineToBottomHeight lineHeight textAllCaps textLocale
 styleable AppCompatTheme android_windowIsFloating android_windowAnimationStyle actionBarDivider actionBarItemBackground actionBarPopupTheme actionBarSize actionBarSplitStyle actionBarStyle actionBarTabBarStyle actionBarTabStyle actionBarTabTextStyle actionBarTheme actionBarWidgetTheme actionButtonStyle actionDropDownStyle actionMenuTextAppearance actionMenuTextColor actionModeBackground actionModeCloseButtonStyle actionModeCloseContentDescription actionModeCloseDrawable actionModeCopyDrawable actionModeCutDrawable actionModeFindDrawable actionModePasteDrawable actionModePopupWindowStyle actionModeSelectAllDrawable actionModeShareDrawable actionModeSplitBackground actionModeStyle actionModeTheme actionModeWebSearchDrawable actionOverflowButtonStyle actionOverflowMenuStyle activityChooserViewStyle alertDialogButtonGroupStyle alertDialogCenterButtons alertDialogStyle alertDialogTheme autoCompleteTextViewStyle borderlessButtonStyle buttonBarButtonStyle buttonBarNegativeButtonStyle buttonBarNeutralButtonStyle buttonBarPositiveButtonStyle buttonBarStyle buttonStyle buttonStyleSmall checkboxStyle checkedTextViewStyle colorAccent colorBackgroundFloating colorButtonNormal colorControlActivated colorControlHighlight colorControlNormal colorError colorPrimary colorPrimaryDark colorSwitchThumbNormal controlBackground dialogCornerRadius dialogPreferredPadding dialogTheme dividerHorizontal dividerVertical dropDownListViewStyle dropdownListPreferredItemHeight editTextBackground editTextColor editTextStyle homeAsUpIndicator imageButtonStyle listChoiceBackgroundIndicator listChoiceIndicatorMultipleAnimated listChoiceIndicatorSingleAnimated listDividerAlertDialog listMenuViewStyle listPopupWindowStyle listPreferredItemHeight listPreferredItemHeightLarge listPreferredItemHeightSmall listPreferredItemPaddingEnd listPreferredItemPaddingLeft listPreferredItemPaddingRight listPreferredItemPaddingStart panelBackground panelMenuListTheme panelMenuListWidth popupMenuStyle popupWindowStyle radioButtonStyle ratingBarStyle ratingBarStyleIndicator ratingBarStyleSmall searchViewStyle seekBarStyle selectableItemBackground selectableItemBackgroundBorderless spinnerDropDownItemStyle spinnerStyle switchStyle textAppearanceLargePopupMenu textAppearanceListItem textAppearanceListItemSecondary textAppearanceListItemSmall textAppearancePopupMenuHeader textAppearanceSearchResultSubtitle textAppearanceSearchResultTitle textAppearanceSmallPopupMenu textColorAlertDialogListItem textColorSearchUrl toolbarNavigationButtonStyle toolbarStyle tooltipForegroundColor tooltipFrameBackground viewInflaterClass windowActionBar windowActionBarOverlay windowActionModeOverlay windowFixedHeightMajor windowFixedHeightMinor windowFixedWidthMajor windowFixedWidthMinor windowMinWidthMajor windowMinWidthMinor windowNoTitle
 styleable Badge backgroundColor badgeGravity badgeRadius badgeTextColor badgeWidePadding badgeWithTextRadius horizontalOffset horizontalOffsetWithText maxCharacterCount number verticalOffset verticalOffsetWithText
+styleable BarcodeScannerView borderAlpha borderColor borderLength borderWidth cornerRadius finderOffset laserColor laserEnabled maskColor roundedCorner shouldScaleToFill squaredFinder
 styleable BaseProgressIndicator android_indeterminate hideAnimationBehavior indicatorColor minHideDelay showAnimationBehavior showDelay trackColor trackCornerRadius trackThickness
 styleable BottomAppBar backgroundTint elevation fabAlignmentMode fabAnimationMode fabCradleMargin fabCradleRoundedCornerRadius fabCradleVerticalOffset hideOnScroll navigationIconTint paddingBottomSystemWindowInsets paddingLeftSystemWindowInsets paddingRightSystemWindowInsets
 styleable BottomNavigationView android_minHeight itemHorizontalTranslationEnabled

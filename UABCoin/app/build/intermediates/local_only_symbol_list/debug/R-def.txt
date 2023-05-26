@@ -30,6 +30,7 @@ font mada_bold
 font sansita_bold
 font sansita_extrabold
 id btnEditName
+id btnScan
 id btnSignIn
 id buttonBack
 id buttonEdit
@@ -46,6 +47,7 @@ id navMenuId
 id nav_logout
 id nav_profile
 id nav_settings
+id result
 id textEmail
 id textTitle
 id textToolbarCoins

@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "uab.uab_coin.app-mergeDebugResources-30:/values-hdpi-v4/values-hdpi-v4.xml",
+            "outputFile": "uab.uab_coin.app-mergeDebugResources-32:/values-hdpi-v4/values-hdpi-v4.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\Hp\\.gradle\\caches\\transforms-3\\2d82247bc56c74c449adef124963cf5b\\transformed\\appcompat-1.4.1\\res\\values-hdpi-v4\\values-hdpi-v4.xml",
+                    "source": "C:\\Users\\adria\\.gradle\\caches\\transforms-3\\2d82247bc56c74c449adef124963cf5b\\transformed\\appcompat-1.4.1\\res\\values-hdpi-v4\\values-hdpi-v4.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
@@ -12,6 +12,24 @@
                         "endLines": "6",
                         "endColumns": "13",
                         "endOffsets": "327"
+                    },
+                    "to": {
+                        "startLines": "4",
+                        "startColumns": "4",
+                        "startOffsets": "169",
+                        "endLines": "8",
+                        "endColumns": "13",
+                        "endOffsets": "441"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\adria\\.gradle\\caches\\transforms-3\\9cb729de800ca99f0522ef121304a4fa\\transformed\\jetified-core-1.9.8\\res\\values-hdpi-v4\\values-hdpi-v4.xml",
+                    "from": {
+                        "startLines": "2,3",
+                        "startColumns": "4,4",
+                        "startOffsets": "55,113",
+                        "endColumns": "57,55",
+                        "endOffsets": "108,164"
                     }
                 }
             ]
