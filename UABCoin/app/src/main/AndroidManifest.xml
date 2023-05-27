@@ -30,31 +30,43 @@
             tools:replace="screenOrientation" />
         <activity
             android:name=".activities.DrawerBaseActivity"
+            android:theme="@style/Theme.Design.NoActionBar"
             android:exported="false" />
         <activity
             android:name=".activities.StatisticsActivity"
+            android:theme="@style/Theme.Design.NoActionBar"
             android:exported="false" />
         <activity
             android:name=".activities.RedeemCoinsActivity"
+            android:theme="@style/Theme.Design.NoActionBar"
             android:exported="false" />
         <activity
             android:name=".activities.GetCoinsActivity"
+            android:theme="@style/Theme.Design.NoActionBar"
             android:exported="false"/>
 
         <activity
             android:name=".activities.NewsActivity"
+            android:theme="@style/Theme.Design.NoActionBar"
             android:exported="false"/>
         <activity
             android:name=".activities.EditProfileActivity"
+
+            android:theme="@style/Theme.Design.NoActionBar"
             android:exported="false" />
         <activity
             android:name=".activities.ProfileActivity"
+
+            android:theme="@style/Theme.Design.NoActionBar"
             android:exported="false" />
         <activity
             android:name=".activities.SettingsActivity"
+
+            android:theme="@style/Theme.Design.NoActionBar"
             android:exported="false" />
         <activity
             android:name=".activities.WelcomeActivity"
+            android:theme="@style/Theme.Design.NoActionBar"
             android:exported="false" />
         <activity
             android:name=".activities.MainActivity"

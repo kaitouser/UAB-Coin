@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\Users\adria\Desktop\Adri\Uni\SM\UABCoin\UABCoin\app\src\main\AndroidManifest.xml:2:1-70:12
-INJECTED from C:\Users\adria\Desktop\Adri\Uni\SM\UABCoin\UABCoin\app\src\main\AndroidManifest.xml:2:1-70:12
-INJECTED from C:\Users\adria\Desktop\Adri\Uni\SM\UABCoin\UABCoin\app\src\main\AndroidManifest.xml:2:1-70:12
-INJECTED from C:\Users\adria\Desktop\Adri\Uni\SM\UABCoin\UABCoin\app\src\main\AndroidManifest.xml:2:1-70:12
+ADDED from C:\Users\adria\Desktop\Adri\Uni\SM\UABCoin\UABCoin\app\src\main\AndroidManifest.xml:2:1-82:12
+INJECTED from C:\Users\adria\Desktop\Adri\Uni\SM\UABCoin\UABCoin\app\src\main\AndroidManifest.xml:2:1-82:12
+INJECTED from C:\Users\adria\Desktop\Adri\Uni\SM\UABCoin\UABCoin\app\src\main\AndroidManifest.xml:2:1-82:12
+INJECTED from C:\Users\adria\Desktop\Adri\Uni\SM\UABCoin\UABCoin\app\src\main\AndroidManifest.xml:2:1-82:12
 MERGED from [androidx.databinding:viewbinding:8.0.1] C:\Users\adria\.gradle\caches\transforms-3\fd8d0c815109165dee8a6579c0ae3722\transformed\jetified-viewbinding-8.0.1\AndroidManifest.xml:2:1-7:12
 MERGED from [com.google.firebase:firebase-auth-ktx:22.0.0] C:\Users\adria\.gradle\caches\transforms-3\21c8e533b2cd75169b7d5ad6b2d28ac8\transformed\jetified-firebase-auth-ktx-22.0.0\AndroidManifest.xml:2:1-17:12
 MERGED from [com.google.firebase:firebase-auth:22.0.0] C:\Users\adria\.gradle\caches\transforms-3\e8fc1b27b0604b432516b4f8f013b79b\transformed\jetified-firebase-auth-22.0.0\AndroidManifest.xml:17:1-75:12
@@ -92,22 +92,22 @@ MERGED from [androidx.print:print:1.0.0] C:\Users\adria\.gradle\caches\transform
 MERGED from [androidx.annotation:annotation-experimental:1.1.0] C:\Users\adria\.gradle\caches\transforms-3\263a4723e795c7dade1ecac9fc5e2a8f\transformed\jetified-annotation-experimental-1.1.0\AndroidManifest.xml:17:1-24:12
 MERGED from [io.grpc:grpc-android:1.52.1] C:\Users\adria\.gradle\caches\transforms-3\98cd1e9e1c8eb106ce81d0255e9707b4\transformed\jetified-grpc-android-1.52.1\AndroidManifest.xml:2:1-11:12
 MERGED from [com.google.firebase:protolite-well-known-types:18.0.0] C:\Users\adria\.gradle\caches\transforms-3\6c5f83662315a85ab37cc03e8de48ad2\transformed\jetified-protolite-well-known-types-18.0.0\AndroidManifest.xml:2:1-11:12
-INJECTED from C:\Users\adria\Desktop\Adri\Uni\SM\UABCoin\UABCoin\app\src\main\AndroidManifest.xml:2:1-70:12
-INJECTED from C:\Users\adria\Desktop\Adri\Uni\SM\UABCoin\UABCoin\app\src\main\AndroidManifest.xml:2:1-70:12
-INJECTED from C:\Users\adria\Desktop\Adri\Uni\SM\UABCoin\UABCoin\app\src\main\AndroidManifest.xml:2:1-70:12
+INJECTED from C:\Users\adria\Desktop\Adri\Uni\SM\UABCoin\UABCoin\app\src\main\AndroidManifest.xml:2:1-82:12
+INJECTED from C:\Users\adria\Desktop\Adri\Uni\SM\UABCoin\UABCoin\app\src\main\AndroidManifest.xml:2:1-82:12
+INJECTED from C:\Users\adria\Desktop\Adri\Uni\SM\UABCoin\UABCoin\app\src\main\AndroidManifest.xml:2:1-82:12
 	package
 		INJECTED from C:\Users\adria\Desktop\Adri\Uni\SM\UABCoin\UABCoin\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\adria\Desktop\Adri\Uni\SM\UABCoin\UABCoin\app\src\main\AndroidManifest.xml:2:1-70:12
+		ADDED from C:\Users\adria\Desktop\Adri\Uni\SM\UABCoin\UABCoin\app\src\main\AndroidManifest.xml:2:1-82:12
 		INJECTED from C:\Users\adria\Desktop\Adri\Uni\SM\UABCoin\UABCoin\app\src\main\AndroidManifest.xml
 	android:versionName
 		INJECTED from C:\Users\adria\Desktop\Adri\Uni\SM\UABCoin\UABCoin\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\adria\Desktop\Adri\Uni\SM\UABCoin\UABCoin\app\src\main\AndroidManifest.xml:2:1-70:12
+		ADDED from C:\Users\adria\Desktop\Adri\Uni\SM\UABCoin\UABCoin\app\src\main\AndroidManifest.xml:2:1-82:12
 		INJECTED from C:\Users\adria\Desktop\Adri\Uni\SM\UABCoin\UABCoin\app\src\main\AndroidManifest.xml
 	xmlns:tools
 		ADDED from C:\Users\adria\Desktop\Adri\Uni\SM\UABCoin\UABCoin\app\src\main\AndroidManifest.xml:3:5-51
 	android:versionCode
 		INJECTED from C:\Users\adria\Desktop\Adri\Uni\SM\UABCoin\UABCoin\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\adria\Desktop\Adri\Uni\SM\UABCoin\UABCoin\app\src\main\AndroidManifest.xml:2:1-70:12
+		ADDED from C:\Users\adria\Desktop\Adri\Uni\SM\UABCoin\UABCoin\app\src\main\AndroidManifest.xml:2:1-82:12
 		INJECTED from C:\Users\adria\Desktop\Adri\Uni\SM\UABCoin\UABCoin\app\src\main\AndroidManifest.xml
 	xmlns:android
 		ADDED from C:\Users\adria\Desktop\Adri\Uni\SM\UABCoin\UABCoin\app\src\main\AndroidManifest.xml:2:11-69
@@ -362,7 +362,7 @@ MERGED from [io.grpc:grpc-android:1.52.1] C:\Users\adria\.gradle\caches\transfor
 	android:name
 		ADDED from C:\Users\adria\Desktop\Adri\Uni\SM\UABCoin\UABCoin\app\src\main\AndroidManifest.xml:10:22-76
 application
-ADDED from C:\Users\adria\Desktop\Adri\Uni\SM\UABCoin\UABCoin\app\src\main\AndroidManifest.xml:15:5-68:19
+ADDED from C:\Users\adria\Desktop\Adri\Uni\SM\UABCoin\UABCoin\app\src\main\AndroidManifest.xml:15:5-80:19
 MERGED from [com.google.firebase:firebase-auth-ktx:22.0.0] C:\Users\adria\.gradle\caches\transforms-3\21c8e533b2cd75169b7d5ad6b2d28ac8\transformed\jetified-firebase-auth-ktx-22.0.0\AndroidManifest.xml:7:5-15:19
 MERGED from [com.google.firebase:firebase-auth-ktx:22.0.0] C:\Users\adria\.gradle\caches\transforms-3\21c8e533b2cd75169b7d5ad6b2d28ac8\transformed\jetified-firebase-auth-ktx-22.0.0\AndroidManifest.xml:7:5-15:19
 MERGED from [com.google.firebase:firebase-auth:22.0.0] C:\Users\adria\.gradle\caches\transforms-3\e8fc1b27b0604b432516b4f8f013b79b\transformed\jetified-firebase-auth-22.0.0\AndroidManifest.xml:28:5-73:19
@@ -479,75 +479,93 @@ MERGED from [com.journeyapps:zxing-android-embedded:4.1.0] C:\Users\adria\.gradl
 	android:name
 		ADDED from C:\Users\adria\Desktop\Adri\Uni\SM\UABCoin\UABCoin\app\src\main\AndroidManifest.xml:28:13-74
 activity#uab.uab_coin.activities.DrawerBaseActivity
-ADDED from C:\Users\adria\Desktop\Adri\Uni\SM\UABCoin\UABCoin\app\src\main\AndroidManifest.xml:31:9-33:40
+ADDED from C:\Users\adria\Desktop\Adri\Uni\SM\UABCoin\UABCoin\app\src\main\AndroidManifest.xml:31:9-34:40
 	android:exported
-		ADDED from C:\Users\adria\Desktop\Adri\Uni\SM\UABCoin\UABCoin\app\src\main\AndroidManifest.xml:33:13-37
+		ADDED from C:\Users\adria\Desktop\Adri\Uni\SM\UABCoin\UABCoin\app\src\main\AndroidManifest.xml:34:13-37
+	android:theme
+		ADDED from C:\Users\adria\Desktop\Adri\Uni\SM\UABCoin\UABCoin\app\src\main\AndroidManifest.xml:33:13-60
 	android:name
 		ADDED from C:\Users\adria\Desktop\Adri\Uni\SM\UABCoin\UABCoin\app\src\main\AndroidManifest.xml:32:13-58
 activity#uab.uab_coin.activities.StatisticsActivity
-ADDED from C:\Users\adria\Desktop\Adri\Uni\SM\UABCoin\UABCoin\app\src\main\AndroidManifest.xml:34:9-36:40
+ADDED from C:\Users\adria\Desktop\Adri\Uni\SM\UABCoin\UABCoin\app\src\main\AndroidManifest.xml:35:9-38:40
 	android:exported
-		ADDED from C:\Users\adria\Desktop\Adri\Uni\SM\UABCoin\UABCoin\app\src\main\AndroidManifest.xml:36:13-37
+		ADDED from C:\Users\adria\Desktop\Adri\Uni\SM\UABCoin\UABCoin\app\src\main\AndroidManifest.xml:38:13-37
+	android:theme
+		ADDED from C:\Users\adria\Desktop\Adri\Uni\SM\UABCoin\UABCoin\app\src\main\AndroidManifest.xml:37:13-60
 	android:name
-		ADDED from C:\Users\adria\Desktop\Adri\Uni\SM\UABCoin\UABCoin\app\src\main\AndroidManifest.xml:35:13-58
+		ADDED from C:\Users\adria\Desktop\Adri\Uni\SM\UABCoin\UABCoin\app\src\main\AndroidManifest.xml:36:13-58
 activity#uab.uab_coin.activities.RedeemCoinsActivity
-ADDED from C:\Users\adria\Desktop\Adri\Uni\SM\UABCoin\UABCoin\app\src\main\AndroidManifest.xml:37:9-39:40
-	android:exported
-		ADDED from C:\Users\adria\Desktop\Adri\Uni\SM\UABCoin\UABCoin\app\src\main\AndroidManifest.xml:39:13-37
-	android:name
-		ADDED from C:\Users\adria\Desktop\Adri\Uni\SM\UABCoin\UABCoin\app\src\main\AndroidManifest.xml:38:13-59
-activity#uab.uab_coin.activities.GetCoinsActivity
-ADDED from C:\Users\adria\Desktop\Adri\Uni\SM\UABCoin\UABCoin\app\src\main\AndroidManifest.xml:40:9-42:39
+ADDED from C:\Users\adria\Desktop\Adri\Uni\SM\UABCoin\UABCoin\app\src\main\AndroidManifest.xml:39:9-42:40
 	android:exported
 		ADDED from C:\Users\adria\Desktop\Adri\Uni\SM\UABCoin\UABCoin\app\src\main\AndroidManifest.xml:42:13-37
+	android:theme
+		ADDED from C:\Users\adria\Desktop\Adri\Uni\SM\UABCoin\UABCoin\app\src\main\AndroidManifest.xml:41:13-60
 	android:name
-		ADDED from C:\Users\adria\Desktop\Adri\Uni\SM\UABCoin\UABCoin\app\src\main\AndroidManifest.xml:41:13-56
-activity#uab.uab_coin.activities.NewsActivity
-ADDED from C:\Users\adria\Desktop\Adri\Uni\SM\UABCoin\UABCoin\app\src\main\AndroidManifest.xml:44:9-46:39
+		ADDED from C:\Users\adria\Desktop\Adri\Uni\SM\UABCoin\UABCoin\app\src\main\AndroidManifest.xml:40:13-59
+activity#uab.uab_coin.activities.GetCoinsActivity
+ADDED from C:\Users\adria\Desktop\Adri\Uni\SM\UABCoin\UABCoin\app\src\main\AndroidManifest.xml:43:9-46:39
 	android:exported
 		ADDED from C:\Users\adria\Desktop\Adri\Uni\SM\UABCoin\UABCoin\app\src\main\AndroidManifest.xml:46:13-37
+	android:theme
+		ADDED from C:\Users\adria\Desktop\Adri\Uni\SM\UABCoin\UABCoin\app\src\main\AndroidManifest.xml:45:13-60
 	android:name
-		ADDED from C:\Users\adria\Desktop\Adri\Uni\SM\UABCoin\UABCoin\app\src\main\AndroidManifest.xml:45:13-52
+		ADDED from C:\Users\adria\Desktop\Adri\Uni\SM\UABCoin\UABCoin\app\src\main\AndroidManifest.xml:44:13-56
+activity#uab.uab_coin.activities.NewsActivity
+ADDED from C:\Users\adria\Desktop\Adri\Uni\SM\UABCoin\UABCoin\app\src\main\AndroidManifest.xml:48:9-51:39
+	android:exported
+		ADDED from C:\Users\adria\Desktop\Adri\Uni\SM\UABCoin\UABCoin\app\src\main\AndroidManifest.xml:51:13-37
+	android:theme
+		ADDED from C:\Users\adria\Desktop\Adri\Uni\SM\UABCoin\UABCoin\app\src\main\AndroidManifest.xml:50:13-60
+	android:name
+		ADDED from C:\Users\adria\Desktop\Adri\Uni\SM\UABCoin\UABCoin\app\src\main\AndroidManifest.xml:49:13-52
 activity#uab.uab_coin.activities.EditProfileActivity
-ADDED from C:\Users\adria\Desktop\Adri\Uni\SM\UABCoin\UABCoin\app\src\main\AndroidManifest.xml:47:9-49:40
+ADDED from C:\Users\adria\Desktop\Adri\Uni\SM\UABCoin\UABCoin\app\src\main\AndroidManifest.xml:52:9-56:40
 	android:exported
-		ADDED from C:\Users\adria\Desktop\Adri\Uni\SM\UABCoin\UABCoin\app\src\main\AndroidManifest.xml:49:13-37
+		ADDED from C:\Users\adria\Desktop\Adri\Uni\SM\UABCoin\UABCoin\app\src\main\AndroidManifest.xml:56:13-37
+	android:theme
+		ADDED from C:\Users\adria\Desktop\Adri\Uni\SM\UABCoin\UABCoin\app\src\main\AndroidManifest.xml:55:13-60
 	android:name
-		ADDED from C:\Users\adria\Desktop\Adri\Uni\SM\UABCoin\UABCoin\app\src\main\AndroidManifest.xml:48:13-59
+		ADDED from C:\Users\adria\Desktop\Adri\Uni\SM\UABCoin\UABCoin\app\src\main\AndroidManifest.xml:53:13-59
 activity#uab.uab_coin.activities.ProfileActivity
-ADDED from C:\Users\adria\Desktop\Adri\Uni\SM\UABCoin\UABCoin\app\src\main\AndroidManifest.xml:50:9-52:40
+ADDED from C:\Users\adria\Desktop\Adri\Uni\SM\UABCoin\UABCoin\app\src\main\AndroidManifest.xml:57:9-61:40
 	android:exported
-		ADDED from C:\Users\adria\Desktop\Adri\Uni\SM\UABCoin\UABCoin\app\src\main\AndroidManifest.xml:52:13-37
+		ADDED from C:\Users\adria\Desktop\Adri\Uni\SM\UABCoin\UABCoin\app\src\main\AndroidManifest.xml:61:13-37
+	android:theme
+		ADDED from C:\Users\adria\Desktop\Adri\Uni\SM\UABCoin\UABCoin\app\src\main\AndroidManifest.xml:60:13-60
 	android:name
-		ADDED from C:\Users\adria\Desktop\Adri\Uni\SM\UABCoin\UABCoin\app\src\main\AndroidManifest.xml:51:13-55
+		ADDED from C:\Users\adria\Desktop\Adri\Uni\SM\UABCoin\UABCoin\app\src\main\AndroidManifest.xml:58:13-55
 activity#uab.uab_coin.activities.SettingsActivity
-ADDED from C:\Users\adria\Desktop\Adri\Uni\SM\UABCoin\UABCoin\app\src\main\AndroidManifest.xml:53:9-55:40
+ADDED from C:\Users\adria\Desktop\Adri\Uni\SM\UABCoin\UABCoin\app\src\main\AndroidManifest.xml:62:9-66:40
 	android:exported
-		ADDED from C:\Users\adria\Desktop\Adri\Uni\SM\UABCoin\UABCoin\app\src\main\AndroidManifest.xml:55:13-37
+		ADDED from C:\Users\adria\Desktop\Adri\Uni\SM\UABCoin\UABCoin\app\src\main\AndroidManifest.xml:66:13-37
+	android:theme
+		ADDED from C:\Users\adria\Desktop\Adri\Uni\SM\UABCoin\UABCoin\app\src\main\AndroidManifest.xml:65:13-60
 	android:name
-		ADDED from C:\Users\adria\Desktop\Adri\Uni\SM\UABCoin\UABCoin\app\src\main\AndroidManifest.xml:54:13-56
+		ADDED from C:\Users\adria\Desktop\Adri\Uni\SM\UABCoin\UABCoin\app\src\main\AndroidManifest.xml:63:13-56
 activity#uab.uab_coin.activities.WelcomeActivity
-ADDED from C:\Users\adria\Desktop\Adri\Uni\SM\UABCoin\UABCoin\app\src\main\AndroidManifest.xml:56:9-58:40
+ADDED from C:\Users\adria\Desktop\Adri\Uni\SM\UABCoin\UABCoin\app\src\main\AndroidManifest.xml:67:9-70:40
 	android:exported
-		ADDED from C:\Users\adria\Desktop\Adri\Uni\SM\UABCoin\UABCoin\app\src\main\AndroidManifest.xml:58:13-37
+		ADDED from C:\Users\adria\Desktop\Adri\Uni\SM\UABCoin\UABCoin\app\src\main\AndroidManifest.xml:70:13-37
+	android:theme
+		ADDED from C:\Users\adria\Desktop\Adri\Uni\SM\UABCoin\UABCoin\app\src\main\AndroidManifest.xml:69:13-60
 	android:name
-		ADDED from C:\Users\adria\Desktop\Adri\Uni\SM\UABCoin\UABCoin\app\src\main\AndroidManifest.xml:57:13-55
+		ADDED from C:\Users\adria\Desktop\Adri\Uni\SM\UABCoin\UABCoin\app\src\main\AndroidManifest.xml:68:13-55
 activity#uab.uab_coin.activities.MainActivity
-ADDED from C:\Users\adria\Desktop\Adri\Uni\SM\UABCoin\UABCoin\app\src\main\AndroidManifest.xml:59:9-67:20
+ADDED from C:\Users\adria\Desktop\Adri\Uni\SM\UABCoin\UABCoin\app\src\main\AndroidManifest.xml:71:9-79:20
 	android:exported
-		ADDED from C:\Users\adria\Desktop\Adri\Uni\SM\UABCoin\UABCoin\app\src\main\AndroidManifest.xml:61:13-36
+		ADDED from C:\Users\adria\Desktop\Adri\Uni\SM\UABCoin\UABCoin\app\src\main\AndroidManifest.xml:73:13-36
 	android:name
-		ADDED from C:\Users\adria\Desktop\Adri\Uni\SM\UABCoin\UABCoin\app\src\main\AndroidManifest.xml:60:13-52
+		ADDED from C:\Users\adria\Desktop\Adri\Uni\SM\UABCoin\UABCoin\app\src\main\AndroidManifest.xml:72:13-52
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from C:\Users\adria\Desktop\Adri\Uni\SM\UABCoin\UABCoin\app\src\main\AndroidManifest.xml:62:13-66:29
+ADDED from C:\Users\adria\Desktop\Adri\Uni\SM\UABCoin\UABCoin\app\src\main\AndroidManifest.xml:74:13-78:29
 action#android.intent.action.MAIN
-ADDED from C:\Users\adria\Desktop\Adri\Uni\SM\UABCoin\UABCoin\app\src\main\AndroidManifest.xml:63:17-69
+ADDED from C:\Users\adria\Desktop\Adri\Uni\SM\UABCoin\UABCoin\app\src\main\AndroidManifest.xml:75:17-69
 	android:name
-		ADDED from C:\Users\adria\Desktop\Adri\Uni\SM\UABCoin\UABCoin\app\src\main\AndroidManifest.xml:63:25-66
+		ADDED from C:\Users\adria\Desktop\Adri\Uni\SM\UABCoin\UABCoin\app\src\main\AndroidManifest.xml:75:25-66
 category#android.intent.category.LAUNCHER
-ADDED from C:\Users\adria\Desktop\Adri\Uni\SM\UABCoin\UABCoin\app\src\main\AndroidManifest.xml:65:17-77
+ADDED from C:\Users\adria\Desktop\Adri\Uni\SM\UABCoin\UABCoin\app\src\main\AndroidManifest.xml:77:17-77
 	android:name
-		ADDED from C:\Users\adria\Desktop\Adri\Uni\SM\UABCoin\UABCoin\app\src\main\AndroidManifest.xml:65:27-74
+		ADDED from C:\Users\adria\Desktop\Adri\Uni\SM\UABCoin\UABCoin\app\src\main\AndroidManifest.xml:77:27-74
 service#com.google.firebase.components.ComponentDiscoveryService
 ADDED from [com.google.firebase:firebase-auth-ktx:22.0.0] C:\Users\adria\.gradle\caches\transforms-3\21c8e533b2cd75169b7d5ad6b2d28ac8\transformed\jetified-firebase-auth-ktx-22.0.0\AndroidManifest.xml:8:9-14:19
 MERGED from [com.google.firebase:firebase-auth:22.0.0] C:\Users\adria\.gradle\caches\transforms-3\e8fc1b27b0604b432516b4f8f013b79b\transformed\jetified-firebase-auth-22.0.0\AndroidManifest.xml:66:9-72:19

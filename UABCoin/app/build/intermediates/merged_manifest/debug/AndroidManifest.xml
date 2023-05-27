@@ -62,31 +62,40 @@
             android:windowSoftInputMode="stateAlwaysHidden" />
         <activity
             android:name="uab.uab_coin.activities.DrawerBaseActivity"
-            android:exported="false" />
+            android:exported="false"
+            android:theme="@style/Theme.Design.NoActionBar" />
         <activity
             android:name="uab.uab_coin.activities.StatisticsActivity"
-            android:exported="false" />
+            android:exported="false"
+            android:theme="@style/Theme.Design.NoActionBar" />
         <activity
             android:name="uab.uab_coin.activities.RedeemCoinsActivity"
-            android:exported="false" />
+            android:exported="false"
+            android:theme="@style/Theme.Design.NoActionBar" />
         <activity
             android:name="uab.uab_coin.activities.GetCoinsActivity"
-            android:exported="false" />
+            android:exported="false"
+            android:theme="@style/Theme.Design.NoActionBar" />
         <activity
             android:name="uab.uab_coin.activities.NewsActivity"
-            android:exported="false" />
+            android:exported="false"
+            android:theme="@style/Theme.Design.NoActionBar" />
         <activity
             android:name="uab.uab_coin.activities.EditProfileActivity"
-            android:exported="false" />
+            android:exported="false"
+            android:theme="@style/Theme.Design.NoActionBar" />
         <activity
             android:name="uab.uab_coin.activities.ProfileActivity"
-            android:exported="false" />
+            android:exported="false"
+            android:theme="@style/Theme.Design.NoActionBar" />
         <activity
             android:name="uab.uab_coin.activities.SettingsActivity"
-            android:exported="false" />
+            android:exported="false"
+            android:theme="@style/Theme.Design.NoActionBar" />
         <activity
             android:name="uab.uab_coin.activities.WelcomeActivity"
-            android:exported="false" />
+            android:exported="false"
+            android:theme="@style/Theme.Design.NoActionBar" />
         <activity
             android:name="uab.uab_coin.activities.MainActivity"
             android:exported="true" >
