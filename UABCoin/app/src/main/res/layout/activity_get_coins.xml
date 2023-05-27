@@ -9,7 +9,7 @@
     <LinearLayout
         android:id="@+id/welcomeLinearLayout"
         android:layout_width="0dp"
-        android:layout_height="250dp"
+        android:layout_height="100dp"
         android:gravity="center_horizontal|center_vertical"
         android:orientation="vertical"
         android:paddingLeft="12dp"
@@ -34,7 +34,7 @@
 
     <LinearLayout
         android:layout_width="409dp"
-        android:layout_height="411dp"
+        android:layout_height="611dp"
         android:orientation="vertical"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="@+id/welcomeLinearLayout"
@@ -44,12 +44,19 @@
             android:id="@+id/btnScan"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Button" />
+            android:text="Scan" />
 
         <TextView
             android:id="@+id/result"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content" />
+            android:layout_height="wrap_content"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:layout_marginTop="8dp"
+            android:textSize="18sp"
+            app:layout_constraintTop_toBottomOf="@+id/btnScan"
+            />
+
 
     </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>

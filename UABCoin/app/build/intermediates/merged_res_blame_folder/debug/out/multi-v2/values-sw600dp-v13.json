@@ -4,11 +4,7 @@
             "outputFile": "uab.uab_coin.app-mergeDebugResources-32:/values-sw600dp-v13/values-sw600dp-v13.xml",
             "map": [
                 {
-<<<<<<< HEAD
-                    "source": "C:\\Users\\marin\\.gradle\\caches\\transforms-3\\451c1f57fa8d38ea82f5123128943a87\\transformed\\material-1.5.0\\res\\values-sw600dp-v13\\values-sw600dp-v13.xml",
-=======
                     "source": "C:\\Users\\adria\\.gradle\\caches\\transforms-3\\451c1f57fa8d38ea82f5123128943a87\\transformed\\material-1.5.0\\res\\values-sw600dp-v13\\values-sw600dp-v13.xml",
->>>>>>> 99ea3ef8f90711f50cf24fc2b340bcc139cee236
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,10,11,12,13,14",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4",
@@ -27,11 +23,7 @@
                     }
                 },
                 {
-<<<<<<< HEAD
-                    "source": "C:\\Users\\marin\\.gradle\\caches\\transforms-3\\2d82247bc56c74c449adef124963cf5b\\transformed\\appcompat-1.4.1\\res\\values-sw600dp-v13\\values-sw600dp-v13.xml",
-=======
                     "source": "C:\\Users\\adria\\.gradle\\caches\\transforms-3\\2d82247bc56c74c449adef124963cf5b\\transformed\\appcompat-1.4.1\\res\\values-sw600dp-v13\\values-sw600dp-v13.xml",
->>>>>>> 99ea3ef8f90711f50cf24fc2b340bcc139cee236
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9",
                         "startColumns": "4,4,4,4,4,4,4,4",

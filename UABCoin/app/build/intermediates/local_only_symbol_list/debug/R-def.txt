@@ -45,21 +45,20 @@ id linear_ll
 id nav_logout
 id nav_profile
 id nav_settings
-<<<<<<< HEAD
 id nav_view
-=======
 id result
->>>>>>> 99ea3ef8f90711f50cf24fc2b340bcc139cee236
 id textEmail
 id textTitle
 id textToolbarCoins
 id textUserName
 id textUserNameBig
 id textViewNCoins
+id textViewRedeemCoins2
 id textViewWelcomeUser
 id toolBar
 id userImageDisplay
 id welcomeButtonslinearLayout
+id welcomeLinearLayout
 id welcomelinearLayout
 layout activity_drawer_base
 layout activity_edit_profile
