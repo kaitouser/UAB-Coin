@@ -2836,6 +2836,7 @@ int id ifRoom 0x7f0a00ee
 int id ignore 0x7f0a00ef
 int id ignoreRequest 0x7f0a00f0
 int id image 0x7f0a00f1
+int id imageUserDrawer 0x7f0a021d
 int id immediateStop 0x7f0a00f2
 int id included 0x7f0a00f3
 int id info 0x7f0a00f4
@@ -2969,6 +2970,7 @@ int id right_icon 0x7f0a0173
 int id right_side 0x7f0a0174
 int id rounded 0x7f0a0175
 int id row_index_key 0x7f0a0176
+int id rvOffers 0x7f0a0219
 int id save_non_transition_alpha 0x7f0a0177
 int id save_overlay_view 0x7f0a0178
 int id sawtooth 0x7f0a0179
@@ -3053,6 +3055,7 @@ int id text 0x7f0a01c7
 int id text2 0x7f0a01c8
 int id textEmail 0x7f0a01c9
 int id textEnd 0x7f0a01ca
+int id textOfferName 0x7f0a021c
 int id textSpacerNoButtons 0x7f0a01cb
 int id textSpacerNoTitle 0x7f0a01cc
 int id textStart 0x7f0a01cd
@@ -3091,6 +3094,8 @@ int id transition_position 0x7f0a01ec
 int id transition_scene_layoutid_cache 0x7f0a01ed
 int id transition_transform 0x7f0a01ee
 int id triangle 0x7f0a01ef
+int id tvEmpName 0x7f0a021a
+int id tvLoadingData 0x7f0a021b
 int id unchecked 0x7f0a01f0
 int id uniform 0x7f0a01f1
 int id unlabeled 0x7f0a01f2
@@ -3222,6 +3227,7 @@ int layout activity_edit_profile 0x7f0d001d
 int layout activity_get_coins 0x7f0d001e
 int layout activity_main 0x7f0d001f
 int layout activity_news 0x7f0d0020
+int layout activity_offer 0x7f0d008e
 int layout activity_profile 0x7f0d0021
 int layout activity_redeem_coins 0x7f0d0022
 int layout activity_settings 0x7f0d0023
@@ -3308,6 +3314,7 @@ int layout notification_template_media 0x7f0d0073
 int layout notification_template_media_custom 0x7f0d0074
 int layout notification_template_part_chronometer 0x7f0d0075
 int layout notification_template_part_time 0x7f0d0076
+int layout offers_list_item 0x7f0d008d
 int layout select_dialog_item_material 0x7f0d0077
 int layout select_dialog_multichoice_material 0x7f0d0078
 int layout select_dialog_singlechoice_material 0x7f0d0079
