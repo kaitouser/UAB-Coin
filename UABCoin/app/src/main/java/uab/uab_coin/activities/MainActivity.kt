@@ -92,7 +92,7 @@ class MainActivity : AppCompatActivity() {
         dbRef.addValueEventListener(object : ValueEventListener{
             override fun onDataChange(snapshot: DataSnapshot) {
                 if (!snapshot.exists()) {
-                    val user = UserModel(userName, userEmail, 0, userPhoto)
+                    val user = UserModel(userName, userEmail, 0,"0000000", userPhoto)
                     dbRef.setValue(user)
                         .addOnCompleteListener {
                             Toast.makeText(this@MainActivity, "Data inserted successfully",Toast.LENGTH_LONG).show()

@@ -15,4 +15,50 @@
         android:textStyle="bold"
         app:layout_constraintTop_toTopOf="parent" />
 
+    <TextView
+        android:id="@+id/textOfferDescription"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Offer Description"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        app:layout_constraintTop_toBottomOf="@+id/textOfferName" />
+
+    <TextView
+        android:id="@+id/textOfferPrice"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Offer Price"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        app:layout_constraintTop_toBottomOf="@+id/textOfferDescription" />
+
+    <ImageView
+        android:id="@+id/offerImageDisplay"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_gravity="center"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textOfferPrice" />
+
+    <Button
+        android:id="@+id/buttonRedeemOffer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Redeem"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/offerImageDisplay"/>
+
+    <TextView
+        android:id="@+id/textOfferRedeemCode"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=" "
+        android:textSize="20dp"
+        android:textStyle="bold"
+        app:layout_constraintTop_toBottomOf="@+id/buttonRedeemOffer" />
+
+
 </androidx.constraintlayout.widget.ConstraintLayout>

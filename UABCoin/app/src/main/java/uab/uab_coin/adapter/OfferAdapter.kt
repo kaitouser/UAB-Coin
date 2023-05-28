@@ -28,7 +28,8 @@ class OfferAdapter(private val offerList: ArrayList<OfferModel>) :
 
     override fun onBindViewHolder(holder: ViewHolder, position: Int) {
         val currentOffer = offerList[position]
-        holder.tvEmpName.text = currentOffer.offerName
+        holder.tvOfferName.text = currentOffer.offerName
+        holder.tvOfferPrice.text = currentOffer.offerPrice.toString()
     }
 
     override fun getItemCount(): Int {
@@ -37,7 +38,8 @@ class OfferAdapter(private val offerList: ArrayList<OfferModel>) :
 
     class ViewHolder(itemView: View, clickListener: onItemClickListener) : RecyclerView.ViewHolder(itemView) {
 
-        val tvEmpName : TextView = itemView.findViewById(R.id.tvEmpName)
+        val tvOfferName : TextView = itemView.findViewById(R.id.tvOfferName)
+        val tvOfferPrice : TextView = itemView.findViewById(R.id.tvOfferPrice)
 
         init {
             itemView.setOnClickListener {

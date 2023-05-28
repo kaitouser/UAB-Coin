@@ -2553,6 +2553,7 @@ drawable ic_mtrl_checked_circle
 drawable ic_mtrl_chip_checked_black
 drawable ic_mtrl_chip_checked_circle
 drawable ic_mtrl_chip_close_circle
+drawable ic_number
 drawable ic_person
 drawable ic_person_drawer_menu
 drawable ic_person_profile
@@ -2715,6 +2716,7 @@ id browser_actions_menu_item_text
 id browser_actions_menu_items
 id browser_actions_menu_view
 id btnEditName
+id btnEditNiu
 id btnScan
 id btnSignIn
 id buttonBack
@@ -2723,6 +2725,7 @@ id buttonNews
 id buttonObtainCoins
 id buttonPanel
 id buttonRedeemCoins
+id buttonRedeemOffer
 id buttonStatistics
 id cache_measures
 id callMeasure
@@ -2808,6 +2811,7 @@ id end_padder
 id enterAlways
 id enterAlwaysCollapsed
 id etName
+id etNiu
 id exitUntilCollapsed
 id expand_activities_button
 id expanded_menu
@@ -2950,6 +2954,7 @@ id notification_background
 id notification_main_column
 id notification_main_column_container
 id off
+id offerImageDisplay
 id on
 id onInterceptTouchReturnSwipe
 id outline
@@ -3067,7 +3072,11 @@ id text
 id text2
 id textEmail
 id textEnd
+id textNiu
+id textOfferDescription
 id textOfferName
+id textOfferPrice
+id textOfferRedeemCode
 id textSpacerNoButtons
 id textSpacerNoTitle
 id textStart
@@ -3106,8 +3115,9 @@ id transition_position
 id transition_scene_layoutid_cache
 id transition_transform
 id triangle
-id tvEmpName
 id tvLoadingData
+id tvOfferName
+id tvOfferPrice
 id unchecked
 id uniform
 id unlabeled
