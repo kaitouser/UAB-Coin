@@ -4,12 +4,14 @@ import android.content.Intent
 import android.view.MenuItem
 import android.view.View
 import android.widget.FrameLayout
+import android.widget.ImageView
 import android.widget.TextView
 import androidx.appcompat.app.ActionBarDrawerToggle
 import androidx.appcompat.app.AppCompatActivity
 import androidx.appcompat.widget.Toolbar
 import androidx.core.view.GravityCompat
 import androidx.drawerlayout.widget.DrawerLayout
+import com.bumptech.glide.Glide
 import com.google.android.gms.auth.api.signin.GoogleSignIn
 import com.google.android.gms.auth.api.signin.GoogleSignInAccount
 import com.google.android.material.navigation.NavigationView
@@ -95,6 +97,10 @@ open class DrawerBaseActivity : AppCompatActivity(),
                     val user = snapshot.getValue(UserModel::class.java)
                     if (user != null) {
                         findViewById<TextView>(R.id.textUserNameDrawer).text = user.userName.toString()
+
+                        Glide.with(this@DrawerBaseActivity)
+                            .load(user.userPhoto.toString())
+                            .into(findViewById<ImageView>(R.id.imageUserDrawer))
                     }
                 }
             }

@@ -52,13 +52,16 @@ id buttonObtainCoins
 id buttonRedeemCoins
 id buttonStatistics
 id etName
+id imageUserDrawer
 id linear_ll
 id nav_logout
 id nav_profile
 id nav_settings
 id nav_view
 id result
+id rvOffers
 id textEmail
+id textOfferName
 id textTitle
 id textToolbarCoins
 id textUserName
@@ -68,6 +71,8 @@ id textViewNCoins
 id textViewRedeemCoins2
 id textViewWelcomeUser
 id toolBar
+id tvEmpName
+id tvLoadingData
 id userImageDisplay
 id welcomeButtonslinearLayout
 id welcomeLinearLayout
@@ -77,6 +82,7 @@ layout activity_edit_profile
 layout activity_get_coins
 layout activity_main
 layout activity_news
+layout activity_offer
 layout activity_profile
 layout activity_redeem_coins
 layout activity_settings
@@ -84,6 +90,7 @@ layout activity_statistics
 layout activity_welcome
 layout content_layout
 layout main_drawer_header
+layout offers_list_item
 layout toolbar
 menu main_drawer_menu
 mipmap ic_launcher

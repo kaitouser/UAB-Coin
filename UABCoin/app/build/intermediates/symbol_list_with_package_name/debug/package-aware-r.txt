@@ -2848,6 +2848,7 @@ id ifRoom
 id ignore
 id ignoreRequest
 id image
+id imageUserDrawer
 id immediateStop
 id included
 id info
@@ -2981,6 +2982,7 @@ id right_icon
 id right_side
 id rounded
 id row_index_key
+id rvOffers
 id save_non_transition_alpha
 id save_overlay_view
 id sawtooth
@@ -3065,6 +3067,7 @@ id text
 id text2
 id textEmail
 id textEnd
+id textOfferName
 id textSpacerNoButtons
 id textSpacerNoTitle
 id textStart
@@ -3103,6 +3106,8 @@ id transition_position
 id transition_scene_layoutid_cache
 id transition_transform
 id triangle
+id tvEmpName
+id tvLoadingData
 id unchecked
 id uniform
 id unlabeled
@@ -3234,6 +3239,7 @@ layout activity_edit_profile
 layout activity_get_coins
 layout activity_main
 layout activity_news
+layout activity_offer
 layout activity_profile
 layout activity_redeem_coins
 layout activity_settings
@@ -3320,6 +3326,7 @@ layout notification_template_media
 layout notification_template_media_custom
 layout notification_template_part_chronometer
 layout notification_template_part_time
+layout offers_list_item
 layout select_dialog_item_material
 layout select_dialog_multichoice_material
 layout select_dialog_singlechoice_material
