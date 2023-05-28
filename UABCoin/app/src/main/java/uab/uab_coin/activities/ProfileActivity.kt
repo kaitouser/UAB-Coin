@@ -15,6 +15,8 @@ import com.google.firebase.database.DatabaseReference
 import com.google.firebase.database.FirebaseDatabase
 import com.google.firebase.database.ValueEventListener
 import uab.uab_coin.R
+import uab.uab_coin.databinding.ActivityProfileBinding
+import uab.uab_coin.databinding.ActivityWelcomeBinding
 import uab.uab_coin.models.UserModel
 import javax.microedition.khronos.opengles.GL
 
@@ -25,21 +27,18 @@ class ProfileActivity : AppCompatActivity() {
 
     private lateinit var userId : String
 
+    var activityProfileBinding: ActivityProfileBinding? = null
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_profile)
+        activityProfileBinding = ActivityProfileBinding.inflate(layoutInflater)
+        setContentView(activityProfileBinding!!.root)
 
         auth = FirebaseAuth.getInstance()
 
         userId = intent.getStringExtra("id").toString()
 
         fetchUser()
-
-        findViewById<ImageButton>(R.id.buttonBack).setOnClickListener {
-            val intent : Intent  = Intent(this, WelcomeActivity::class.java)
-            intent.putExtra("id", userId)
-            startActivity(intent)
-        }
 
         findViewById<Button>(R.id.buttonEdit).setOnClickListener {
             val intent : Intent  = Intent(this, EditProfileActivity::class.java)
@@ -59,7 +58,6 @@ class ProfileActivity : AppCompatActivity() {
                         findViewById<TextView>(R.id.textUserNameBig).text = user.userName.toString()
                         findViewById<TextView>(R.id.textUserName).text = user.userName.toString()
                         findViewById<TextView>(R.id.textEmail).text = user.userEmail.toString()
-                        findViewById<TextView>(R.id.textToolbarCoins).text = user.userCoins.toString()
 
                         Glide.with(this@ProfileActivity)
                             .load(user.userPhoto.toString())

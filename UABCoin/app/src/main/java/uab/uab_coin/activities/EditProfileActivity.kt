@@ -15,6 +15,8 @@ import com.google.firebase.database.DatabaseReference
 import com.google.firebase.database.FirebaseDatabase
 import com.google.firebase.database.ValueEventListener
 import uab.uab_coin.R
+import uab.uab_coin.databinding.ActivityEditProfileBinding
+import uab.uab_coin.databinding.ActivityWelcomeBinding
 import uab.uab_coin.models.UserModel
 
 class EditProfileActivity : AppCompatActivity() {
@@ -27,9 +29,12 @@ class EditProfileActivity : AppCompatActivity() {
     private lateinit var etName: EditText
     private lateinit var btnEditName: ImageButton
 
+    var activityEditProfileBinding: ActivityEditProfileBinding? = null
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_edit_profile)
+        activityEditProfileBinding = ActivityEditProfileBinding.inflate(layoutInflater)
+        setContentView(activityEditProfileBinding!!.root)
 
         auth = FirebaseAuth.getInstance()
 
@@ -38,13 +43,7 @@ class EditProfileActivity : AppCompatActivity() {
         etName = findViewById(R.id.etName)
         btnEditName = findViewById(R.id.btnEditName)
 
-        fetchUser()
-
-        findViewById<ImageButton>(R.id.buttonBack).setOnClickListener {
-            val intent : Intent = Intent(this, ProfileActivity::class.java)
-            intent.putExtra("id", userId)
-            startActivity(intent)
-        }
+        //fetchUser()
 
         btnEditName.setOnClickListener {
             editName()

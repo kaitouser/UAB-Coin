@@ -5,6 +5,7 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@color/whiteUab"
     tools:context=".activities.StatisticsActivity">
 
     <LinearLayout
@@ -26,7 +27,7 @@
             android:fontFamily="@font/sansita_extrabold"
             android:gravity="fill_horizontal|center_vertical"
             android:text="Your Statistics!"
-            android:textColor="@color/darkBlueUabCoin"
+            android:textColor="@color/blackUab"
             android:textIsSelectable="false"
             android:textSize="35sp" />
     </LinearLayout>

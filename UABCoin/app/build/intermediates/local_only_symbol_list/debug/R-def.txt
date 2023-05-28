@@ -5,7 +5,10 @@ array com_google_android_gms_fonts_certs_dev
 array com_google_android_gms_fonts_certs_prod
 array preloaded_fonts
 color black
+color blackUab
 color darkBlueUabCoin
+color grayUab
+color greenUab
 color lightBrownUabCoin
 color purple_200
 color purple_500
@@ -13,6 +16,7 @@ color purple_700
 color teal_200
 color teal_700
 color white
+color whiteUab
 color whiteUabCoin
 color yellowDarkUabCoin
 color yellowUabCoin
@@ -21,10 +25,17 @@ drawable btn_state
 drawable edit_btn
 drawable ic_arrow_back
 drawable ic_edit
+drawable ic_edit_drawer_menu
+drawable ic_edit_profile
 drawable ic_email
+drawable ic_email_profile
 drawable ic_launcher_background
 drawable ic_launcher_foreground
+drawable ic_logout_drawer_menu
 drawable ic_person
+drawable ic_person_drawer_menu
+drawable ic_person_profile
+drawable ic_settings_drawer_menu
 font baloo_bhai_2_bold
 font mada_bold
 font sansita_bold

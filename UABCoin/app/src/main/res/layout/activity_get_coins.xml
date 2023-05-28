@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@color/whiteUab"
     tools:context=".activities.GetCoinsActivity">
 
     <LinearLayout
@@ -27,7 +28,7 @@
             android:fontFamily="@font/sansita_extrabold"
             android:gravity="fill_horizontal|center_vertical"
             android:text="Obtain more Coins!"
-            android:textColor="@color/darkBlueUabCoin"
+            android:textColor="@color/blackUab"
             android:textIsSelectable="false"
             android:textSize="35sp" />
     </LinearLayout>

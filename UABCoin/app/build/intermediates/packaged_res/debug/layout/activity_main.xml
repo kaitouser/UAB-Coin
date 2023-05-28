@@ -4,8 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".activities.MainActivity"
-    android:background="@color/black">
+    android:background="@color/blackUab"
+    tools:context=".activities.MainActivity">
 
 
     <LinearLayout
@@ -25,21 +25,21 @@
             android:fontFamily="@font/sansita_extrabold"
             android:paddingBottom="20dp"
             android:text="UAB-COIN"
-            android:textColor="@color/whiteUabCoin"
+            android:textColor="@color/whiteUab"
             android:textSize="48sp" />
 
         <com.google.android.material.button.MaterialButton
             android:id="@+id/btnSignIn"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:backgroundTint="@color/whiteUabCoin"
+            android:backgroundTint="@color/whiteUab"
             android:fontFamily="@font/mada_bold"
             android:paddingLeft="50dp"
             android:paddingTop="5dp"
             android:paddingRight="50dp"
             android:paddingBottom="5dp"
             android:text="Sign in"
-            android:textColor="@color/black"
+            android:textColor="@color/blackUab"
             android:textSize="20sp" />
     </LinearLayout>
 

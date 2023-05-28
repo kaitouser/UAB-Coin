@@ -1232,6 +1232,7 @@ color background_floating_material_light
 color background_material_dark
 color background_material_light
 color black
+color blackUab
 color bright_foreground_disabled_material_dark
 color bright_foreground_disabled_material_light
 color bright_foreground_inverse_material_dark
@@ -1307,6 +1308,8 @@ color error_color_material_dark
 color error_color_material_light
 color foreground_material_dark
 color foreground_material_light
+color grayUab
+color greenUab
 color highlighted_text_material_dark
 color highlighted_text_material_light
 color lightBrownUabCoin
@@ -1811,6 +1814,7 @@ color test_mtrl_calendar_day_selected
 color tooltip_background_dark
 color tooltip_background_light
 color white
+color whiteUab
 color whiteUabCoin
 color yellowDarkUabCoin
 color yellowUabCoin
@@ -2534,10 +2538,14 @@ drawable googleg_standard_color_18
 drawable ic_arrow_back
 drawable ic_clock_black_24dp
 drawable ic_edit
+drawable ic_edit_drawer_menu
+drawable ic_edit_profile
 drawable ic_email
+drawable ic_email_profile
 drawable ic_keyboard_black_24dp
 drawable ic_launcher_background
 drawable ic_launcher_foreground
+drawable ic_logout_drawer_menu
 drawable ic_m3_chip_check
 drawable ic_m3_chip_checked_circle
 drawable ic_m3_chip_close
@@ -2546,6 +2554,9 @@ drawable ic_mtrl_chip_checked_black
 drawable ic_mtrl_chip_checked_circle
 drawable ic_mtrl_chip_close_circle
 drawable ic_person
+drawable ic_person_drawer_menu
+drawable ic_person_profile
+drawable ic_settings_drawer_menu
 drawable m3_appbar_background
 drawable m3_popupmenu_background_overlay
 drawable m3_radiobutton_ripple

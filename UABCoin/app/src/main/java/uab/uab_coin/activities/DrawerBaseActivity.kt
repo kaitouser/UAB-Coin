@@ -68,6 +68,10 @@ open class DrawerBaseActivity : AppCompatActivity(),
             }
             startActivity(intent)
             overridePendingTransition(0, 0)
+        } else if (item.itemId == R.id.nav_settings) {
+            auth.signOut()
+            startActivity(Intent(this, SettingsActivity::class.java))
+            overridePendingTransition(0, 0)
         } else if (item.itemId == R.id.nav_logout) {
             auth.signOut()
             startActivity(Intent(this, MainActivity::class.java))

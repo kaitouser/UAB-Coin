@@ -2,7 +2,8 @@
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    android:background="@color/whiteUab">
 
     <LinearLayout
         android:layout_width="0dp"
@@ -23,7 +24,7 @@
             android:fontFamily="@font/sansita_extrabold"
             android:gravity="fill_horizontal|center_vertical"
             android:text="Settings"
-            android:textColor="@color/darkBlueUabCoin"
+            android:textColor="@color/blackUab"
             android:textIsSelectable="false"
             android:textSize="35sp" />
     </LinearLayout>

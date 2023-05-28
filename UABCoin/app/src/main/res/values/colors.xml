@@ -12,4 +12,8 @@
     <color name="lightBrownUabCoin">#836542</color>
     <color name="whiteUabCoin">#FBFBFB</color>
     <color name="yellowDarkUabCoin">#CD7C00</color>
+    <color name="greenUab">#007E11</color>
+    <color name="whiteUab">#FEFEFE</color>
+    <color name="blackUab">#111111</color>
+    <color name="grayUab">#F0F1F3</color>
 </resources>
