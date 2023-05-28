@@ -71,7 +71,10 @@ class RedeemCoinsActivity : DrawerBaseActivity()
                         override fun onItemClick(position: Int) {
                             val intent = Intent(this@RedeemCoinsActivity, OfferActivity::class.java)
                             intent.putExtra("offerName", offerList[position].offerName)
-                            intent.putExtra("offerPrice", offerList[position].offerPrice)
+                            intent.putExtra("offerPrice", offerList[position].offerPrice.toString())
+                            intent.putExtra("offerDescription", offerList[position].offerDescription)
+                            intent.putExtra("offerRedeemCode", offerList[position].offerRedeemCode)
+                            intent.putExtra("offerImage", offerList[position].offerImage)
                             intent.putExtra("id", userId)
                             startActivity(intent)
                         }

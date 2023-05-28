@@ -58,6 +58,7 @@ class ProfileActivity : AppCompatActivity() {
                         findViewById<TextView>(R.id.textUserNameBig).text = user.userName.toString()
                         findViewById<TextView>(R.id.textUserName).text = user.userName.toString()
                         findViewById<TextView>(R.id.textEmail).text = user.userEmail.toString()
+                        findViewById<TextView>(R.id.textNiu).text = user.userNiu.toString()
 
                         Glide.with(this@ProfileActivity)
                             .load(user.userPhoto.toString())

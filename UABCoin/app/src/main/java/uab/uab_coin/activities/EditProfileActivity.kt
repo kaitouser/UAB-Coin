@@ -27,7 +27,9 @@ class EditProfileActivity : AppCompatActivity() {
     private lateinit var userId : String
 
     private lateinit var etName: EditText
+    private lateinit var etNiu: EditText
     private lateinit var btnEditName: ImageButton
+    private lateinit var btnEditNiu: ImageButton
 
     var activityEditProfileBinding: ActivityEditProfileBinding? = null
 
@@ -41,12 +43,18 @@ class EditProfileActivity : AppCompatActivity() {
         userId = intent.getStringExtra("id").toString()
 
         etName = findViewById(R.id.etName)
+        etNiu = findViewById(R.id.etNiu)
         btnEditName = findViewById(R.id.btnEditName)
+        btnEditNiu = findViewById(R.id.btnEditNiu)
 
         //fetchUser()
 
         btnEditName.setOnClickListener {
             editName()
+        }
+
+        btnEditNiu.setOnClickListener {
+            editNiu()
         }
 
     }
@@ -81,6 +89,25 @@ class EditProfileActivity : AppCompatActivity() {
                 .addOnCompleteListener {
                     Toast.makeText(this, "Data inserted successfully", Toast.LENGTH_LONG).show()
                     etName.text.clear()
+
+                }.addOnFailureListener { err ->
+                    Toast.makeText(this, "Error ${err.message}", Toast.LENGTH_LONG).show()
+                }
+        }
+    }
+
+    private fun editNiu() {
+        val niu = etNiu.text.toString()
+
+        if (niu.isEmpty()) {
+            etNiu.error = "Please enter niu"
+        }
+        else {
+            dbRef = FirebaseDatabase.getInstance().getReference("Users").child(userId).child("userNiu")
+            dbRef.setValue(niu)
+                .addOnCompleteListener {
+                    Toast.makeText(this, "Data inserted successfully", Toast.LENGTH_LONG).show()
+                    etNiu.text.clear()
 
                 }.addOnFailureListener { err ->
                     Toast.makeText(this, "Error ${err.message}", Toast.LENGTH_LONG).show()

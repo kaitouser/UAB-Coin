@@ -1,4 +1,4 @@
-#Sun May 28 23:37:01 CEST 2023
+#Sun May 28 23:46:09 CEST 2023
 base.0=C\:\\Users\\marin\\Desktop\\SM-Projecte-Git\\UAB-Coin\\UABCoin\\app\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\classes.dex
 base.1=C\:\\Users\\marin\\Desktop\\SM-Projecte-Git\\UAB-Coin\\UABCoin\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\0\\classes.dex
 base.2=C\:\\Users\\marin\\Desktop\\SM-Projecte-Git\\UAB-Coin\\UABCoin\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\14\\classes.dex
