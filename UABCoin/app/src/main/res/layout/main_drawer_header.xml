@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
-    android:layout_height="200dp"
-    android:padding="20dp"
+    android:layout_height="225dp"
     android:background="@color/greenUab"
+    android:gravity="center|center_vertical"
     android:orientation="vertical"
-    android:gravity="center_vertical">
+    android:paddingTop="10dp"
+    android:paddingBottom="10dp">
 
     <ImageView
         android:id="@+id/imageUserDrawer"
@@ -20,10 +20,10 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
-        android:paddingTop="5dp"
+        android:fontFamily="@font/sansita_extrabold"
+        android:paddingTop="10dp"
         android:text="User"
         android:textColor="@color/whiteUab"
-        android:textSize="25dp"
-        android:fontFamily="@font/sansita_extrabold" />
+        android:textSize="25dp" />
 
 </LinearLayout>

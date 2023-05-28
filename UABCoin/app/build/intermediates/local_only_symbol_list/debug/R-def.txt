@@ -9,6 +9,8 @@ color blackUab
 color darkBlueUabCoin
 color grayUab
 color greenUab
+color ic_icon_background
+color ic_launcher_background
 color lightBrownUabCoin
 color purple_200
 color purple_500
@@ -94,6 +96,7 @@ layout offers_list_item
 layout toolbar
 menu main_drawer_menu
 mipmap ic_launcher
+mipmap ic_launcher_foreground
 mipmap ic_launcher_round
 string app_name
 string default_web_client_id
