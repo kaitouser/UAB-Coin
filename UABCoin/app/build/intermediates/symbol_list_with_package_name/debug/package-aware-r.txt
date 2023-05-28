@@ -3062,6 +3062,7 @@ id textToolbarCoins
 id textTop
 id textUserName
 id textUserNameBig
+id textUserNameDrawer
 id textViewNCoins
 id textViewRedeemCoins2
 id textViewWelcomeUser

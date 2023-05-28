@@ -44,16 +44,24 @@ class WelcomeActivity : DrawerBaseActivity() {
         fetchUser()
 
         findViewById<Button>(R.id.buttonObtainCoins).setOnClickListener {
-            startActivity(Intent(this, GetCoinsActivity::class.java))
+            val intent : Intent  = Intent(this, GetCoinsActivity::class.java)
+            intent.putExtra("id", userId)
+            startActivity(intent)
         }
         findViewById<Button>(R.id.buttonRedeemCoins).setOnClickListener {
-            startActivity(Intent(this, RedeemCoinsActivity::class.java))
+            val intent : Intent  = Intent(this, RedeemCoinsActivity::class.java)
+            intent.putExtra("id", userId)
+            startActivity(intent)
         }
         findViewById<Button>(R.id.buttonStatistics).setOnClickListener {
-            startActivity(Intent(this, StatisticsActivity::class.java))
+            val intent : Intent  = Intent(this, StatisticsActivity::class.java)
+            intent.putExtra("id", userId)
+            startActivity(intent)
         }
         findViewById<Button>(R.id.buttonNews).setOnClickListener {
-            startActivity(Intent(this, NewsActivity::class.java))
+            val intent : Intent  = Intent(this, NewsActivity::class.java)
+            intent.putExtra("id", userId)
+            startActivity(intent)
         }
 
     }
