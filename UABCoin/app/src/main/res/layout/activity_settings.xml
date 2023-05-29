@@ -23,9 +23,25 @@
             android:layout_height="wrap_content"
             android:fontFamily="@font/sansita_extrabold"
             android:gravity="fill_horizontal|center_vertical"
-            android:text="Settings"
+            android:text="@string/settings_title"
             android:textColor="@color/blackUab"
             android:textIsSelectable="false"
             android:textSize="35sp" />
+
+        <Button
+            android:id="@+id/btn_changeLang"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/change_lang"
+            />
+
+        <TextView
+            android:id="@+id/LangMenu"
+            android:text="Selected Item"
+            android:textSize="20sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            />
+
     </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>

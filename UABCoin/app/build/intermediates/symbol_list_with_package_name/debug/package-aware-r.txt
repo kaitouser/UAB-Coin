@@ -2614,6 +2614,7 @@ id BOTTOM_END
 id BOTTOM_START
 id CTRL
 id FUNCTION
+id LangMenu
 id META
 id NO_DEBUG
 id SHIFT
@@ -2721,6 +2722,7 @@ id btnEditName
 id btnEditNiu
 id btnScan
 id btnSignIn
+id btn_changeLang
 id buttonBack
 id buttonEdit
 id buttonNews
@@ -3401,6 +3403,7 @@ string app_version
 string appbar_scrolling_view_behavior
 string bottom_sheet_behavior
 string bottomsheet_action_expand_halfway
+string change_lang
 string character_counter_content_description
 string character_counter_overflowed_content_description
 string character_counter_pattern
@@ -3542,6 +3545,7 @@ string path_password_eye_mask_visible
 string path_password_strike_through
 string project_id
 string search_menu_title
+string settings_title
 string status_bar_notification_info_overflow
 string title_activity_welcome_navigation
 string zxing_app_name

@@ -43,12 +43,14 @@ font baloo_bhai_2_bold
 font mada_bold
 font sansita_bold
 font sansita_extrabold
+id LangMenu
 id activityContainer
 id appBarLayout
 id btnEditName
 id btnEditNiu
 id btnScan
 id btnSignIn
+id btn_changeLang
 id buttonBack
 id buttonEdit
 id buttonNews
@@ -109,6 +111,7 @@ mipmap ic_launcher
 mipmap ic_launcher_foreground
 mipmap ic_launcher_round
 string app_name
+string change_lang
 string default_web_client_id
 string firebase_database_url
 string gcm_defaultSenderId
@@ -119,6 +122,7 @@ string google_storage_bucket
 string menu_drawer_close
 string menu_drawer_open
 string project_id
+string settings_title
 string title_activity_welcome_navigation
 style Theme.UABCoin
 xml backup_rules

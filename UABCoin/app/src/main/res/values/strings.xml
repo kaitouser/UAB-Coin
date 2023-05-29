@@ -1,8 +1,10 @@
 <resources>
     <string name="app_name">UAB-Coin</string>
-    <string name="title_activity_welcome_navigation">WelcomeNavigation</string>
+    <string name="title_activity_welcome_navigation" translatable="false">WelcomeNavigation</string>
 
     <!-- Drawer Layout -->
-    <string name="menu_drawer_open">Drawer Open</string>
-    <string name="menu_drawer_close">Drawer Close</string>
+    <string name="menu_drawer_open" translatable="false">Drawer Open</string>
+    <string name="menu_drawer_close" translatable="false">Drawer Close</string>
+    <string name="settings_title">Settings</string>
+    <string name="change_lang">Change language</string>
 </resources>
