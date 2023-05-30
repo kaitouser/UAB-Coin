@@ -2875,6 +2875,8 @@ id light
 id line1
 id line3
 id linear
+id linearLayout
+id linearLayout2
 id linear_ll
 id listMode
 id list_item
@@ -3090,6 +3092,7 @@ id textTop
 id textUserName
 id textUserNameBig
 id textUserNameDrawer
+id textView
 id textViewNCoins
 id textViewRedeemCoins2
 id textViewWelcomeUser
@@ -3544,6 +3547,7 @@ string path_password_eye_mask_strike_through
 string path_password_eye_mask_visible
 string path_password_strike_through
 string project_id
+string redeem_coins_title
 string search_menu_title
 string settings_title
 string status_bar_notification_info_overflow

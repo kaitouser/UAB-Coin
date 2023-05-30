@@ -49,6 +49,7 @@
     <string name="menu_drawer_close" translatable="false">Drawer Close</string>
     <string name="menu_drawer_open" translatable="false">Drawer Open</string>
     <string name="project_id" translatable="false">uab-coin</string>
+    <string name="redeem_coins_title" translatable="false">Redeem your coins!</string>
     <string name="settings_title">Settings</string>
     <string name="title_activity_welcome_navigation" translatable="false">WelcomeNavigation</string>
     <style name="Theme.UABCoin" parent="Theme.MaterialComponents.DayNight.NoActionBar">

@@ -1,226 +1,230 @@
 [
     {
-        "merged": "uab.uab_coin.app-merged_res-34:/layout_activity_main.xml.flat",
-        "source": "uab.uab_coin.app-main-36:/layout/activity_main.xml"
-    },
-    {
-        "merged": "uab.uab_coin.app-merged_res-34:/mipmap-xhdpi_ic_launcher.png.flat",
-        "source": "uab.uab_coin.app-main-36:/mipmap-xhdpi/ic_launcher.png"
-    },
-    {
-        "merged": "uab.uab_coin.app-merged_res-34:/mipmap-xhdpi_ic_launcher_round.png.flat",
-        "source": "uab.uab_coin.app-main-36:/mipmap-xhdpi/ic_launcher_round.png"
-    },
-    {
-        "merged": "uab.uab_coin.app-merged_res-34:/layout_activity_news.xml.flat",
-        "source": "uab.uab_coin.app-main-36:/layout/activity_news.xml"
-    },
-    {
-        "merged": "uab.uab_coin.app-merged_res-34:/layout_activity_edit_profile.xml.flat",
-        "source": "uab.uab_coin.app-main-36:/layout/activity_edit_profile.xml"
-    },
-    {
-        "merged": "uab.uab_coin.app-merged_res-34:/drawable_ic_number.xml.flat",
-        "source": "uab.uab_coin.app-main-36:/drawable/ic_number.xml"
-    },
-    {
         "merged": "uab.uab_coin.app-merged_res-34:/layout_activity_get_coins.xml.flat",
         "source": "uab.uab_coin.app-main-36:/layout/activity_get_coins.xml"
     },
     {
-        "merged": "uab.uab_coin.app-merged_res-34:/drawable_ic_launcher_background.xml.flat",
-        "source": "uab.uab_coin.app-main-36:/drawable/ic_launcher_background.xml"
+        "merged": "C:\\Users\\marin\\.gradle\\daemon\\8.0\\uab.uab_coin.app-merged_res-34:\\layout_activity_edit_profile.xml.flat",
+        "source": "C:\\Users\\marin\\.gradle\\daemon\\8.0\\uab.uab_coin.app-main-36:\\layout\\activity_edit_profile.xml"
     },
     {
-        "merged": "uab.uab_coin.app-merged_res-34:/mipmap-xxxhdpi_ic_launcher.png.flat",
-        "source": "uab.uab_coin.app-main-36:/mipmap-xxxhdpi/ic_launcher.png"
+        "merged": "C:\\Users\\marin\\.gradle\\daemon\\8.0\\uab.uab_coin.app-merged_res-34:\\layout_activity_drawer_base.xml.flat",
+        "source": "C:\\Users\\marin\\.gradle\\daemon\\8.0\\uab.uab_coin.app-main-36:\\layout\\activity_drawer_base.xml"
     },
     {
-        "merged": "uab.uab_coin.app-merged_res-34:/mipmap-anydpi-v26_ic_launcher.xml.flat",
-        "source": "uab.uab_coin.app-main-36:/mipmap-anydpi-v26/ic_launcher.xml"
+        "merged": "C:\\Users\\marin\\.gradle\\daemon\\8.0\\uab.uab_coin.app-merged_res-34:\\drawable_ic_email_profile.xml.flat",
+        "source": "C:\\Users\\marin\\.gradle\\daemon\\8.0\\uab.uab_coin.app-main-36:\\drawable\\ic_email_profile.xml"
     },
     {
-        "merged": "uab.uab_coin.app-merged_res-34:/font_mada_bold.xml.flat",
-        "source": "uab.uab_coin.app-main-36:/font/mada_bold.xml"
+        "merged": "C:\\Users\\marin\\.gradle\\daemon\\8.0\\uab.uab_coin.app-merged_res-34:\\mipmap-xxxhdpi_ic_launcher_foreground.png.flat",
+        "source": "C:\\Users\\marin\\.gradle\\daemon\\8.0\\uab.uab_coin.app-main-36:\\mipmap-xxxhdpi\\ic_launcher_foreground.png"
     },
     {
-        "merged": "uab.uab_coin.app-merged_res-34:/mipmap-mdpi_ic_launcher_foreground.png.flat",
-        "source": "uab.uab_coin.app-main-36:/mipmap-mdpi/ic_launcher_foreground.png"
+        "merged": "C:\\Users\\marin\\.gradle\\daemon\\8.0\\uab.uab_coin.app-merged_res-34:\\drawable_ic_person.xml.flat",
+        "source": "C:\\Users\\marin\\.gradle\\daemon\\8.0\\uab.uab_coin.app-main-36:\\drawable\\ic_person.xml"
     },
     {
-        "merged": "uab.uab_coin.app-merged_res-34:/menu_main_drawer_menu.xml.flat",
-        "source": "uab.uab_coin.app-main-36:/menu/main_drawer_menu.xml"
+        "merged": "C:\\Users\\marin\\.gradle\\daemon\\8.0\\uab.uab_coin.app-merged_res-34:\\drawable_ic_email.xml.flat",
+        "source": "C:\\Users\\marin\\.gradle\\daemon\\8.0\\uab.uab_coin.app-main-36:\\drawable\\ic_email.xml"
     },
     {
-        "merged": "uab.uab_coin.app-merged_res-34:/xml_data_extraction_rules.xml.flat",
-        "source": "uab.uab_coin.app-main-36:/xml/data_extraction_rules.xml"
+        "merged": "C:\\Users\\marin\\.gradle\\daemon\\8.0\\uab.uab_coin.app-merged_res-34:\\font_baloo_bhai_2_bold.xml.flat",
+        "source": "C:\\Users\\marin\\.gradle\\daemon\\8.0\\uab.uab_coin.app-main-36:\\font\\baloo_bhai_2_bold.xml"
     },
     {
-        "merged": "uab.uab_coin.app-merged_res-34:/mipmap-hdpi_ic_launcher.png.flat",
-        "source": "uab.uab_coin.app-main-36:/mipmap-hdpi/ic_launcher.png"
+        "merged": "C:\\Users\\marin\\.gradle\\daemon\\8.0\\uab.uab_coin.app-merged_res-34:\\layout_main_drawer_header.xml.flat",
+        "source": "C:\\Users\\marin\\.gradle\\daemon\\8.0\\uab.uab_coin.app-main-36:\\layout\\main_drawer_header.xml"
     },
     {
-        "merged": "uab.uab_coin.app-merged_res-34:/drawable_baseline_monetization_on_24.xml.flat",
-        "source": "uab.uab_coin.app-main-36:/drawable/baseline_monetization_on_24.xml"
+        "merged": "C:\\Users\\marin\\.gradle\\daemon\\8.0\\uab.uab_coin.app-merged_res-34:\\drawable_ic_launcher_background.xml.flat",
+        "source": "C:\\Users\\marin\\.gradle\\daemon\\8.0\\uab.uab_coin.app-main-36:\\drawable\\ic_launcher_background.xml"
     },
     {
-        "merged": "uab.uab_coin.app-merged_res-34:/layout_activity_statistics.xml.flat",
-        "source": "uab.uab_coin.app-main-36:/layout/activity_statistics.xml"
+        "merged": "C:\\Users\\marin\\.gradle\\daemon\\8.0\\uab.uab_coin.app-merged_res-34:\\mipmap-hdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\marin\\.gradle\\daemon\\8.0\\uab.uab_coin.app-main-36:\\mipmap-hdpi\\ic_launcher.png"
     },
     {
-        "merged": "uab.uab_coin.app-merged_res-34:/layout_offers_list_item.xml.flat",
-        "source": "uab.uab_coin.app-main-36:/layout/offers_list_item.xml"
+        "merged": "C:\\Users\\marin\\.gradle\\daemon\\8.0\\uab.uab_coin.app-merged_res-34:\\mipmap-hdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\marin\\.gradle\\daemon\\8.0\\uab.uab_coin.app-main-36:\\mipmap-hdpi\\ic_launcher_round.png"
     },
     {
-        "merged": "uab.uab_coin.app-merged_res-34:/font_sansita_bold.xml.flat",
-        "source": "uab.uab_coin.app-main-36:/font/sansita_bold.xml"
+        "merged": "C:\\Users\\marin\\.gradle\\daemon\\8.0\\uab.uab_coin.app-merged_res-34:\\layout_activity_settings.xml.flat",
+        "source": "C:\\Users\\marin\\.gradle\\daemon\\8.0\\uab.uab_coin.app-main-36:\\layout\\activity_settings.xml"
     },
     {
-        "merged": "uab.uab_coin.app-merged_res-34:/mipmap-xxxhdpi_ic_launcher_round.png.flat",
-        "source": "uab.uab_coin.app-main-36:/mipmap-xxxhdpi/ic_launcher_round.png"
+        "merged": "C:\\Users\\marin\\.gradle\\daemon\\8.0\\uab.uab_coin.app-merged_res-34:\\font_sansita_bold.xml.flat",
+        "source": "C:\\Users\\marin\\.gradle\\daemon\\8.0\\uab.uab_coin.app-main-36:\\font\\sansita_bold.xml"
     },
     {
-        "merged": "uab.uab_coin.app-merged_res-34:/mipmap-xxhdpi_ic_launcher_round.png.flat",
-        "source": "uab.uab_coin.app-main-36:/mipmap-xxhdpi/ic_launcher_round.png"
+        "merged": "C:\\Users\\marin\\.gradle\\daemon\\8.0\\uab.uab_coin.app-merged_res-34:\\mipmap-xhdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\marin\\.gradle\\daemon\\8.0\\uab.uab_coin.app-main-36:\\mipmap-xhdpi\\ic_launcher.png"
     },
     {
-        "merged": "uab.uab_coin.app-merged_res-34:/drawable_ic_person_drawer_menu.xml.flat",
-        "source": "uab.uab_coin.app-main-36:/drawable/ic_person_drawer_menu.xml"
+        "merged": "C:\\Users\\marin\\.gradle\\daemon\\8.0\\uab.uab_coin.app-merged_res-34:\\layout_activity_redeem_coins.xml.flat",
+        "source": "C:\\Users\\marin\\.gradle\\daemon\\8.0\\uab.uab_coin.app-main-36:\\layout\\activity_redeem_coins.xml"
     },
     {
-        "merged": "uab.uab_coin.app-merged_res-34:/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
-        "source": "uab.uab_coin.app-main-36:/mipmap-anydpi-v26/ic_launcher_round.xml"
+        "merged": "C:\\Users\\marin\\.gradle\\daemon\\8.0\\uab.uab_coin.app-merged_res-34:\\mipmap-xhdpi_ic_launcher_foreground.png.flat",
+        "source": "C:\\Users\\marin\\.gradle\\daemon\\8.0\\uab.uab_coin.app-main-36:\\mipmap-xhdpi\\ic_launcher_foreground.png"
     },
     {
-        "merged": "uab.uab_coin.app-merged_res-34:/mipmap-xxxhdpi_ic_launcher_foreground.png.flat",
-        "source": "uab.uab_coin.app-main-36:/mipmap-xxxhdpi/ic_launcher_foreground.png"
+        "merged": "C:\\Users\\marin\\.gradle\\daemon\\8.0\\uab.uab_coin.app-merged_res-34:\\font_mada_bold.xml.flat",
+        "source": "C:\\Users\\marin\\.gradle\\daemon\\8.0\\uab.uab_coin.app-main-36:\\font\\mada_bold.xml"
     },
     {
-        "merged": "uab.uab_coin.app-merged_res-34:/drawable_ic_logout_drawer_menu.xml.flat",
-        "source": "uab.uab_coin.app-main-36:/drawable/ic_logout_drawer_menu.xml"
+        "merged": "C:\\Users\\marin\\.gradle\\daemon\\8.0\\uab.uab_coin.app-merged_res-34:\\drawable_ic_arrow_back.xml.flat",
+        "source": "C:\\Users\\marin\\.gradle\\daemon\\8.0\\uab.uab_coin.app-main-36:\\drawable\\ic_arrow_back.xml"
     },
     {
-        "merged": "uab.uab_coin.app-merged_res-34:/mipmap-xxhdpi_ic_launcher_foreground.png.flat",
-        "source": "uab.uab_coin.app-main-36:/mipmap-xxhdpi/ic_launcher_foreground.png"
+        "merged": "C:\\Users\\marin\\.gradle\\daemon\\8.0\\uab.uab_coin.app-merged_res-34:\\layout_activity_profile.xml.flat",
+        "source": "C:\\Users\\marin\\.gradle\\daemon\\8.0\\uab.uab_coin.app-main-36:\\layout\\activity_profile.xml"
     },
     {
-        "merged": "uab.uab_coin.app-merged_res-34:/layout_activity_profile.xml.flat",
-        "source": "uab.uab_coin.app-main-36:/layout/activity_profile.xml"
+        "merged": "C:\\Users\\marin\\.gradle\\daemon\\8.0\\uab.uab_coin.app-merged_res-34:\\xml_data_extraction_rules.xml.flat",
+        "source": "C:\\Users\\marin\\.gradle\\daemon\\8.0\\uab.uab_coin.app-main-36:\\xml\\data_extraction_rules.xml"
     },
     {
-        "merged": "uab.uab_coin.app-merged_res-34:/drawable_ic_email.xml.flat",
-        "source": "uab.uab_coin.app-main-36:/drawable/ic_email.xml"
+        "merged": "C:\\Users\\marin\\.gradle\\daemon\\8.0\\uab.uab_coin.app-merged_res-34:\\mipmap-xxxhdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\marin\\.gradle\\daemon\\8.0\\uab.uab_coin.app-main-36:\\mipmap-xxxhdpi\\ic_launcher.png"
     },
     {
-        "merged": "uab.uab_coin.app-merged_res-34:/drawable_ic_person.xml.flat",
-        "source": "uab.uab_coin.app-main-36:/drawable/ic_person.xml"
+        "merged": "C:\\Users\\marin\\.gradle\\daemon\\8.0\\uab.uab_coin.app-merged_res-34:\\layout_toolbar.xml.flat",
+        "source": "C:\\Users\\marin\\.gradle\\daemon\\8.0\\uab.uab_coin.app-main-36:\\layout\\toolbar.xml"
     },
     {
-        "merged": "uab.uab_coin.app-merged_res-34:/mipmap-mdpi_ic_launcher_round.png.flat",
-        "source": "uab.uab_coin.app-main-36:/mipmap-mdpi/ic_launcher_round.png"
+        "merged": "C:\\Users\\marin\\.gradle\\daemon\\8.0\\uab.uab_coin.app-merged_res-34:\\drawable_edit_btn.xml.flat",
+        "source": "C:\\Users\\marin\\.gradle\\daemon\\8.0\\uab.uab_coin.app-main-36:\\drawable\\edit_btn.xml"
     },
     {
-        "merged": "uab.uab_coin.app-merged_res-34:/drawable_edit_btn.xml.flat",
-        "source": "uab.uab_coin.app-main-36:/drawable/edit_btn.xml"
+        "merged": "C:\\Users\\marin\\.gradle\\daemon\\8.0\\uab.uab_coin.app-merged_res-34:\\mipmap-hdpi_ic_launcher_foreground.png.flat",
+        "source": "C:\\Users\\marin\\.gradle\\daemon\\8.0\\uab.uab_coin.app-main-36:\\mipmap-hdpi\\ic_launcher_foreground.png"
     },
     {
-        "merged": "uab.uab_coin.app-merged_res-34:/layout_main_drawer_header.xml.flat",
-        "source": "uab.uab_coin.app-main-36:/layout/main_drawer_header.xml"
+        "merged": "C:\\Users\\marin\\.gradle\\daemon\\8.0\\uab.uab_coin.app-merged_res-34:\\mipmap-xxhdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\marin\\.gradle\\daemon\\8.0\\uab.uab_coin.app-main-36:\\mipmap-xxhdpi\\ic_launcher.png"
     },
     {
-        "merged": "uab.uab_coin.app-merged_res-34:/font_sansita_extrabold.ttf.flat",
-        "source": "uab.uab_coin.app-main-36:/font/sansita_extrabold.ttf"
+        "merged": "C:\\Users\\marin\\.gradle\\daemon\\8.0\\uab.uab_coin.app-merged_res-34:\\layout_activity_welcome.xml.flat",
+        "source": "C:\\Users\\marin\\.gradle\\daemon\\8.0\\uab.uab_coin.app-main-36:\\layout\\activity_welcome.xml"
     },
     {
-        "merged": "uab.uab_coin.app-merged_res-34:/drawable_btn_state.xml.flat",
-        "source": "uab.uab_coin.app-main-36:/drawable/btn_state.xml"
+        "merged": "C:\\Users\\marin\\.gradle\\daemon\\8.0\\uab.uab_coin.app-merged_res-34:\\layout_activity_offer.xml.flat",
+        "source": "C:\\Users\\marin\\.gradle\\daemon\\8.0\\uab.uab_coin.app-main-36:\\layout\\activity_offer.xml"
     },
     {
-        "merged": "uab.uab_coin.app-merged_res-34:/drawable_ic_edit_drawer_menu.xml.flat",
-        "source": "uab.uab_coin.app-main-36:/drawable/ic_edit_drawer_menu.xml"
+        "merged": "C:\\Users\\marin\\.gradle\\daemon\\8.0\\uab.uab_coin.app-merged_res-34:\\layout_activity_main.xml.flat",
+        "source": "C:\\Users\\marin\\.gradle\\daemon\\8.0\\uab.uab_coin.app-main-36:\\layout\\activity_main.xml"
     },
     {
-        "merged": "uab.uab_coin.app-merged_res-34:/drawable_ic_edit_profile.xml.flat",
-        "source": "uab.uab_coin.app-main-36:/drawable/ic_edit_profile.xml"
+        "merged": "C:\\Users\\marin\\.gradle\\daemon\\8.0\\uab.uab_coin.app-merged_res-34:\\mipmap-xxxhdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\marin\\.gradle\\daemon\\8.0\\uab.uab_coin.app-main-36:\\mipmap-xxxhdpi\\ic_launcher_round.png"
     },
     {
-        "merged": "uab.uab_coin.app-merged_res-34:/font_baloo_bhai_2_bold.xml.flat",
-        "source": "uab.uab_coin.app-main-36:/font/baloo_bhai_2_bold.xml"
+        "merged": "C:\\Users\\marin\\.gradle\\daemon\\8.0\\uab.uab_coin.app-merged_res-34:\\drawable-v24_ic_launcher_foreground.xml.flat",
+        "source": "C:\\Users\\marin\\.gradle\\daemon\\8.0\\uab.uab_coin.app-main-36:\\drawable-v24\\ic_launcher_foreground.xml"
     },
     {
-        "merged": "uab.uab_coin.app-merged_res-34:/mipmap-hdpi_ic_launcher_foreground.png.flat",
-        "source": "uab.uab_coin.app-main-36:/mipmap-hdpi/ic_launcher_foreground.png"
+        "merged": "C:\\Users\\marin\\.gradle\\daemon\\8.0\\uab.uab_coin.app-merged_res-34:\\drawable_ic_logout_drawer_menu.xml.flat",
+        "source": "C:\\Users\\marin\\.gradle\\daemon\\8.0\\uab.uab_coin.app-main-36:\\drawable\\ic_logout_drawer_menu.xml"
     },
     {
-        "merged": "uab.uab_coin.app-merged_res-34:/layout_activity_settings.xml.flat",
-        "source": "uab.uab_coin.app-main-36:/layout/activity_settings.xml"
+        "merged": "C:\\Users\\marin\\.gradle\\daemon\\8.0\\uab.uab_coin.app-merged_res-34:\\layout_activity_get_coins.xml.flat",
+        "source": "C:\\Users\\marin\\.gradle\\daemon\\8.0\\uab.uab_coin.app-main-36:\\layout\\activity_get_coins.xml"
     },
     {
-        "merged": "uab.uab_coin.app-merged_res-34:/mipmap-xhdpi_ic_launcher_foreground.png.flat",
-        "source": "uab.uab_coin.app-main-36:/mipmap-xhdpi/ic_launcher_foreground.png"
+        "merged": "C:\\Users\\marin\\.gradle\\daemon\\8.0\\uab.uab_coin.app-merged_res-34:\\layout_offers_list_item.xml.flat",
+        "source": "C:\\Users\\marin\\.gradle\\daemon\\8.0\\uab.uab_coin.app-main-36:\\layout\\offers_list_item.xml"
     },
     {
-        "merged": "uab.uab_coin.app-merged_res-34:/mipmap-hdpi_ic_launcher_round.png.flat",
-        "source": "uab.uab_coin.app-main-36:/mipmap-hdpi/ic_launcher_round.png"
+        "merged": "C:\\Users\\marin\\.gradle\\daemon\\8.0\\uab.uab_coin.app-merged_res-34:\\xml_backup_rules.xml.flat",
+        "source": "C:\\Users\\marin\\.gradle\\daemon\\8.0\\uab.uab_coin.app-main-36:\\xml\\backup_rules.xml"
     },
     {
-        "merged": "uab.uab_coin.app-merged_res-34:/drawable_ic_person_profile.xml.flat",
-        "source": "uab.uab_coin.app-main-36:/drawable/ic_person_profile.xml"
+        "merged": "C:\\Users\\marin\\.gradle\\daemon\\8.0\\uab.uab_coin.app-merged_res-34:\\menu_main_drawer_menu.xml.flat",
+        "source": "C:\\Users\\marin\\.gradle\\daemon\\8.0\\uab.uab_coin.app-main-36:\\menu\\main_drawer_menu.xml"
     },
     {
-        "merged": "uab.uab_coin.app-merged_res-34:/drawable_ic_email_profile.xml.flat",
-        "source": "uab.uab_coin.app-main-36:/drawable/ic_email_profile.xml"
+        "merged": "C:\\Users\\marin\\.gradle\\daemon\\8.0\\uab.uab_coin.app-merged_res-34:\\mipmap-xhdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\marin\\.gradle\\daemon\\8.0\\uab.uab_coin.app-main-36:\\mipmap-xhdpi\\ic_launcher_round.png"
     },
     {
-        "merged": "uab.uab_coin.app-merged_res-34:/xml_backup_rules.xml.flat",
-        "source": "uab.uab_coin.app-main-36:/xml/backup_rules.xml"
+        "merged": "C:\\Users\\marin\\.gradle\\daemon\\8.0\\uab.uab_coin.app-merged_res-34:\\font_sansita_extrabold.ttf.flat",
+        "source": "C:\\Users\\marin\\.gradle\\daemon\\8.0\\uab.uab_coin.app-main-36:\\font\\sansita_extrabold.ttf"
     },
     {
-        "merged": "uab.uab_coin.app-merged_res-34:/layout_activity_drawer_base.xml.flat",
-        "source": "uab.uab_coin.app-main-36:/layout/activity_drawer_base.xml"
+        "merged": "C:\\Users\\marin\\.gradle\\daemon\\8.0\\uab.uab_coin.app-merged_res-34:\\drawable_ic_person_drawer_menu.xml.flat",
+        "source": "C:\\Users\\marin\\.gradle\\daemon\\8.0\\uab.uab_coin.app-main-36:\\drawable\\ic_person_drawer_menu.xml"
     },
     {
-        "merged": "uab.uab_coin.app-merged_res-34:/drawable_ic_settings_drawer_menu.xml.flat",
-        "source": "uab.uab_coin.app-main-36:/drawable/ic_settings_drawer_menu.xml"
+        "merged": "C:\\Users\\marin\\.gradle\\daemon\\8.0\\uab.uab_coin.app-merged_res-34:\\mipmap-xxhdpi_ic_launcher_foreground.png.flat",
+        "source": "C:\\Users\\marin\\.gradle\\daemon\\8.0\\uab.uab_coin.app-main-36:\\mipmap-xxhdpi\\ic_launcher_foreground.png"
     },
     {
-        "merged": "uab.uab_coin.app-merged_res-34:/layout_activity_redeem_coins.xml.flat",
-        "source": "uab.uab_coin.app-main-36:/layout/activity_redeem_coins.xml"
+        "merged": "C:\\Users\\marin\\.gradle\\daemon\\8.0\\uab.uab_coin.app-merged_res-34:\\drawable_baseline_monetization_on_24.xml.flat",
+        "source": "C:\\Users\\marin\\.gradle\\daemon\\8.0\\uab.uab_coin.app-main-36:\\drawable\\baseline_monetization_on_24.xml"
     },
     {
-        "merged": "uab.uab_coin.app-merged_res-34:/layout_activity_offer.xml.flat",
-        "source": "uab.uab_coin.app-main-36:/layout/activity_offer.xml"
+        "merged": "C:\\Users\\marin\\.gradle\\daemon\\8.0\\uab.uab_coin.app-merged_res-34:\\drawable_btn_state.xml.flat",
+        "source": "C:\\Users\\marin\\.gradle\\daemon\\8.0\\uab.uab_coin.app-main-36:\\drawable\\btn_state.xml"
     },
     {
-        "merged": "uab.uab_coin.app-merged_res-34:/layout_content_layout.xml.flat",
-        "source": "uab.uab_coin.app-main-36:/layout/content_layout.xml"
+        "merged": "C:\\Users\\marin\\.gradle\\daemon\\8.0\\uab.uab_coin.app-merged_res-34:\\mipmap-xxhdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\marin\\.gradle\\daemon\\8.0\\uab.uab_coin.app-main-36:\\mipmap-xxhdpi\\ic_launcher_round.png"
     },
     {
-        "merged": "uab.uab_coin.app-merged_res-34:/layout_activity_welcome.xml.flat",
-        "source": "uab.uab_coin.app-main-36:/layout/activity_welcome.xml"
+        "merged": "C:\\Users\\marin\\.gradle\\daemon\\8.0\\uab.uab_coin.app-merged_res-34:\\drawable_ic_edit_profile.xml.flat",
+        "source": "C:\\Users\\marin\\.gradle\\daemon\\8.0\\uab.uab_coin.app-main-36:\\drawable\\ic_edit_profile.xml"
     },
     {
-        "merged": "uab.uab_coin.app-merged_res-34:/mipmap-mdpi_ic_launcher.png.flat",
-        "source": "uab.uab_coin.app-main-36:/mipmap-mdpi/ic_launcher.png"
+        "merged": "C:\\Users\\marin\\.gradle\\daemon\\8.0\\uab.uab_coin.app-merged_res-34:\\layout_content_layout.xml.flat",
+        "source": "C:\\Users\\marin\\.gradle\\daemon\\8.0\\uab.uab_coin.app-main-36:\\layout\\content_layout.xml"
     },
     {
-        "merged": "uab.uab_coin.app-merged_res-34:/mipmap-xxhdpi_ic_launcher.png.flat",
-        "source": "uab.uab_coin.app-main-36:/mipmap-xxhdpi/ic_launcher.png"
+        "merged": "C:\\Users\\marin\\.gradle\\daemon\\8.0\\uab.uab_coin.app-merged_res-34:\\mipmap-mdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\marin\\.gradle\\daemon\\8.0\\uab.uab_coin.app-main-36:\\mipmap-mdpi\\ic_launcher_round.png"
     },
     {
-        "merged": "uab.uab_coin.app-merged_res-34:/drawable_ic_arrow_back.xml.flat",
-        "source": "uab.uab_coin.app-main-36:/drawable/ic_arrow_back.xml"
+        "merged": "C:\\Users\\marin\\.gradle\\daemon\\8.0\\uab.uab_coin.app-merged_res-34:\\mipmap-mdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\marin\\.gradle\\daemon\\8.0\\uab.uab_coin.app-main-36:\\mipmap-mdpi\\ic_launcher.png"
     },
     {
-        "merged": "uab.uab_coin.app-merged_res-34:/drawable-v24_ic_launcher_foreground.xml.flat",
-        "source": "uab.uab_coin.app-main-36:/drawable-v24/ic_launcher_foreground.xml"
+        "merged": "C:\\Users\\marin\\.gradle\\daemon\\8.0\\uab.uab_coin.app-merged_res-34:\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "C:\\Users\\marin\\.gradle\\daemon\\8.0\\uab.uab_coin.app-main-36:\\mipmap-anydpi-v26\\ic_launcher_round.xml"
     },
     {
-        "merged": "uab.uab_coin.app-merged_res-34:/layout_toolbar.xml.flat",
-        "source": "uab.uab_coin.app-main-36:/layout/toolbar.xml"
+        "merged": "C:\\Users\\marin\\.gradle\\daemon\\8.0\\uab.uab_coin.app-merged_res-34:\\drawable_ic_settings_drawer_menu.xml.flat",
+        "source": "C:\\Users\\marin\\.gradle\\daemon\\8.0\\uab.uab_coin.app-main-36:\\drawable\\ic_settings_drawer_menu.xml"
     },
     {
-        "merged": "uab.uab_coin.app-merged_res-34:/drawable_ic_edit.xml.flat",
-        "source": "uab.uab_coin.app-main-36:/drawable/ic_edit.xml"
+        "merged": "C:\\Users\\marin\\.gradle\\daemon\\8.0\\uab.uab_coin.app-merged_res-34:\\drawable_ic_number.xml.flat",
+        "source": "C:\\Users\\marin\\.gradle\\daemon\\8.0\\uab.uab_coin.app-main-36:\\drawable\\ic_number.xml"
+    },
+    {
+        "merged": "C:\\Users\\marin\\.gradle\\daemon\\8.0\\uab.uab_coin.app-merged_res-34:\\layout_activity_news.xml.flat",
+        "source": "C:\\Users\\marin\\.gradle\\daemon\\8.0\\uab.uab_coin.app-main-36:\\layout\\activity_news.xml"
+    },
+    {
+        "merged": "C:\\Users\\marin\\.gradle\\daemon\\8.0\\uab.uab_coin.app-merged_res-34:\\drawable_ic_person_profile.xml.flat",
+        "source": "C:\\Users\\marin\\.gradle\\daemon\\8.0\\uab.uab_coin.app-main-36:\\drawable\\ic_person_profile.xml"
+    },
+    {
+        "merged": "C:\\Users\\marin\\.gradle\\daemon\\8.0\\uab.uab_coin.app-merged_res-34:\\layout_activity_statistics.xml.flat",
+        "source": "C:\\Users\\marin\\.gradle\\daemon\\8.0\\uab.uab_coin.app-main-36:\\layout\\activity_statistics.xml"
+    },
+    {
+        "merged": "C:\\Users\\marin\\.gradle\\daemon\\8.0\\uab.uab_coin.app-merged_res-34:\\mipmap-mdpi_ic_launcher_foreground.png.flat",
+        "source": "C:\\Users\\marin\\.gradle\\daemon\\8.0\\uab.uab_coin.app-main-36:\\mipmap-mdpi\\ic_launcher_foreground.png"
+    },
+    {
+        "merged": "C:\\Users\\marin\\.gradle\\daemon\\8.0\\uab.uab_coin.app-merged_res-34:\\mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "C:\\Users\\marin\\.gradle\\daemon\\8.0\\uab.uab_coin.app-main-36:\\mipmap-anydpi-v26\\ic_launcher.xml"
+    },
+    {
+        "merged": "C:\\Users\\marin\\.gradle\\daemon\\8.0\\uab.uab_coin.app-merged_res-34:\\drawable_ic_edit_drawer_menu.xml.flat",
+        "source": "C:\\Users\\marin\\.gradle\\daemon\\8.0\\uab.uab_coin.app-main-36:\\drawable\\ic_edit_drawer_menu.xml"
+    },
+    {
+        "merged": "C:\\Users\\marin\\.gradle\\daemon\\8.0\\uab.uab_coin.app-merged_res-34:\\drawable_ic_edit.xml.flat",
+        "source": "C:\\Users\\marin\\.gradle\\daemon\\8.0\\uab.uab_coin.app-main-36:\\drawable\\ic_edit.xml"
     }
 ]

@@ -7,27 +7,47 @@
     android:background="@color/whiteUab"
     tools:context=".activities.RedeemCoinsActivity">
 
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="0dp"
+        android:layout_height="250dp"
+        android:gravity="center"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/sansita_extrabold"
+            android:text="@string/redeem_coins_title"
+            android:textAlignment="center"
+            android:textColor="@color/blackUab"
+            android:textIsSelectable="false"
+            android:textSize="35sp" />
+    </LinearLayout>
+
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/rvOffers"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:layout_marginStart="1dp"
-        android:layout_marginTop="1dp"
-        android:layout_marginEnd="1dp"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
         android:layout_marginBottom="1dp"
-        tools:listitem="@layout/offers_list_item"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout"
+        tools:listitem="@layout/offers_list_item" />
 
     <TextView
         android:id="@+id/tvLoadingData"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Loading Data....."
-        android:textSize="28sp"
         android:textColor="@color/black"
+        android:textSize="28sp"
         android:textStyle="bold"
         android:visibility="gone"
         app:layout_constraintBottom_toBottomOf="parent"

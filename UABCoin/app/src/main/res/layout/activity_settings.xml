@@ -1,11 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/whiteUab">
 
     <LinearLayout
+        android:id="@+id/linearLayout2"
         android:layout_width="0dp"
         android:layout_height="250dp"
         android:gravity="center_horizontal|center_vertical"
@@ -28,20 +30,49 @@
             android:textIsSelectable="false"
             android:textSize="35sp" />
 
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="409dp"
+        android:layout_height="479dp"
+        android:gravity="center_horizontal"
+        android:orientation="vertical"
+        android:paddingLeft="10dp"
+        android:paddingTop="10dp"
+        android:paddingRight="10dp"
+        android:paddingBottom="10dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout2">
+
         <Button
             android:id="@+id/btn_changeLang"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:layout_height="64dp"
+            android:backgroundTint="@color/greenUab"
+            android:fontFamily="@font/mada_bold"
             android:text="@string/change_lang"
-            />
+            android:textSize="16sp" />
 
         <TextView
             android:id="@+id/LangMenu"
-            android:text="Selected Item"
-            android:textSize="20sp"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            />
+            android:fontFamily="@font/mada_bold"
+            android:paddingTop="10dp"
+            android:paddingBottom="25dp"
+            android:text="Selected Item"
+            android:textColor="@color/blackUab"
+            android:textSize="20sp" />
 
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="64dp"
+            android:backgroundTint="@color/greenUab"
+            android:fontFamily="@font/mada_bold"
+            android:text="Ayuda"
+            android:textSize="16sp" />
     </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>

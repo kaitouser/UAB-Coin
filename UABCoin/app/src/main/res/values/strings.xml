@@ -5,6 +5,9 @@
     <!-- Drawer Layout -->
     <string name="menu_drawer_open" translatable="false">Drawer Open</string>
     <string name="menu_drawer_close" translatable="false">Drawer Close</string>
+
+
     <string name="settings_title">Settings</string>
+    <string name="redeem_coins_title" translatable="false">Redeem your coins!</string>
     <string name="change_lang">Change language</string>
 </resources>
