@@ -64,7 +64,7 @@ class OfferActivity : AppCompatActivity() {
             }
             else
             {
-                findViewById<TextView>(R.id.textOfferRedeemCode).text = offerRedeemCode
+                findViewById<TextView>(R.id.textOfferRedeemCode).text = offerRedeemCode + " (already redeemed)"
             }
         }
     }
@@ -121,11 +121,15 @@ class OfferActivity : AppCompatActivity() {
 
                                 dbRef = FirebaseDatabase.getInstance().getReference("UsersRedeems")
                                     .child(userId).child(offerRedeemCode)
-                                dbRef.setValue("Redeemed")
+                                dbRef.setValue(offerPrice)
 
                                 alreadyRedeemed = "Yes"
 
                                 findViewById<TextView>(R.id.textOfferRedeemCode).text = offerRedeemCode
+                            }
+                            else
+                            {
+                                findViewById<TextView>(R.id.textOfferRedeemCode).text = "Not enough coins"
                             }
                         }
                     }

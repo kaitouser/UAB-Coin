@@ -50,6 +50,9 @@
         android:testOnly="true"
         android:theme="@style/Theme.UABCoin" >
         <activity
+            android:name="uab.uab_coin.activities.NewActivity"
+            android:exported="false" />
+        <activity
             android:name="uab.uab_coin.activities.OfferActivity"
             android:exported="false" />
         <activity
