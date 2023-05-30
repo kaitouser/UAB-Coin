@@ -44,6 +44,7 @@ font mada_bold
 font sansita_bold
 font sansita_extrabold
 id LangMenu
+id NewImageDisplay
 id activityContainer
 id appBarLayout
 id btnEditName
@@ -70,8 +71,11 @@ id nav_settings
 id nav_view
 id offerImageDisplay
 id result
+id rvNews
 id rvOffers
 id textEmail
+id textNewDescription
+id textNewName
 id textNiu
 id textOfferDescription
 id textOfferName
@@ -88,6 +92,8 @@ id textViewRedeemCoins2
 id textViewWelcomeUser
 id toolBar
 id tvLoadingData
+id tvLoadingData2
+id tvNewName
 id tvOfferName
 id tvOfferPrice
 id userImageDisplay
@@ -98,6 +104,7 @@ layout activity_drawer_base
 layout activity_edit_profile
 layout activity_get_coins
 layout activity_main
+layout activity_new
 layout activity_news
 layout activity_offer
 layout activity_profile
@@ -107,6 +114,7 @@ layout activity_statistics
 layout activity_welcome
 layout content_layout
 layout main_drawer_header
+layout news_list_item
 layout offers_list_item
 layout toolbar
 menu main_drawer_menu

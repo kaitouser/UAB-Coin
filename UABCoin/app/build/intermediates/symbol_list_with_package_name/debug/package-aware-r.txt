@@ -2617,6 +2617,7 @@ id FUNCTION
 id LangMenu
 id META
 id NO_DEBUG
+id NewImageDisplay
 id SHIFT
 id SHOW_ALL
 id SHOW_PATH
@@ -2993,6 +2994,7 @@ id right_icon
 id right_side
 id rounded
 id row_index_key
+id rvNews
 id rvOffers
 id save_non_transition_alpha
 id save_overlay_view
@@ -3078,6 +3080,8 @@ id text
 id text2
 id textEmail
 id textEnd
+id textNewDescription
+id textNewName
 id textNiu
 id textOfferDescription
 id textOfferName
@@ -3123,6 +3127,8 @@ id transition_scene_layoutid_cache
 id transition_transform
 id triangle
 id tvLoadingData
+id tvLoadingData2
+id tvNewName
 id tvOfferName
 id tvOfferPrice
 id unchecked
@@ -3255,6 +3261,7 @@ layout activity_drawer_base
 layout activity_edit_profile
 layout activity_get_coins
 layout activity_main
+layout activity_new
 layout activity_news
 layout activity_offer
 layout activity_profile
@@ -3328,6 +3335,7 @@ layout mtrl_picker_header_title_text
 layout mtrl_picker_header_toggle
 layout mtrl_picker_text_input_date
 layout mtrl_picker_text_input_date_range
+layout news_list_item
 layout notification_action
 layout notification_action_tombstone
 layout notification_media_action
