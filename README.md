@@ -1,8 +1,12 @@
 [![Contributors][contributors-shield]][contributors-url]
 
 <br />
-![product-screenshot]
+  
 <div align="center">
+
+  ![product-screenshot]
+  
+  <br />
   <h3 align="center">UAB-Coin</h3>
   <p align="center">
     Hackathons of Cloud Services: Co-creating and deploying
