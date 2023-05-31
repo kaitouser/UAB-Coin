@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\Users\marin\Desktop\SM-Projecte\UAB-Coin\UABCoin\app\src\main\AndroidManifest.xml:2:1-81:12
-INJECTED from C:\Users\marin\Desktop\SM-Projecte\UAB-Coin\UABCoin\app\src\main\AndroidManifest.xml:2:1-81:12
-INJECTED from C:\Users\marin\Desktop\SM-Projecte\UAB-Coin\UABCoin\app\src\main\AndroidManifest.xml:2:1-81:12
-INJECTED from C:\Users\marin\Desktop\SM-Projecte\UAB-Coin\UABCoin\app\src\main\AndroidManifest.xml:2:1-81:12
+ADDED from C:\Users\marin\Desktop\SM-Projecte\UAB-Coin\UABCoin\app\src\main\AndroidManifest.xml:2:1-85:12
+INJECTED from C:\Users\marin\Desktop\SM-Projecte\UAB-Coin\UABCoin\app\src\main\AndroidManifest.xml:2:1-85:12
+INJECTED from C:\Users\marin\Desktop\SM-Projecte\UAB-Coin\UABCoin\app\src\main\AndroidManifest.xml:2:1-85:12
+INJECTED from C:\Users\marin\Desktop\SM-Projecte\UAB-Coin\UABCoin\app\src\main\AndroidManifest.xml:2:1-85:12
 MERGED from [androidx.databinding:viewbinding:8.0.1] C:\Users\marin\.gradle\caches\transforms-3\fd8d0c815109165dee8a6579c0ae3722\transformed\jetified-viewbinding-8.0.1\AndroidManifest.xml:2:1-7:12
 MERGED from [com.google.firebase:firebase-auth-ktx:22.0.0] C:\Users\marin\.gradle\caches\transforms-3\21c8e533b2cd75169b7d5ad6b2d28ac8\transformed\jetified-firebase-auth-ktx-22.0.0\AndroidManifest.xml:2:1-17:12
 MERGED from [com.google.firebase:firebase-auth:22.0.0] C:\Users\marin\.gradle\caches\transforms-3\e8fc1b27b0604b432516b4f8f013b79b\transformed\jetified-firebase-auth-22.0.0\AndroidManifest.xml:17:1-75:12
@@ -92,22 +92,22 @@ MERGED from [androidx.print:print:1.0.0] C:\Users\marin\.gradle\caches\transform
 MERGED from [androidx.annotation:annotation-experimental:1.1.0] C:\Users\marin\.gradle\caches\transforms-3\263a4723e795c7dade1ecac9fc5e2a8f\transformed\jetified-annotation-experimental-1.1.0\AndroidManifest.xml:17:1-24:12
 MERGED from [io.grpc:grpc-android:1.52.1] C:\Users\marin\.gradle\caches\transforms-3\98cd1e9e1c8eb106ce81d0255e9707b4\transformed\jetified-grpc-android-1.52.1\AndroidManifest.xml:2:1-11:12
 MERGED from [com.google.firebase:protolite-well-known-types:18.0.0] C:\Users\marin\.gradle\caches\transforms-3\6c5f83662315a85ab37cc03e8de48ad2\transformed\jetified-protolite-well-known-types-18.0.0\AndroidManifest.xml:2:1-11:12
-INJECTED from C:\Users\marin\Desktop\SM-Projecte\UAB-Coin\UABCoin\app\src\main\AndroidManifest.xml:2:1-81:12
-INJECTED from C:\Users\marin\Desktop\SM-Projecte\UAB-Coin\UABCoin\app\src\main\AndroidManifest.xml:2:1-81:12
-INJECTED from C:\Users\marin\Desktop\SM-Projecte\UAB-Coin\UABCoin\app\src\main\AndroidManifest.xml:2:1-81:12
+INJECTED from C:\Users\marin\Desktop\SM-Projecte\UAB-Coin\UABCoin\app\src\main\AndroidManifest.xml:2:1-85:12
+INJECTED from C:\Users\marin\Desktop\SM-Projecte\UAB-Coin\UABCoin\app\src\main\AndroidManifest.xml:2:1-85:12
+INJECTED from C:\Users\marin\Desktop\SM-Projecte\UAB-Coin\UABCoin\app\src\main\AndroidManifest.xml:2:1-85:12
 	package
 		INJECTED from C:\Users\marin\Desktop\SM-Projecte\UAB-Coin\UABCoin\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\marin\Desktop\SM-Projecte\UAB-Coin\UABCoin\app\src\main\AndroidManifest.xml:2:1-81:12
+		ADDED from C:\Users\marin\Desktop\SM-Projecte\UAB-Coin\UABCoin\app\src\main\AndroidManifest.xml:2:1-85:12
 		INJECTED from C:\Users\marin\Desktop\SM-Projecte\UAB-Coin\UABCoin\app\src\main\AndroidManifest.xml
 	android:versionName
 		INJECTED from C:\Users\marin\Desktop\SM-Projecte\UAB-Coin\UABCoin\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\marin\Desktop\SM-Projecte\UAB-Coin\UABCoin\app\src\main\AndroidManifest.xml:2:1-81:12
+		ADDED from C:\Users\marin\Desktop\SM-Projecte\UAB-Coin\UABCoin\app\src\main\AndroidManifest.xml:2:1-85:12
 		INJECTED from C:\Users\marin\Desktop\SM-Projecte\UAB-Coin\UABCoin\app\src\main\AndroidManifest.xml
 	xmlns:tools
 		ADDED from C:\Users\marin\Desktop\SM-Projecte\UAB-Coin\UABCoin\app\src\main\AndroidManifest.xml:3:5-51
 	android:versionCode
 		INJECTED from C:\Users\marin\Desktop\SM-Projecte\UAB-Coin\UABCoin\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\marin\Desktop\SM-Projecte\UAB-Coin\UABCoin\app\src\main\AndroidManifest.xml:2:1-81:12
+		ADDED from C:\Users\marin\Desktop\SM-Projecte\UAB-Coin\UABCoin\app\src\main\AndroidManifest.xml:2:1-85:12
 		INJECTED from C:\Users\marin\Desktop\SM-Projecte\UAB-Coin\UABCoin\app\src\main\AndroidManifest.xml
 	xmlns:android
 		ADDED from C:\Users\marin\Desktop\SM-Projecte\UAB-Coin\UABCoin\app\src\main\AndroidManifest.xml:2:11-69
@@ -362,7 +362,7 @@ MERGED from [io.grpc:grpc-android:1.52.1] C:\Users\marin\.gradle\caches\transfor
 	android:name
 		ADDED from C:\Users\marin\Desktop\SM-Projecte\UAB-Coin\UABCoin\app\src\main\AndroidManifest.xml:11:22-76
 application
-ADDED from C:\Users\marin\Desktop\SM-Projecte\UAB-Coin\UABCoin\app\src\main\AndroidManifest.xml:13:5-79:19
+ADDED from C:\Users\marin\Desktop\SM-Projecte\UAB-Coin\UABCoin\app\src\main\AndroidManifest.xml:13:5-83:19
 MERGED from [com.google.firebase:firebase-auth-ktx:22.0.0] C:\Users\marin\.gradle\caches\transforms-3\21c8e533b2cd75169b7d5ad6b2d28ac8\transformed\jetified-firebase-auth-ktx-22.0.0\AndroidManifest.xml:7:5-15:19
 MERGED from [com.google.firebase:firebase-auth-ktx:22.0.0] C:\Users\marin\.gradle\caches\transforms-3\21c8e533b2cd75169b7d5ad6b2d28ac8\transformed\jetified-firebase-auth-ktx-22.0.0\AndroidManifest.xml:7:5-15:19
 MERGED from [com.google.firebase:firebase-auth:22.0.0] C:\Users\marin\.gradle\caches\transforms-3\e8fc1b27b0604b432516b4f8f013b79b\transformed\jetified-firebase-auth-22.0.0\AndroidManifest.xml:28:5-73:19
@@ -554,30 +554,38 @@ ADDED from C:\Users\marin\Desktop\SM-Projecte\UAB-Coin\UABCoin\app\src\main\Andr
 		ADDED from C:\Users\marin\Desktop\SM-Projecte\UAB-Coin\UABCoin\app\src\main\AndroidManifest.xml:65:13-60
 	android:name
 		ADDED from C:\Users\marin\Desktop\SM-Projecte\UAB-Coin\UABCoin\app\src\main\AndroidManifest.xml:63:13-56
-activity#uab.uab_coin.activities.WelcomeActivity
+activity#uab.uab_coin.activities.HelpActivity
 ADDED from C:\Users\marin\Desktop\SM-Projecte\UAB-Coin\UABCoin\app\src\main\AndroidManifest.xml:66:9-69:63
 	android:exported
 		ADDED from C:\Users\marin\Desktop\SM-Projecte\UAB-Coin\UABCoin\app\src\main\AndroidManifest.xml:68:13-37
 	android:theme
 		ADDED from C:\Users\marin\Desktop\SM-Projecte\UAB-Coin\UABCoin\app\src\main\AndroidManifest.xml:69:13-60
 	android:name
-		ADDED from C:\Users\marin\Desktop\SM-Projecte\UAB-Coin\UABCoin\app\src\main\AndroidManifest.xml:67:13-55
-activity#uab.uab_coin.activities.MainActivity
-ADDED from C:\Users\marin\Desktop\SM-Projecte\UAB-Coin\UABCoin\app\src\main\AndroidManifest.xml:70:9-78:20
+		ADDED from C:\Users\marin\Desktop\SM-Projecte\UAB-Coin\UABCoin\app\src\main\AndroidManifest.xml:67:13-52
+activity#uab.uab_coin.activities.WelcomeActivity
+ADDED from C:\Users\marin\Desktop\SM-Projecte\UAB-Coin\UABCoin\app\src\main\AndroidManifest.xml:70:9-73:63
 	android:exported
-		ADDED from C:\Users\marin\Desktop\SM-Projecte\UAB-Coin\UABCoin\app\src\main\AndroidManifest.xml:72:13-36
+		ADDED from C:\Users\marin\Desktop\SM-Projecte\UAB-Coin\UABCoin\app\src\main\AndroidManifest.xml:72:13-37
+	android:theme
+		ADDED from C:\Users\marin\Desktop\SM-Projecte\UAB-Coin\UABCoin\app\src\main\AndroidManifest.xml:73:13-60
 	android:name
-		ADDED from C:\Users\marin\Desktop\SM-Projecte\UAB-Coin\UABCoin\app\src\main\AndroidManifest.xml:71:13-52
+		ADDED from C:\Users\marin\Desktop\SM-Projecte\UAB-Coin\UABCoin\app\src\main\AndroidManifest.xml:71:13-55
+activity#uab.uab_coin.activities.MainActivity
+ADDED from C:\Users\marin\Desktop\SM-Projecte\UAB-Coin\UABCoin\app\src\main\AndroidManifest.xml:74:9-82:20
+	android:exported
+		ADDED from C:\Users\marin\Desktop\SM-Projecte\UAB-Coin\UABCoin\app\src\main\AndroidManifest.xml:76:13-36
+	android:name
+		ADDED from C:\Users\marin\Desktop\SM-Projecte\UAB-Coin\UABCoin\app\src\main\AndroidManifest.xml:75:13-52
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from C:\Users\marin\Desktop\SM-Projecte\UAB-Coin\UABCoin\app\src\main\AndroidManifest.xml:73:13-77:29
+ADDED from C:\Users\marin\Desktop\SM-Projecte\UAB-Coin\UABCoin\app\src\main\AndroidManifest.xml:77:13-81:29
 action#android.intent.action.MAIN
-ADDED from C:\Users\marin\Desktop\SM-Projecte\UAB-Coin\UABCoin\app\src\main\AndroidManifest.xml:74:17-69
+ADDED from C:\Users\marin\Desktop\SM-Projecte\UAB-Coin\UABCoin\app\src\main\AndroidManifest.xml:78:17-69
 	android:name
-		ADDED from C:\Users\marin\Desktop\SM-Projecte\UAB-Coin\UABCoin\app\src\main\AndroidManifest.xml:74:25-66
+		ADDED from C:\Users\marin\Desktop\SM-Projecte\UAB-Coin\UABCoin\app\src\main\AndroidManifest.xml:78:25-66
 category#android.intent.category.LAUNCHER
-ADDED from C:\Users\marin\Desktop\SM-Projecte\UAB-Coin\UABCoin\app\src\main\AndroidManifest.xml:76:17-77
+ADDED from C:\Users\marin\Desktop\SM-Projecte\UAB-Coin\UABCoin\app\src\main\AndroidManifest.xml:80:17-77
 	android:name
-		ADDED from C:\Users\marin\Desktop\SM-Projecte\UAB-Coin\UABCoin\app\src\main\AndroidManifest.xml:76:27-74
+		ADDED from C:\Users\marin\Desktop\SM-Projecte\UAB-Coin\UABCoin\app\src\main\AndroidManifest.xml:80:27-74
 service#com.google.firebase.components.ComponentDiscoveryService
 ADDED from [com.google.firebase:firebase-auth-ktx:22.0.0] C:\Users\marin\.gradle\caches\transforms-3\21c8e533b2cd75169b7d5ad6b2d28ac8\transformed\jetified-firebase-auth-ktx-22.0.0\AndroidManifest.xml:8:9-14:19
 MERGED from [com.google.firebase:firebase-auth:22.0.0] C:\Users\marin\.gradle\caches\transforms-3\e8fc1b27b0604b432516b4f8f013b79b\transformed\jetified-firebase-auth-22.0.0\AndroidManifest.xml:66:9-72:19

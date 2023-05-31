@@ -4,10 +4,6 @@
         "source": "C:\\Users\\marin\\.gradle\\daemon\\8.0\\uab.uab_coin.app-main-36:\\layout\\activity_edit_profile.xml"
     },
     {
-        "merged": "uab.uab_coin.app-merged_res-34:/layout_activity_new.xml.flat",
-        "source": "uab.uab_coin.app-main-36:/layout/activity_new.xml"
-    },
-    {
         "merged": "C:\\Users\\marin\\.gradle\\daemon\\8.0\\uab.uab_coin.app-merged_res-34:\\layout_activity_new.xml.flat",
         "source": "C:\\Users\\marin\\.gradle\\daemon\\8.0\\uab.uab_coin.app-main-36:\\layout\\activity_new.xml"
     },
@@ -38,6 +34,10 @@
     {
         "merged": "C:\\Users\\marin\\.gradle\\daemon\\8.0\\uab.uab_coin.app-merged_res-34:\\font_baloo_bhai_2_bold.xml.flat",
         "source": "C:\\Users\\marin\\.gradle\\daemon\\8.0\\uab.uab_coin.app-main-36:\\font\\baloo_bhai_2_bold.xml"
+    },
+    {
+        "merged": "uab.uab_coin.app-merged_res-34:/layout_activity_help.xml.flat",
+        "source": "uab.uab_coin.app-main-36:/layout/activity_help.xml"
     },
     {
         "merged": "C:\\Users\\marin\\.gradle\\daemon\\8.0\\uab.uab_coin.app-merged_res-34:\\drawable_ic_launcher_background.xml.flat",
@@ -98,6 +98,10 @@
     {
         "merged": "C:\\Users\\marin\\.gradle\\daemon\\8.0\\uab.uab_coin.app-merged_res-34:\\layout_toolbar.xml.flat",
         "source": "C:\\Users\\marin\\.gradle\\daemon\\8.0\\uab.uab_coin.app-main-36:\\layout\\toolbar.xml"
+    },
+    {
+        "merged": "C:\\Users\\marin\\.gradle\\daemon\\8.0\\uab.uab_coin.app-merged_res-34:\\layout_activity_help.xml.flat",
+        "source": "C:\\Users\\marin\\.gradle\\daemon\\8.0\\uab.uab_coin.app-main-36:\\layout\\activity_help.xml"
     },
     {
         "merged": "C:\\Users\\marin\\.gradle\\daemon\\8.0\\uab.uab_coin.app-merged_res-34:\\drawable_edit_btn.xml.flat",

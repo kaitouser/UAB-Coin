@@ -95,6 +95,10 @@
             android:exported="false"
             android:theme="@style/Theme.Design.NoActionBar" />
         <activity
+            android:name="uab.uab_coin.activities.HelpActivity"
+            android:exported="false"
+            android:theme="@style/Theme.Design.NoActionBar" />
+        <activity
             android:name="uab.uab_coin.activities.WelcomeActivity"
             android:exported="false"
             android:theme="@style/Theme.Design.NoActionBar" />

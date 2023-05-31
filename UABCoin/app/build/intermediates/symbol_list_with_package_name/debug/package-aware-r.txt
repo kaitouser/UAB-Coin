@@ -2726,6 +2726,7 @@ id btnSignIn
 id btn_changeLang
 id buttonBack
 id buttonEdit
+id buttonHelp
 id buttonNews
 id buttonObtainCoins
 id buttonPanel
@@ -2878,6 +2879,7 @@ id line3
 id linear
 id linearLayout
 id linearLayout2
+id linearLayout3
 id linear_ll
 id listMode
 id list_item
@@ -3097,6 +3099,12 @@ id textUserName
 id textUserNameBig
 id textUserNameDrawer
 id textView
+id textView2
+id textView3
+id textView4
+id textView5
+id textView6
+id textView7
 id textViewNCoins
 id textViewRedeemCoins2
 id textViewWelcomeUser
@@ -3260,6 +3268,7 @@ layout abc_tooltip
 layout activity_drawer_base
 layout activity_edit_profile
 layout activity_get_coins
+layout activity_help
 layout activity_main
 layout activity_new
 layout activity_news

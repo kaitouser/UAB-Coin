@@ -3,8 +3,10 @@
 package uab.uab_coin.activities
 
 import android.app.AlertDialog
+import android.content.Intent
 import android.content.res.Configuration
 import android.os.Bundle
+import android.widget.Button
 import android.widget.TextView
 import uab.uab_coin.R
 import uab.uab_coin.databinding.ActivitySettingsBinding
@@ -14,15 +16,27 @@ class SettingsActivity  : DrawerBaseActivity()
 {
     var activitySettingsBinding: ActivitySettingsBinding? = null
 
+    private lateinit var userId : String
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         activitySettingsBinding = ActivitySettingsBinding.inflate(layoutInflater)
         setContentView(activitySettingsBinding!!.root)
+
+        userId = intent.getStringExtra("id").toString()
         loadLocale()
+
         activitySettingsBinding!!.btnChangeLang.setOnClickListener {
             changeLanguage();
         }
+
+        findViewById<Button>(R.id.buttonHelp).setOnClickListener {
+            val intent : Intent = Intent(this, HelpActivity::class.java)
+            intent.putExtra("id", userId)
+            startActivity(intent)
+        }
     }
+
     private fun changeLanguage() {
     var languages = arrayOf("English", "EspaÃ±ol")
     var builder = AlertDialog.Builder(this)
@@ -62,6 +76,7 @@ class SettingsActivity  : DrawerBaseActivity()
         editor.putString("app_lang", s)
         editor.apply()
     }
+
     private fun loadLocale(){
         var preferences = getSharedPreferences("Settings", MODE_PRIVATE)
         var lang = preferences.getString("app_lang", "")

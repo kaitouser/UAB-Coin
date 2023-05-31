@@ -64,6 +64,10 @@
             android:exported="false"
             android:theme="@style/Theme.Design.NoActionBar" />
         <activity
+            android:name=".activities.HelpActivity"
+            android:exported="false"
+            android:theme="@style/Theme.Design.NoActionBar" />
+        <activity
             android:name=".activities.WelcomeActivity"
             android:exported="false"
             android:theme="@style/Theme.Design.NoActionBar" />
