@@ -1,12 +1,12 @@
-#Tue May 30 23:23:51 CEST 2023
-base.0=C\:\\Users\\srkok\\OneDrive\\Escritorio\\Programacion\\Android\\UABCoin\\UABCoin\\app\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\classes.dex
-base.1=C\:\\Users\\srkok\\OneDrive\\Escritorio\\Programacion\\Android\\UABCoin\\UABCoin\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\0\\classes.dex
-base.2=C\:\\Users\\srkok\\OneDrive\\Escritorio\\Programacion\\Android\\UABCoin\\UABCoin\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\14\\classes.dex
-base.3=C\:\\Users\\srkok\\OneDrive\\Escritorio\\Programacion\\Android\\UABCoin\\UABCoin\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\15\\classes.dex
-base.4=C\:\\Users\\srkok\\OneDrive\\Escritorio\\Programacion\\Android\\UABCoin\\UABCoin\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\3\\classes.dex
-base.5=C\:\\Users\\srkok\\OneDrive\\Escritorio\\Programacion\\Android\\UABCoin\\UABCoin\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\8\\classes.dex
-base.6=C\:\\Users\\srkok\\OneDrive\\Escritorio\\Programacion\\Android\\UABCoin\\UABCoin\\app\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\classes2.dex
-base.7=C\:\\Users\\srkok\\OneDrive\\Escritorio\\Programacion\\Android\\UABCoin\\UABCoin\\app\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\classes3.dex
+#Wed May 31 18:46:48 CEST 2023
+base.0=C\:\\Users\\marin\\Desktop\\SM-Projecte\\UAB-Coin\\UABCoin\\app\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\classes.dex
+base.1=C\:\\Users\\marin\\Desktop\\SM-Projecte\\UAB-Coin\\UABCoin\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\0\\classes.dex
+base.2=C\:\\Users\\marin\\Desktop\\SM-Projecte\\UAB-Coin\\UABCoin\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\14\\classes.dex
+base.3=C\:\\Users\\marin\\Desktop\\SM-Projecte\\UAB-Coin\\UABCoin\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\15\\classes.dex
+base.4=C\:\\Users\\marin\\Desktop\\SM-Projecte\\UAB-Coin\\UABCoin\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\3\\classes.dex
+base.5=C\:\\Users\\marin\\Desktop\\SM-Projecte\\UAB-Coin\\UABCoin\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\8\\classes.dex
+base.6=C\:\\Users\\marin\\Desktop\\SM-Projecte\\UAB-Coin\\UABCoin\\app\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\classes2.dex
+base.7=C\:\\Users\\marin\\Desktop\\SM-Projecte\\UAB-Coin\\UABCoin\\app\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\classes3.dex
 path.0=classes.dex
 path.1=0/classes.dex
 path.2=14/classes.dex
