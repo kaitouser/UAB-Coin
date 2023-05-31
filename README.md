@@ -1,6 +1,7 @@
 [![Contributors][contributors-shield]][contributors-url]
 
 <br />
+![product-screenshot]
 <div align="center">
   <h3 align="center">UAB-Coin</h3>
   <p align="center">
@@ -73,3 +74,4 @@ The aim of this project is to promote students’ participation in our community
 
 [contributors-shield]: https://img.shields.io/github/contributors/othneildrew/Best-README-Template.svg?style=for-the-badge
 [contributors-url]: https://github.com/kaitouser/UAB-Coin/graphs/contributors
+[product-screenshot]: imgs/iconBlack.png
