@@ -51,6 +51,7 @@ id btnEditName
 id btnEditNiu
 id btnScan
 id btnSignIn
+id btnTrash
 id btn_changeLang
 id buttonBack
 id buttonEdit
@@ -63,6 +64,7 @@ id buttonStatistics
 id etName
 id etNiu
 id imageUserDrawer
+id imageView
 id linearLayout
 id linearLayout2
 id linearLayout3

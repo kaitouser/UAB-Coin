@@ -2723,6 +2723,7 @@ id btnEditName
 id btnEditNiu
 id btnScan
 id btnSignIn
+id btnTrash
 id btn_changeLang
 id buttonBack
 id buttonEdit
@@ -2859,6 +2860,7 @@ id ignore
 id ignoreRequest
 id image
 id imageUserDrawer
+id imageView
 id immediateStop
 id included
 id info

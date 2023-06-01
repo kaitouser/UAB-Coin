@@ -1,12 +1,12 @@
-#Wed May 31 23:03:36 CEST 2023
-base.0=C\:\\Users\\marin\\Desktop\\SM-Projecte\\UAB-Coin\\UABCoin\\app\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\classes.dex
-base.1=C\:\\Users\\marin\\Desktop\\SM-Projecte\\UAB-Coin\\UABCoin\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\0\\classes.dex
-base.2=C\:\\Users\\marin\\Desktop\\SM-Projecte\\UAB-Coin\\UABCoin\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\14\\classes.dex
-base.3=C\:\\Users\\marin\\Desktop\\SM-Projecte\\UAB-Coin\\UABCoin\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\15\\classes.dex
-base.4=C\:\\Users\\marin\\Desktop\\SM-Projecte\\UAB-Coin\\UABCoin\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\3\\classes.dex
-base.5=C\:\\Users\\marin\\Desktop\\SM-Projecte\\UAB-Coin\\UABCoin\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\8\\classes.dex
-base.6=C\:\\Users\\marin\\Desktop\\SM-Projecte\\UAB-Coin\\UABCoin\\app\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\classes2.dex
-base.7=C\:\\Users\\marin\\Desktop\\SM-Projecte\\UAB-Coin\\UABCoin\\app\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\classes3.dex
+#Thu Jun 01 15:46:09 CEST 2023
+base.0=C\:\\Users\\adria\\Desktop\\Adri\\Uni\\SM\\UABCoin\\UABCoin\\app\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\classes.dex
+base.1=C\:\\Users\\adria\\Desktop\\Adri\\Uni\\SM\\UABCoin\\UABCoin\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\0\\classes.dex
+base.2=C\:\\Users\\adria\\Desktop\\Adri\\Uni\\SM\\UABCoin\\UABCoin\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\14\\classes.dex
+base.3=C\:\\Users\\adria\\Desktop\\Adri\\Uni\\SM\\UABCoin\\UABCoin\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\15\\classes.dex
+base.4=C\:\\Users\\adria\\Desktop\\Adri\\Uni\\SM\\UABCoin\\UABCoin\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\3\\classes.dex
+base.5=C\:\\Users\\adria\\Desktop\\Adri\\Uni\\SM\\UABCoin\\UABCoin\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\8\\classes.dex
+base.6=C\:\\Users\\adria\\Desktop\\Adri\\Uni\\SM\\UABCoin\\UABCoin\\app\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\classes2.dex
+base.7=C\:\\Users\\adria\\Desktop\\Adri\\Uni\\SM\\UABCoin\\UABCoin\\app\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\classes3.dex
 path.0=classes.dex
 path.1=0/classes.dex
 path.2=14/classes.dex
