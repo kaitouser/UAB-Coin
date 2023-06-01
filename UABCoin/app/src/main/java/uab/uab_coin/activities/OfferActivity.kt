@@ -15,8 +15,13 @@ import com.google.firebase.database.DatabaseError
 import com.google.firebase.database.DatabaseReference
 import com.google.firebase.database.FirebaseDatabase
 import com.google.firebase.database.ValueEventListener
+import com.google.mlkit.common.model.DownloadConditions
+import com.google.mlkit.nl.translate.TranslateLanguage
+import com.google.mlkit.nl.translate.Translation
+import com.google.mlkit.nl.translate.TranslatorOptions
 import uab.uab_coin.R
 import uab.uab_coin.models.UserModel
+import java.util.Locale
 import kotlin.properties.Delegates
 
 class OfferActivity : AppCompatActivity() {
@@ -33,6 +38,16 @@ class OfferActivity : AppCompatActivity() {
 
     private var alreadyRedeemed = "Waiting"
 
+    private var sourceLanguageTitle = "CATALAN"
+    private var targetLanguageTitle = Locale.getDefault().displayLanguage.uppercase()
+
+    // Create an English-German translator:
+    private val options = TranslatorOptions.Builder()
+        .setSourceLanguage(TranslateLanguage.fromLanguageTag(sourceLanguageTitle).toString())
+        .setTargetLanguage(TranslateLanguage.fromLanguageTag(targetLanguageTitle).toString())
+        .build()
+    var currentTranslator = Translation.getClient(options)
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_offer)
@@ -44,9 +59,26 @@ class OfferActivity : AppCompatActivity() {
         offerRedeemCode = intent.getStringExtra("offerRedeemCode").toString()
         offerImage = intent.getStringExtra("offerImage").toString()
 
+        var conditions = DownloadConditions.Builder()
+            .requireWifi()
+            .build()
+
+        currentTranslator.downloadModelIfNeeded(conditions)
+            .addOnSuccessListener {
+                currentTranslator.translate(offerDescription)
+                    .addOnSuccessListener { translated_text ->
+                        findViewById<TextView>(R.id.textOfferDescription).text = translated_text
+                    }
+                    .addOnFailureListener { exception ->
+                        findViewById<TextView>(R.id.textOfferDescription).text = "Translation Error"
+                    }
+            }
+            .addOnFailureListener { exception ->
+                findViewById<TextView>(R.id.textOfferDescription).text = "Translation Packages Error"
+            }
 
         findViewById<TextView>(R.id.textOfferName).text = offerName
-        findViewById<TextView>(R.id.textOfferDescription).text = offerDescription
+        //findViewById<TextView>(R.id.textOfferDescription).text = offerDescription
         findViewById<TextView>(R.id.textOfferPrice).text = offerPrice
 
         Glide.with(this)

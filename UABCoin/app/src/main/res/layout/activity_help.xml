@@ -58,7 +58,7 @@
                 android:layout_weight="1"
                 android:fontFamily="@font/sansita_extrabold"
                 android:paddingBottom="10dp"
-                android:text="How can I win coins?"
+                android:text="@string/how_coins"
                 android:textColor="@color/greenUab"
                 android:textSize="30sp" />
 
@@ -68,7 +68,7 @@
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:fontFamily="@font/mada_bold"
-                android:text="There are 2 options: Scaning QRs at events or taking photos recycling! Both can be done at &quot;Get coins&quot;."
+                android:text="@string/explain_win_coins"
                 android:textColor="@color/blackUab"
                 android:textSize="20sp" />
 
@@ -89,7 +89,7 @@
                 android:layout_weight="1"
                 android:fontFamily="@font/sansita_extrabold"
                 android:paddingBottom="10dp"
-                android:text="How can I redeem my coins?"
+                android:text="@string/how_redeem"
                 android:textColor="@color/greenUab"
                 android:textSize="30sp" />
 
@@ -99,7 +99,7 @@
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:fontFamily="@font/mada_bold"
-                android:text="You can view all offers at &quot;Redeem coins&quot;, just select one and click &quot;Redeem&quot;."
+                android:text="@string/redeem_explain"
                 android:textColor="@color/blackUab"
                 android:textSize="20sp" />
         </LinearLayout>
@@ -119,7 +119,7 @@
                 android:layout_weight="1"
                 android:fontFamily="@font/sansita_extrabold"
                 android:paddingBottom="10dp"
-                android:text="Where can I report bugs?"
+                android:text="@string/report_bugs"
                 android:textColor="@color/greenUab"
                 android:textSize="30sp" />
 
@@ -129,7 +129,7 @@
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:fontFamily="@font/mada_bold"
-                android:text="For any reports, bugs or suggestions, you may send an email to UABcoin@gmail.com"
+                android:text="@string/report_explain"
                 android:textColor="@color/blackUab"
                 android:textSize="20sp" />
         </LinearLayout>

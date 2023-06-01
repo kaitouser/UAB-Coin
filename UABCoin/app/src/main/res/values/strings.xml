@@ -10,4 +10,29 @@
     <string name="settings_title">Settings</string>
     <string name="redeem_coins_title" translatable="false">Redeem your coins!</string>
     <string name="change_lang">Change language</string>
+    <string name="enter_name">Enter name</string>
+    <string name="enter_niu">Enter NIU</string>
+    <string name="obtain_more_coins">Obtain more coins!</string>
+    <string name="scan">Scan</string>
+    <string name="how_coins">How can I win coins?</string>
+    <string name="explain_win_coins"><![CDATA[There are 2 options: Scaning QRs at events or taking photos recycling! Both can be done at &quot;Get coins&quot;.]]></string>
+    <string name="how_redeem">How can I redeem my coins?</string>
+    <string name="redeem_explain"><![CDATA[You can view all offers at &quot;Redeem coins&quot;, just select one and click &quot;Redeem&quot;.]]></string>
+    <string name="report_bugs">Where can I report bugs?</string>
+    <string name="report_explain">For any reports, bugs or suggestions, you may send an email to UABcoin@gmail.com</string>
+    <string name="signin_text">Sign in</string>
+    <string name="news_title">News</string>
+    <string name="redeem_button">Redeem</string>
+    <string name="username_str">Username</string>
+    <string name="email_str">E-mail</string>
+    <string name="edit_title">    Edit</string>
+    <string name="support_title">Support</string>
+    <string name="welcome_title">Welcome </string>
+    <string name="coins_str">coins</string>
+    <string name="account_settings_title">Account Settings</string>
+    <string name="obtain_coins_str">Obtain coins</string>
+    <string name="redeem_coins_str">Redeem coins</string>
+    <string name="statistics_title">Statistics</string>
+    <string name="edit_profile">Edit profile</string>
+    <string name="logout">Logout</string>
 </resources>

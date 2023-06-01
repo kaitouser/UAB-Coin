@@ -84,7 +84,7 @@
             android:fontFamily="@font/mada_bold"
             android:paddingLeft="50dp"
             android:paddingRight="50dp"
-            android:text="Redeem"
+            android:text="@string/redeem_button"
             android:textSize="16sp" />
 
         <TextView

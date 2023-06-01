@@ -25,7 +25,7 @@
             android:textAlignment="center"
             android:textColor="@color/blackUab"
             android:textIsSelectable="false"
-            android:textSize="35sp" />
+            android:textSize="32sp" />
     </LinearLayout>
 
     <androidx.recyclerview.widget.RecyclerView

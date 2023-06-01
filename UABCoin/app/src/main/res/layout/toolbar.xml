@@ -22,7 +22,7 @@
             android:layout_weight="1"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
-            android:text="Account Settings"
+            android:text="@string/account_settings_title"
             android:textSize="16dp"
             android:textStyle="bold"
             android:gravity="center" />

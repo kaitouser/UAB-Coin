@@ -68,14 +68,15 @@ class WelcomeActivity : DrawerBaseActivity() {
 
     private fun fetchUser() {
         dbRef = FirebaseDatabase.getInstance().getReference("Users").child(userId)
-
+        var actualText = findViewById<TextView>(R.id.textViewWelcomeUser).text.toString()
+        var actualCoinText = findViewById<TextView>(R.id.textViewNCoins).text.toString()
         dbRef.addValueEventListener(object : ValueEventListener{
             override fun onDataChange(snapshot: DataSnapshot) {
                 if (snapshot.exists()) {
                     val user = snapshot.getValue(UserModel::class.java)
                     if (user != null) {
-                        findViewById<TextView>(R.id.textViewWelcomeUser).text = "Welcome " + user.userName.toString() + "!"
-                        findViewById<TextView>(R.id.textViewNCoins).text = user.userCoins.toString() + " coins"
+                        findViewById<TextView>(R.id.textViewWelcomeUser).text = actualText + user.userName.toString() + "!"
+                        findViewById<TextView>(R.id.textViewNCoins).text = user.userCoins.toString() + " " + actualCoinText
                     }
                 }
             }

@@ -27,10 +27,10 @@
             android:layout_height="wrap_content"
             android:fontFamily="@font/sansita_extrabold"
             android:gravity="fill_horizontal|center_vertical"
-            android:text="Obtain more Coins!"
+            android:text="@string/obtain_more_coins"
             android:textColor="@color/blackUab"
             android:textIsSelectable="false"
-            android:textSize="35sp" />
+            android:textSize="32sp" />
     </LinearLayout>
 
     <LinearLayout
@@ -50,7 +50,7 @@
             android:layout_height="64dp"
             android:backgroundTint="@color/greenUab"
             android:fontFamily="@font/mada_bold"
-            android:text="Scan"
+            android:text="@string/scan"
             android:textSize="16sp" />
 
         <TextView
