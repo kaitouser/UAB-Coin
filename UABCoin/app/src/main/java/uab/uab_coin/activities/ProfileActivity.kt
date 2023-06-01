@@ -4,7 +4,6 @@ import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Button
-import android.widget.ImageButton
 import android.widget.ImageView
 import android.widget.TextView
 import com.bumptech.glide.Glide
@@ -16,30 +15,32 @@ import com.google.firebase.database.FirebaseDatabase
 import com.google.firebase.database.ValueEventListener
 import uab.uab_coin.R
 import uab.uab_coin.databinding.ActivityProfileBinding
-import uab.uab_coin.databinding.ActivityWelcomeBinding
 import uab.uab_coin.models.UserModel
-import javax.microedition.khronos.opengles.GL
 
-class ProfileActivity : AppCompatActivity() {
+
+class ProfileActivity : AppCompatActivity()
+{
+    var activityProfileBinding: ActivityProfileBinding? = null
 
     private lateinit var dbRef : DatabaseReference
     private lateinit var auth : FirebaseAuth
 
     private lateinit var userId : String
 
-    var activityProfileBinding: ActivityProfileBinding? = null
 
-    override fun onCreate(savedInstanceState: Bundle?) {
+    override fun onCreate(savedInstanceState: Bundle?)
+    {
+        // Afegir barra d'eines
         super.onCreate(savedInstanceState)
         activityProfileBinding = ActivityProfileBinding.inflate(layoutInflater)
         setContentView(activityProfileBinding!!.root)
 
+        // Obtenir informacio usuari
         auth = FirebaseAuth.getInstance()
-
         userId = intent.getStringExtra("id").toString()
-
         fetchUser()
 
+        // Control boton "Edit"
         findViewById<Button>(R.id.buttonEdit).setOnClickListener {
             val intent : Intent  = Intent(this, EditProfileActivity::class.java)
             intent.putExtra("id", userId)
@@ -47,7 +48,9 @@ class ProfileActivity : AppCompatActivity() {
         }
     }
 
-    private fun fetchUser() {
+    // Funcio per obtenir informacio del usuari a la Base de Dades
+    private fun fetchUser()
+    {
         dbRef = FirebaseDatabase.getInstance().getReference("Users").child(userId)
 
         dbRef.addValueEventListener(object : ValueEventListener{

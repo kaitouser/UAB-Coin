@@ -1,15 +1,12 @@
 package uab.uab_coin.activities
 
-import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import android.util.Log
 import android.widget.Button
 import android.widget.ImageView
 import android.widget.TextView
 import android.widget.Toast
 import com.bumptech.glide.Glide
-import com.google.firebase.auth.FirebaseAuth
 import com.google.firebase.database.DataSnapshot
 import com.google.firebase.database.DatabaseError
 import com.google.firebase.database.DatabaseReference
@@ -17,12 +14,11 @@ import com.google.firebase.database.FirebaseDatabase
 import com.google.firebase.database.ValueEventListener
 import uab.uab_coin.R
 import uab.uab_coin.models.UserModel
-import kotlin.properties.Delegates
 
-class OfferActivity : AppCompatActivity() {
 
+class OfferActivity : AppCompatActivity()
+{
     private lateinit var dbRef : DatabaseReference
-    private lateinit var auth : FirebaseAuth
 
     private lateinit var userId : String
     private lateinit var offerName : String
@@ -33,10 +29,14 @@ class OfferActivity : AppCompatActivity() {
 
     private var alreadyRedeemed = "Waiting"
 
-    override fun onCreate(savedInstanceState: Bundle?) {
+
+    override fun onCreate(savedInstanceState: Bundle?)
+    {
+        // Establir arxiu layout
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_offer)
 
+        // Obtenir informacio oferta
         userId = intent.getStringExtra("id").toString()
         offerName = intent.getStringExtra("offerName").toString()
         offerPrice = intent.getStringExtra("offerPrice").toString()
@@ -44,7 +44,7 @@ class OfferActivity : AppCompatActivity() {
         offerRedeemCode = intent.getStringExtra("offerRedeemCode").toString()
         offerImage = intent.getStringExtra("offerImage").toString()
 
-
+        // Modificar parametres oferta
         findViewById<TextView>(R.id.textOfferName).text = offerName
         findViewById<TextView>(R.id.textOfferDescription).text = offerDescription
         findViewById<TextView>(R.id.textOfferPrice).text = offerPrice
@@ -53,9 +53,8 @@ class OfferActivity : AppCompatActivity() {
             .load(offerImage)
             .into(findViewById<ImageView>(R.id.offerImageDisplay))
 
+        // Control boton "Redeem"
         alreadyRedeemed = "No"
-
-
         findViewById<Button>(R.id.buttonRedeemOffer).setOnClickListener {
             checkRedeem()
             if (alreadyRedeemed=="No")
@@ -69,9 +68,9 @@ class OfferActivity : AppCompatActivity() {
         }
     }
 
-    private fun checkRedeem() {
-
-
+    // Funcio per comprovar si ja s'ha obtingut l'oferta
+    private fun checkRedeem()
+    {
         dbRef = FirebaseDatabase.getInstance().getReference("UsersRedeems").child(userId)
 
         dbRef.addValueEventListener(object : ValueEventListener {
@@ -92,7 +91,10 @@ class OfferActivity : AppCompatActivity() {
 
         })
     }
-    private fun redeemOffer() {
+
+    // Funcio per obtenir l'oferta
+    private fun redeemOffer()
+    {
         dbRef = FirebaseDatabase.getInstance().getReference("Users").child(userId)
 
         dbRef.addValueEventListener(object : ValueEventListener {

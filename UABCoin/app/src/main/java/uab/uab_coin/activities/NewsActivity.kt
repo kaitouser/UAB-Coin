@@ -2,12 +2,10 @@ package uab.uab_coin.activities
 
 import android.content.Intent
 import android.os.Bundle
-import android.util.Log
 import android.view.View
 import android.widget.TextView
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
-import com.google.firebase.auth.FirebaseAuth
 import com.google.firebase.database.DataSnapshot
 import com.google.firebase.database.DatabaseError
 import com.google.firebase.database.DatabaseReference
@@ -15,9 +13,9 @@ import com.google.firebase.database.FirebaseDatabase
 import com.google.firebase.database.ValueEventListener
 import uab.uab_coin.R
 import uab.uab_coin.adapter.NewAdapter
-import uab.uab_coin.adapter.OfferAdapter
 import uab.uab_coin.databinding.ActivityNewsBinding
 import uab.uab_coin.models.NewModel
+
 
 class NewsActivity : DrawerBaseActivity()
 {
@@ -28,29 +26,34 @@ class NewsActivity : DrawerBaseActivity()
     private lateinit var newList: ArrayList<NewModel>
 
     private lateinit var dbRef : DatabaseReference
-    private lateinit var auth : FirebaseAuth
 
     private lateinit var userId : String
 
-    override fun onCreate(savedInstanceState: Bundle?) {
+
+    override fun onCreate(savedInstanceState: Bundle?)
+    {
+        // Afegir barra d'eines
         super.onCreate(savedInstanceState)
         activityNewsBinding = ActivityNewsBinding.inflate(layoutInflater)
         setContentView(activityNewsBinding!!.root)
 
+        // Obtenir informacio noticia
         newRecyclerView = findViewById(R.id.rvNews)
         newRecyclerView.layoutManager = LinearLayoutManager(this)
         newRecyclerView.setHasFixedSize(true)
         tvLoadingData = findViewById(R.id.tvLoadingData2)
 
+        //
         newList = arrayListOf<NewModel>()
 
+        //
         userId = intent.getStringExtra("id").toString()
-
         getNewsData()
-
     }
-    private fun getNewsData() {
 
+    //
+    private fun getNewsData()
+    {
         newRecyclerView.visibility = View.GONE
         tvLoadingData.visibility = View.VISIBLE
 

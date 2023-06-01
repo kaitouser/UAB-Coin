@@ -1,26 +1,19 @@
 package uab.uab_coin.activities
 
-import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import android.widget.Button
 import android.widget.EditText
 import android.widget.ImageButton
-import android.widget.TextView
 import android.widget.Toast
 import com.google.firebase.auth.FirebaseAuth
-import com.google.firebase.database.DataSnapshot
-import com.google.firebase.database.DatabaseError
 import com.google.firebase.database.DatabaseReference
 import com.google.firebase.database.FirebaseDatabase
-import com.google.firebase.database.ValueEventListener
 import uab.uab_coin.R
 import uab.uab_coin.databinding.ActivityEditProfileBinding
-import uab.uab_coin.databinding.ActivityWelcomeBinding
-import uab.uab_coin.models.UserModel
 
-class EditProfileActivity : AppCompatActivity() {
 
+class EditProfileActivity : AppCompatActivity()
+{
     private lateinit var dbRef : DatabaseReference
     private lateinit var auth : FirebaseAuth
 
@@ -28,18 +21,22 @@ class EditProfileActivity : AppCompatActivity() {
 
     private lateinit var etName: EditText
     private lateinit var etNiu: EditText
+
     private lateinit var btnEditName: ImageButton
     private lateinit var btnEditNiu: ImageButton
 
     var activityEditProfileBinding: ActivityEditProfileBinding? = null
 
-    override fun onCreate(savedInstanceState: Bundle?) {
+
+    override fun onCreate(savedInstanceState: Bundle?)
+    {
+        // Afegir barra d'eines
         super.onCreate(savedInstanceState)
         activityEditProfileBinding = ActivityEditProfileBinding.inflate(layoutInflater)
         setContentView(activityEditProfileBinding!!.root)
 
+        // Obtenir informacio usuari
         auth = FirebaseAuth.getInstance()
-
         userId = intent.getStringExtra("id").toString()
 
         etName = findViewById(R.id.etName)
@@ -47,8 +44,7 @@ class EditProfileActivity : AppCompatActivity() {
         btnEditName = findViewById(R.id.btnEditName)
         btnEditNiu = findViewById(R.id.btnEditNiu)
 
-        //fetchUser()
-
+        // Funcions per l'edicio de parametres de l'usuari
         btnEditName.setOnClickListener {
             editName()
         }
@@ -56,27 +52,9 @@ class EditProfileActivity : AppCompatActivity() {
         btnEditNiu.setOnClickListener {
             editNiu()
         }
-
     }
 
-    private fun fetchUser() {
-        dbRef = FirebaseDatabase.getInstance().getReference("Users").child(userId)
-
-        dbRef.addValueEventListener(object : ValueEventListener {
-            override fun onDataChange(snapshot: DataSnapshot) {
-                if (snapshot.exists()) {
-                    val user = snapshot.getValue(UserModel::class.java)
-                    if (user != null) {
-                        findViewById<TextView>(R.id.textToolbarCoins).text = user.userCoins.toString()
-                    }
-                }
-            }
-            override fun onCancelled(error : DatabaseError) {
-                TODO("Not yet implemented")
-            }
-        })
-    }
-
+    // Funcio per editar el nom de l'usuari
     private fun editName() {
         val name = etName.text.toString()
 
@@ -96,6 +74,7 @@ class EditProfileActivity : AppCompatActivity() {
         }
     }
 
+    // Funcio per editar el niu de l'usuari
     private fun editNiu() {
         val niu = etNiu.text.toString()
 

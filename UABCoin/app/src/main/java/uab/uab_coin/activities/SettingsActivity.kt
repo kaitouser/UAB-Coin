@@ -12,24 +12,31 @@ import uab.uab_coin.R
 import uab.uab_coin.databinding.ActivitySettingsBinding
 import java.util.Locale
 
+
 class SettingsActivity  : DrawerBaseActivity()
 {
     var activitySettingsBinding: ActivitySettingsBinding? = null
 
     private lateinit var userId : String
 
-    override fun onCreate(savedInstanceState: Bundle?) {
+
+    override fun onCreate(savedInstanceState: Bundle?)
+    {
+        // Afegir barra d'eines
         super.onCreate(savedInstanceState)
         activitySettingsBinding = ActivitySettingsBinding.inflate(layoutInflater)
         setContentView(activitySettingsBinding!!.root)
 
+        // Obtenir llenguatge usuari
         userId = intent.getStringExtra("id").toString()
         loadLocale()
 
+        // Control boton "Change Language"
         activitySettingsBinding!!.btnChangeLang.setOnClickListener {
             changeLanguage();
         }
 
+        // Control boton "Support"
         findViewById<Button>(R.id.buttonHelp).setOnClickListener {
             val intent : Intent = Intent(this, HelpActivity::class.java)
             intent.putExtra("id", userId)
@@ -37,7 +44,9 @@ class SettingsActivity  : DrawerBaseActivity()
         }
     }
 
-    private fun changeLanguage() {
+    // Funcio per canviar de llenguatge
+    private fun changeLanguage()
+    {
     var languages = arrayOf("English", "EspaÃ±ol")
     var builder = AlertDialog.Builder(this)
     builder.setTitle("Choose Language");
@@ -64,7 +73,9 @@ class SettingsActivity  : DrawerBaseActivity()
     mDialog.show()
 }
 
-    private fun setLocale(s: String) {
+    // Funcio per establir llenguatge local per defecte
+    private fun setLocale(s: String)
+    {
         var locale = Locale(s)
         Locale.setDefault(locale)
 
@@ -77,7 +88,9 @@ class SettingsActivity  : DrawerBaseActivity()
         editor.apply()
     }
 
-    private fun loadLocale(){
+    // Funcio per carregar llenguatge local per defecte
+    private fun loadLocale()
+    {
         var preferences = getSharedPreferences("Settings", MODE_PRIVATE)
         var lang = preferences.getString("app_lang", "")
         if (lang != null) {

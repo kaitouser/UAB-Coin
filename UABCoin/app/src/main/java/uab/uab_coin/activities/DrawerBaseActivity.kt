@@ -24,9 +24,9 @@ import com.google.firebase.database.ValueEventListener
 import uab.uab_coin.R
 import uab.uab_coin.models.UserModel
 
-open class DrawerBaseActivity : AppCompatActivity(),
-    NavigationView.OnNavigationItemSelectedListener {
 
+open class DrawerBaseActivity : AppCompatActivity(), NavigationView.OnNavigationItemSelectedListener
+{
     var drawerLayout: DrawerLayout? = null
 
     private lateinit var dbRef : DatabaseReference
@@ -34,20 +34,26 @@ open class DrawerBaseActivity : AppCompatActivity(),
     private lateinit var account: GoogleSignInAccount
 
 
-    override fun setContentView(view: View) {
+    override fun setContentView(view: View)
+    {
+        // Obtenir informacio usuari
         auth = FirebaseAuth.getInstance()
         account = GoogleSignIn.getLastSignedInAccount(this)!!
 
-        if (account != null) {
+        if (account != null)
+        {
             fetchUser()
         }
 
+        // Control Menu de Navegacio Lateral
         drawerLayout = layoutInflater.inflate(R.layout.activity_drawer_base, null) as DrawerLayout
         val container = drawerLayout!!.findViewById<FrameLayout>(R.id.activityContainer)
         container.addView(view)
+
         super.setContentView(drawerLayout)
         val toolbar = drawerLayout!!.findViewById<Toolbar>(R.id.toolBar)
         setSupportActionBar(toolbar)
+
         val navigationView = drawerLayout!!.findViewById<NavigationView>(R.id.nav_view)
         navigationView.setNavigationItemSelectedListener(this)
         val toggle = ActionBarDrawerToggle(
@@ -61,7 +67,9 @@ open class DrawerBaseActivity : AppCompatActivity(),
         toggle.syncState()
     }
 
-    override fun onNavigationItemSelected(item: MenuItem): Boolean {
+    // Funcio pel control canvi d'Activitat de les opcions del Menu de Navegacio Lateral
+    override fun onNavigationItemSelected(item: MenuItem): Boolean
+    {
         drawerLayout!!.closeDrawer(GravityCompat.START)
         if (item.itemId == R.id.nav_profile) {
             val intent : Intent  = Intent(this, ProfileActivity::class.java)
@@ -82,13 +90,9 @@ open class DrawerBaseActivity : AppCompatActivity(),
         return false
     }
 
-    protected fun allocateActivityTitle(titleString: String?) {
-        if (supportActionBar != null) {
-            supportActionBar!!.title = titleString
-        }
-    }
-
-    private fun fetchUser() {
+    // Funcio per obtenir informacio del usuari a la Base de Dades
+    private fun fetchUser()
+    {
         dbRef = FirebaseDatabase.getInstance().getReference("Users").child(account.id.toString())
 
         dbRef.addValueEventListener(object : ValueEventListener {

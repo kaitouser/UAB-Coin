@@ -1,13 +1,11 @@
 package uab.uab_coin.activities
 
 import android.content.Intent
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.View
 import android.widget.TextView
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
-import com.google.firebase.auth.FirebaseAuth
 import com.google.firebase.database.DataSnapshot
 import com.google.firebase.database.DatabaseError
 import com.google.firebase.database.DatabaseReference
@@ -28,29 +26,33 @@ class RedeemCoinsActivity : DrawerBaseActivity()
     private lateinit var offerList: ArrayList<OfferModel>
 
     private lateinit var dbRef : DatabaseReference
-    private lateinit var auth : FirebaseAuth
 
     private lateinit var userId : String
 
-    override fun onCreate(savedInstanceState: Bundle?) {
+    override fun onCreate(savedInstanceState: Bundle?)
+    {
+        // Afegir barra d'eines
         super.onCreate(savedInstanceState)
         activityRedeemCoinsBinding = ActivityRedeemCoinsBinding.inflate(layoutInflater)
         setContentView(activityRedeemCoinsBinding!!.root)
 
+        // Obtenir informacio oferta
         offerRecyclerView = findViewById(R.id.rvOffers)
         offerRecyclerView.layoutManager = LinearLayoutManager(this)
         offerRecyclerView.setHasFixedSize(true)
         tvLoadingData = findViewById(R.id.tvLoadingData)
 
+        //
         offerList = arrayListOf<OfferModel>()
 
+        //
         userId = intent.getStringExtra("id").toString()
-
         getOffersData()
-
     }
-    private fun getOffersData() {
 
+    //
+    private fun getOffersData()
+    {
         offerRecyclerView.visibility = View.GONE
         tvLoadingData.visibility = View.VISIBLE
 

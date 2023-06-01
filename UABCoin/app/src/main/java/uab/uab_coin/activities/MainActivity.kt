@@ -4,7 +4,6 @@ import android.app.Activity
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import android.util.Log
 import android.widget.Button
 import android.widget.Toast
 import androidx.activity.result.contract.ActivityResultContracts
@@ -24,18 +23,21 @@ import uab.uab_coin.R
 import uab.uab_coin.models.UserModel
 
 
-class MainActivity : AppCompatActivity() {
-
+class MainActivity : AppCompatActivity()
+{
     private lateinit var dbRef : DatabaseReference
     private lateinit var auth : FirebaseAuth
     private lateinit var googleSignInClient : GoogleSignInClient
 
-    override fun onCreate(savedInstanceState: Bundle?) {
+
+    override fun onCreate(savedInstanceState: Bundle?)
+    {
+        // Establir arxiu layout
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
+        //
         auth = FirebaseAuth.getInstance()
-
         val gso = GoogleSignInOptions.Builder(GoogleSignInOptions.DEFAULT_SIGN_IN)
             .requestIdToken(getString(R.string.default_web_client_id))
             .requestEmail()
@@ -48,12 +50,16 @@ class MainActivity : AppCompatActivity() {
         }
     }
 
-    private fun signInGoogle() {
+    //
+    private fun signInGoogle()
+    {
         val signInIntent = googleSignInClient.signInIntent
         launcher.launch(signInIntent)
     }
 
-    private val launcher = registerForActivityResult(ActivityResultContracts.StartActivityForResult()) {
+    //
+    private val launcher = registerForActivityResult(ActivityResultContracts.StartActivityForResult())
+    {
         result ->
             if (result.resultCode == Activity.RESULT_OK) {
                 val task = GoogleSignIn.getSignedInAccountFromIntent(result.data)
@@ -61,7 +67,9 @@ class MainActivity : AppCompatActivity() {
             }
     }
 
-    private fun handleResults(task: Task<GoogleSignInAccount>) {
+    //
+    private fun handleResults(task: Task<GoogleSignInAccount>)
+    {
         if (task.isSuccessful) {
             val account : GoogleSignInAccount? = task.result
             if (account != null) {
@@ -72,7 +80,9 @@ class MainActivity : AppCompatActivity() {
         }
     }
 
-    private fun updateUI(account: GoogleSignInAccount) {
+    //
+    private fun updateUI(account: GoogleSignInAccount)
+    {
         val credential = GoogleAuthProvider.getCredential(account.idToken, null)
         auth.signInWithCredential(credential).addOnCompleteListener{
             if (it.isSuccessful){
@@ -86,7 +96,9 @@ class MainActivity : AppCompatActivity() {
         }
     }
 
-    private fun initUser(userName : String, userEmail : String, userId : String, userPhoto : String) {
+    //
+    private fun initUser(userName : String, userEmail : String, userId : String, userPhoto : String)
+    {
         dbRef = FirebaseDatabase.getInstance().getReference("Users").child(userId)
 
         dbRef.addValueEventListener(object : ValueEventListener{
