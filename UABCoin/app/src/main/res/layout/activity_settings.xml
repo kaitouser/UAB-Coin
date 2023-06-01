@@ -73,7 +73,7 @@
             android:layout_height="64dp"
             android:backgroundTint="@color/greenUab"
             android:fontFamily="@font/mada_bold"
-            android:text="Support"
+            android:text="@string/support_title"
             android:textSize="16sp" />
     </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>

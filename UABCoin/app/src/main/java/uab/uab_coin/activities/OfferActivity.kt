@@ -7,18 +7,25 @@ import android.widget.ImageView
 import android.widget.TextView
 import android.widget.Toast
 import com.bumptech.glide.Glide
+import com.google.firebase.auth.FirebaseAuth
 import com.google.firebase.database.DataSnapshot
 import com.google.firebase.database.DatabaseError
 import com.google.firebase.database.DatabaseReference
 import com.google.firebase.database.FirebaseDatabase
 import com.google.firebase.database.ValueEventListener
+import com.google.mlkit.common.model.DownloadConditions
+import com.google.mlkit.nl.translate.TranslateLanguage
+import com.google.mlkit.nl.translate.Translation
+import com.google.mlkit.nl.translate.TranslatorOptions
 import uab.uab_coin.R
 import uab.uab_coin.models.UserModel
+import java.util.Locale
 
 
 class OfferActivity : AppCompatActivity()
 {
     private lateinit var dbRef : DatabaseReference
+    private lateinit var auth : FirebaseAuth
 
     private lateinit var userId : String
     private lateinit var offerName : String
@@ -29,14 +36,22 @@ class OfferActivity : AppCompatActivity()
 
     private var alreadyRedeemed = "Waiting"
 
+    private var sourceLanguageTitle = "CATALAN"
+    private var targetLanguageTitle = Locale.getDefault().displayLanguage.uppercase()
+
+    // Create an English-German translator:
+    private val options = TranslatorOptions.Builder()
+        .setSourceLanguage(TranslateLanguage.fromLanguageTag(sourceLanguageTitle).toString())
+        .setTargetLanguage(TranslateLanguage.fromLanguageTag(targetLanguageTitle).toString())
+        .build()
+    var currentTranslator = Translation.getClient(options)
+
 
     override fun onCreate(savedInstanceState: Bundle?)
     {
-        // Establir arxiu layout
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_offer)
 
-        // Obtenir informacio oferta
         userId = intent.getStringExtra("id").toString()
         offerName = intent.getStringExtra("offerName").toString()
         offerPrice = intent.getStringExtra("offerPrice").toString()
@@ -44,17 +59,34 @@ class OfferActivity : AppCompatActivity()
         offerRedeemCode = intent.getStringExtra("offerRedeemCode").toString()
         offerImage = intent.getStringExtra("offerImage").toString()
 
-        // Modificar parametres oferta
+        var conditions = DownloadConditions.Builder()
+            .requireWifi()
+            .build()
+
+        currentTranslator.downloadModelIfNeeded(conditions)
+            .addOnSuccessListener {
+                currentTranslator.translate(offerDescription)
+                    .addOnSuccessListener { translated_text ->
+                        findViewById<TextView>(R.id.textOfferDescription).text = translated_text
+                    }
+                    .addOnFailureListener { exception ->
+                        findViewById<TextView>(R.id.textOfferDescription).text = "Translation Error"
+                    }
+            }
+            .addOnFailureListener { exception ->
+                findViewById<TextView>(R.id.textOfferDescription).text = "Translation Packages Error"
+            }
+
         findViewById<TextView>(R.id.textOfferName).text = offerName
-        findViewById<TextView>(R.id.textOfferDescription).text = offerDescription
         findViewById<TextView>(R.id.textOfferPrice).text = offerPrice
 
         Glide.with(this)
             .load(offerImage)
             .into(findViewById<ImageView>(R.id.offerImageDisplay))
 
-        // Control boton "Redeem"
         alreadyRedeemed = "No"
+
+
         findViewById<Button>(R.id.buttonRedeemOffer).setOnClickListener {
             checkRedeem()
             if (alreadyRedeemed=="No")
@@ -68,7 +100,7 @@ class OfferActivity : AppCompatActivity()
         }
     }
 
-    // Funcio per comprovar si ja s'ha obtingut l'oferta
+    //
     private fun checkRedeem()
     {
         dbRef = FirebaseDatabase.getInstance().getReference("UsersRedeems").child(userId)
@@ -92,7 +124,7 @@ class OfferActivity : AppCompatActivity()
         })
     }
 
-    // Funcio per obtenir l'oferta
+    //
     private fun redeemOffer()
     {
         dbRef = FirebaseDatabase.getInstance().getReference("Users").child(userId)

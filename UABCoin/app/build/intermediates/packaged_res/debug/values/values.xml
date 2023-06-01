@@ -37,21 +37,46 @@
     <color name="whiteUabCoin">#FBFBFB</color>
     <color name="yellowDarkUabCoin">#CD7C00</color>
     <color name="yellowUabCoin">#FCA311</color>
+    <string name="account_settings_title">Account Settings</string>
     <string name="app_name">UAB-Coin</string>
     <string name="change_lang">Change language</string>
+    <string name="coins_str">coins</string>
     <string name="default_web_client_id" translatable="false">329847691564-fb4joh784uoptapb36ef6uka0cnkn123.apps.googleusercontent.com</string>
+    <string name="edit_profile">Edit profile</string>
+    <string name="edit_title">    Edit</string>
+    <string name="email_str">E-mail</string>
+    <string name="enter_name">Enter name</string>
+    <string name="enter_niu">Enter NIU</string>
+    <string name="explain_win_coins"><![CDATA[There are 2 options: Scaning QRs at events or taking photos recycling! Both can be done at &quot;Get coins&quot;.]]></string>
     <string name="firebase_database_url" translatable="false">https://uab-coin-default-rtdb.europe-west1.firebasedatabase.app</string>
     <string name="gcm_defaultSenderId" translatable="false">329847691564</string>
     <string name="google_api_key" translatable="false">AIzaSyAmSGYWHDxQ_V21dj3YP3gA6LsvZ-ZVz7k</string>
     <string name="google_app_id" translatable="false">1:329847691564:android:ab7ddba926e1c2ffe47489</string>
     <string name="google_crash_reporting_api_key" translatable="false">AIzaSyAmSGYWHDxQ_V21dj3YP3gA6LsvZ-ZVz7k</string>
     <string name="google_storage_bucket" translatable="false">uab-coin.appspot.com</string>
+    <string name="how_coins">How can I win coins?</string>
+    <string name="how_redeem">How can I redeem my coins?</string>
+    <string name="logout">Logout</string>
     <string name="menu_drawer_close" translatable="false">Drawer Close</string>
     <string name="menu_drawer_open" translatable="false">Drawer Open</string>
+    <string name="news_title">News</string>
+    <string name="obtain_coins_str">Obtain coins</string>
+    <string name="obtain_more_coins">Obtain more coins!</string>
     <string name="project_id" translatable="false">uab-coin</string>
+    <string name="redeem_button">Redeem</string>
+    <string name="redeem_coins_str">Redeem coins</string>
     <string name="redeem_coins_title" translatable="false">Redeem your coins!</string>
+    <string name="redeem_explain"><![CDATA[You can view all offers at &quot;Redeem coins&quot;, just select one and click &quot;Redeem&quot;.]]></string>
+    <string name="report_bugs">Where can I report bugs?</string>
+    <string name="report_explain">For any reports, bugs or suggestions, you may send an email to UABcoin@gmail.com</string>
+    <string name="scan">Scan</string>
     <string name="settings_title">Settings</string>
+    <string name="signin_text">Sign in</string>
+    <string name="statistics_title">Statistics</string>
+    <string name="support_title">Support</string>
     <string name="title_activity_welcome_navigation" translatable="false">WelcomeNavigation</string>
+    <string name="username_str">Username</string>
+    <string name="welcome_title">Welcome </string>
     <style name="Theme.UABCoin" parent="Theme.MaterialComponents.DayNight.NoActionBar">
         
         <item name="colorPrimary">@color/purple_500</item>

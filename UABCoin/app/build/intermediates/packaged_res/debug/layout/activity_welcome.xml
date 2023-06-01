@@ -28,7 +28,7 @@
             android:layout_height="wrap_content"
             android:fontFamily="@font/sansita_extrabold"
             android:gravity="fill_horizontal|center_vertical"
-            android:text="Welcome user!"
+            android:text="@string/welcome_title"
             android:textColor="@color/blackUab"
             android:textIsSelectable="false"
             android:textSize="35sp" />
@@ -41,7 +41,7 @@
             android:gravity="center_vertical"
             android:paddingLeft="10dp"
             android:paddingBottom="5dp"
-            android:text="256 coins"
+            android:text="@string/coins_str"
             android:textColor="@color/blackUab"
             android:textIsSelectable="false"
             android:textSize="32sp" />
@@ -52,7 +52,7 @@
             android:layout_height="wrap_content"
             android:backgroundTint="@color/blackUab"
             android:fontFamily="@font/mada_bold"
-            android:text="News"
+            android:text="@string/news_title"
             android:textColor="@color/whiteUab" />
     </LinearLayout>
 
@@ -78,7 +78,7 @@
             android:layout_height="64dp"
             android:backgroundTint="@color/greenUab"
             android:fontFamily="@font/mada_bold"
-            android:text="Obtain coins"
+            android:text="@string/obtain_coins_str"
             android:textSize="16sp" />
 
         <Button
@@ -87,7 +87,7 @@
             android:layout_height="64dp"
             android:backgroundTint="@color/greenUab"
             android:fontFamily="@font/mada_bold"
-            android:text="Redeem coins"
+            android:text="@string/redeem_coins_str"
             android:textSize="16sp" />
 
         <Button
@@ -96,7 +96,7 @@
             android:layout_height="64dp"
             android:backgroundTint="@color/greenUab"
             android:fontFamily="@font/mada_bold"
-            android:text="Statistics"
+            android:text="@string/statistics_title"
             android:textSize="16sp" />
     </LinearLayout>
 

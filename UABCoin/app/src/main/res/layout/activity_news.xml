@@ -21,7 +21,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:fontFamily="@font/sansita_extrabold"
-            android:text="News"
+            android:text="@string/news_title"
             android:textAlignment="center"
             android:textColor="@color/blackUab"
             android:textIsSelectable="false"

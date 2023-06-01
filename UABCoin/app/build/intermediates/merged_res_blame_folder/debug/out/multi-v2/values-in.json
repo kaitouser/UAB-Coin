@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "uab.uab_coin.app-mergeDebugResources-32:/values-in/values-in.xml",
+            "outputFile": "uab.uab_coin.app-mergeDebugResources-33:/values-in/values-in.xml",
             "map": [
                 {
                     "source": "C:\\Users\\marin\\.gradle\\caches\\transforms-3\\b69d544f7b6693210ff5eb75f85ed6df\\transformed\\jetified-play-services-basement-18.2.0\\res\\values-in\\values.xml",

@@ -14,5 +14,9 @@ class StatisticsActivity : DrawerBaseActivity()
         super.onCreate(savedInstanceState)
         activityStatisticsBinding = ActivityStatisticsBinding.inflate(layoutInflater)
         setContentView(activityStatisticsBinding!!.root)
+
+        var userId = intent.getStringExtra("id").toString()
+
+
     }
 }

@@ -38,7 +38,7 @@
             android:paddingTop="5dp"
             android:paddingRight="50dp"
             android:paddingBottom="5dp"
-            android:text="Sign in"
+            android:text="@string/signin_text"
             android:textColor="@color/blackUab"
             android:textSize="20sp" />
     </LinearLayout>

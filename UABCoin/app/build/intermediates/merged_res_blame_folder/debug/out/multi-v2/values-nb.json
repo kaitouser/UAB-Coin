@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "uab.uab_coin.app-mergeDebugResources-32:/values-nb/values-nb.xml",
+            "outputFile": "uab.uab_coin.app-mergeDebugResources-33:/values-nb/values-nb.xml",
             "map": [
                 {
                     "source": "C:\\Users\\marin\\.gradle\\caches\\transforms-3\\829c98b5333eabf0726976effd92023c\\transformed\\browser-1.4.0\\res\\values-nb\\values-nb.xml",
