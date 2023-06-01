@@ -59,7 +59,7 @@
             android:layout_height="64dp"
             android:backgroundTint="@color/greenUab"
             android:fontFamily="@font/mada_bold"
-            android:text="Scan"
+            android:text="Trash"
             android:textSize="16sp" />
 
         <TextView

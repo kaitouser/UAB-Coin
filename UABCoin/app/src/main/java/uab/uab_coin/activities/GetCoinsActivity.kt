@@ -67,27 +67,26 @@ class GetCoinsActivity : DrawerBaseActivity()
     override fun onActivityResult(requestCode: Int, resultCode: Int, data: Intent?) {
 
         val result = IntentIntegrator.parseActivityResult(requestCode, resultCode, data)
+        if (result != null) {
+            if (result.contents == null) {
+                Toast.makeText(this, "Cancelado", Toast.LENGTH_LONG).show()
+            } else {
+                val inputString = result.contents.toString()
+                val parts = inputString.split("/")
+                val getCode = parts[0]
+                val coins = parts[1]
 
-        if (result.contents == null) {
-            Toast.makeText(this, "Cancelado", Toast.LENGTH_LONG).show()
-        } else {
-            val inputString = result.contents.toString()
-            val parts = inputString.split("/")
-            val getCode = parts[0]
-            val coins = parts[1]
+                checkRedeem(getCode.toString()) { result ->
 
-            checkRedeem(getCode.toString()) { result ->
-
-                if (result == "No")
-                {
-                    addCoins(getCode.toString(),coins.toString(), result)
-                    Toast.makeText(this, coins + " coins redeemed", Toast.LENGTH_LONG).show()
+                    if (result == "No") {
+                        addCoins(getCode.toString(), coins.toString(), result)
+                        Toast.makeText(this, coins + " coins redeemed", Toast.LENGTH_LONG).show()
+                    } else {
+                        Toast.makeText(this, "Coins already claimed", Toast.LENGTH_LONG).show()
+                    }
                 }
-                else {
-                    Toast.makeText(this, "Coins already claimed", Toast.LENGTH_LONG).show()
-                }
+
             }
-
         }
         if (requestCode == REQUEST_IMAGE_CAPTURE && resultCode == Activity.RESULT_OK) {
             val imageBitmap = data?.extras?.get("data") as Bitmap
@@ -95,6 +94,8 @@ class GetCoinsActivity : DrawerBaseActivity()
             imageView.setImageBitmap(imageBitmap)
 
             sendImageToCloudFunction(imageBitmap)
+        }else {
+            super.onActivityResult(requestCode, resultCode, data)
         }
     }
 
@@ -155,6 +156,7 @@ class GetCoinsActivity : DrawerBaseActivity()
             }
         })
     }
+
     private lateinit var binding: ActivityGetCoinsBinding
 
     override fun onCreate(savedInstanceState: Bundle?) {

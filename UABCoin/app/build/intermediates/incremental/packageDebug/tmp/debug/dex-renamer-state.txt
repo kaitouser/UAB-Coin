@@ -1,4 +1,4 @@
-#Thu Jun 01 15:46:09 CEST 2023
+#Thu Jun 01 15:56:14 CEST 2023
 base.0=C\:\\Users\\adria\\Desktop\\Adri\\Uni\\SM\\UABCoin\\UABCoin\\app\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\classes.dex
 base.1=C\:\\Users\\adria\\Desktop\\Adri\\Uni\\SM\\UABCoin\\UABCoin\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\0\\classes.dex
 base.2=C\:\\Users\\adria\\Desktop\\Adri\\Uni\\SM\\UABCoin\\UABCoin\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\14\\classes.dex
