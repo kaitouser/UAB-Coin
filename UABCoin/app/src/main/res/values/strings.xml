@@ -2,11 +2,11 @@
     <string name="app_name">UAB-Coin</string>
     <string name="title_activity_welcome_navigation" translatable="false">WelcomeNavigation</string>
 
-    <!-- Drawer Layout -->
+    <!-- Menu de Navegacio Lateral -->
     <string name="menu_drawer_open" translatable="false">Drawer Open</string>
     <string name="menu_drawer_close" translatable="false">Drawer Close</string>
 
-
+    <!-- Strings Traduits -->
     <string name="settings_title">Settings</string>
     <string name="redeem_coins_title" translatable="false">Redeem your coins!</string>
     <string name="change_lang">Change language</string>
@@ -25,9 +25,9 @@
     <string name="redeem_button">Redeem</string>
     <string name="username_str">Username</string>
     <string name="email_str">E-mail</string>
-    <string name="edit_title">    Edit</string>
+    <string name="edit_title">\u0020\u0020\u0020\u0020 Edit</string>
     <string name="support_title">Support</string>
-    <string name="welcome_title">Welcome </string>
+    <string name="welcome_title">Welcome \u0020</string>
     <string name="coins_str">coins</string>
     <string name="account_settings_title">Account Settings</string>
     <string name="obtain_coins_str">Obtain coins</string>

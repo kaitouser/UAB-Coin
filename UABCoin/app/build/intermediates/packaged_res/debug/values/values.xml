@@ -43,7 +43,7 @@
     <string name="coins_str">coins</string>
     <string name="default_web_client_id" translatable="false">329847691564-fb4joh784uoptapb36ef6uka0cnkn123.apps.googleusercontent.com</string>
     <string name="edit_profile">Edit profile</string>
-    <string name="edit_title">    Edit</string>
+    <string name="edit_title">\u0020\u0020\u0020\u0020 Edit</string>
     <string name="email_str">E-mail</string>
     <string name="enter_name">Enter name</string>
     <string name="enter_niu">Enter NIU</string>
@@ -76,7 +76,7 @@
     <string name="support_title">Support</string>
     <string name="title_activity_welcome_navigation" translatable="false">WelcomeNavigation</string>
     <string name="username_str">Username</string>
-    <string name="welcome_title">Welcome </string>
+    <string name="welcome_title">Welcome \u0020</string>
     <style name="Theme.UABCoin" parent="Theme.MaterialComponents.DayNight.NoActionBar">
         
         <item name="colorPrimary">@color/purple_500</item>

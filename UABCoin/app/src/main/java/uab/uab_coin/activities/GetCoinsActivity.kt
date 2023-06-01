@@ -13,7 +13,6 @@ import android.widget.Button
 import android.widget.ImageView
 import androidx.activity.result.ActivityResult
 import androidx.activity.result.contract.ActivityResultContracts
-import com.google.firebase.auth.FirebaseAuth
 import com.google.firebase.database.DataSnapshot
 import com.google.firebase.database.DatabaseError
 import com.google.firebase.database.DatabaseReference
@@ -32,9 +31,8 @@ import java.io.ByteArrayOutputStream
 
 class GetCoinsActivity : DrawerBaseActivity()
 {
+    private lateinit var binding: ActivityGetCoinsBinding
     private lateinit var dbRef : DatabaseReference
-    private lateinit var auth : FirebaseAuth
-
     private lateinit var userId : String
 
     companion object {
@@ -150,8 +148,6 @@ class GetCoinsActivity : DrawerBaseActivity()
         })
     }
 
-    private lateinit var binding: ActivityGetCoinsBinding
-
     override fun onCreate(savedInstanceState: Bundle?)
     {
         // Afegir barra d'eines
@@ -159,8 +155,10 @@ class GetCoinsActivity : DrawerBaseActivity()
         binding = ActivityGetCoinsBinding.inflate(layoutInflater)
         setContentView(binding.root)
 
+        //
         userId = intent.getStringExtra("id").toString()
         val btnTrash= findViewById<Button>(btnTrash)
+
         binding.btnTrash.setOnClickListener{
             startForResult.launch(Intent(MediaStore.ACTION_IMAGE_CAPTURE))
         }

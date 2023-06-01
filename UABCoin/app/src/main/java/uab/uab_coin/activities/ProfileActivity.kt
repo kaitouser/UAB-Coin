@@ -1,7 +1,6 @@
 package uab.uab_coin.activities
 
 import android.content.Intent
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Button
 import android.widget.ImageView
@@ -18,7 +17,7 @@ import uab.uab_coin.databinding.ActivityProfileBinding
 import uab.uab_coin.models.UserModel
 
 
-class ProfileActivity : AppCompatActivity()
+class ProfileActivity : DrawerBaseActivity()
 {
     var activityProfileBinding: ActivityProfileBinding? = null
 

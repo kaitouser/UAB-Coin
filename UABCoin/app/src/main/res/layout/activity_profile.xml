@@ -11,9 +11,9 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:orientation="vertical"
         android:gravity="center"
-        android:paddingTop="30dp"
+        android:orientation="vertical"
+        android:paddingTop="35dp"
         android:paddingBottom="30dp">
 
         <ImageView
@@ -21,18 +21,18 @@
             android:layout_width="120dp"
             android:layout_height="120dp"
             android:layout_gravity="center"
-            android:src="@drawable/ic_person_profile"/>
+            android:src="@drawable/ic_person_profile" />
 
         <TextView
             android:id="@+id/textUserNameBig"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="8dp"
+            android:fontFamily="@font/sansita_extrabold"
+            android:paddingTop="10dp"
             android:text="Placeholder"
             android:textColor="@color/blackUab"
-            android:textSize="25dp"
-            android:fontFamily="@font/sansita_extrabold"
-            />
+            android:textSize="25dp" />
 
     </LinearLayout>
 
