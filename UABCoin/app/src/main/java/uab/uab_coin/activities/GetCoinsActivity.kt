@@ -1,8 +1,18 @@
 package uab.uab_coin.activities
 
+import okhttp3.*
+import java.io.IOException
+import okhttp3.MediaType.Companion.toMediaTypeOrNull
+import android.app.Activity
 import android.content.Intent
+import android.graphics.Bitmap
 import android.os.Bundle
 import android.widget.Toast
+import android.provider.MediaStore
+import android.widget.Button
+import android.widget.ImageView
+import androidx.activity.result.ActivityResult
+import androidx.activity.result.contract.ActivityResultContracts
 import com.google.firebase.auth.FirebaseAuth
 import com.google.firebase.database.DataSnapshot
 import com.google.firebase.database.DatabaseError
@@ -10,12 +20,18 @@ import com.google.firebase.database.DatabaseReference
 import com.google.firebase.database.FirebaseDatabase
 import com.google.firebase.database.ValueEventListener
 import com.google.zxing.integration.android.IntentIntegrator
+import okhttp3.Call
+import okhttp3.Response
+import org.json.JSONObject
+import uab.uab_coin.R
+import uab.uab_coin.R.id.btnTrash
 import uab.uab_coin.databinding.ActivityGetCoinsBinding
 import uab.uab_coin.models.UserModel
+import java.io.ByteArrayOutputStream
+
 
 class GetCoinsActivity : DrawerBaseActivity()
 {
-
     private lateinit var dbRef : DatabaseReference
     private lateinit var auth : FirebaseAuth
 
@@ -23,18 +39,25 @@ class GetCoinsActivity : DrawerBaseActivity()
 
     companion object {
         const val RESULT = "RESULT"
+        private const val PICK_IMAGE_REQUEST = 1
+        private const val CAMERA_REQUEST = 2
+        private const val REQUEST_PERMISSION = 3
+        private const val REQUEST_IMAGE_CAPTURE = 4
+        private const val FUNCTION_URL = "https://europe-west3-uab-coin.cloudfunctions.net/function-1"
     }
-    private fun initScanner() {
+
+    private fun initScanner()
+    {
         val integrator = IntentIntegrator(this)
         integrator.setDesiredBarcodeFormats(IntentIntegrator.QR_CODE)
         //integrator.setPrompt("Sigue aprendiendo en CursoKotlin.com")
-        integrator.setTorchEnabled(true)
+        integrator.setTorchEnabled(false)
         integrator.setBeepEnabled(true)
         integrator.initiateScan()
 
     }
-    override fun onActivityResult(requestCode: Int, resultCode: Int, data: Intent?) {
-
+    override fun onActivityResult(requestCode: Int, resultCode: Int, data: Intent?)
+    {
         val result = IntentIntegrator.parseActivityResult(requestCode, resultCode, data)
         if (result != null) {
             if (result.contents == null) {
@@ -47,35 +70,113 @@ class GetCoinsActivity : DrawerBaseActivity()
 
                 checkRedeem(getCode.toString()) { result ->
 
-                    if (result == "No")
-                    {
-                        addCoins(getCode.toString(),coins.toString(), result)
+                    if (result == "No") {
+                        addCoins(getCode.toString(), coins.toString(), result)
                         Toast.makeText(this, coins + " coins redeemed", Toast.LENGTH_LONG).show()
-                    }
-                    else {
+                    } else {
                         Toast.makeText(this, "Coins already claimed", Toast.LENGTH_LONG).show()
                     }
                 }
 
             }
-        } else {
+        }
+        if (requestCode == REQUEST_IMAGE_CAPTURE && resultCode == Activity.RESULT_OK) {
+            val imageBitmap = data?.extras?.get("data") as Bitmap
+            val imageView = findViewById<ImageView>(R.id.imageView)
+            imageView.setImageBitmap(imageBitmap)
+
+            sendImageToCloudFunction(imageBitmap)
+        }else {
             super.onActivityResult(requestCode, resultCode, data)
         }
     }
+
+    private fun sendImageToCloudFunction(imageBitmap: Bitmap)
+    {
+        val url = "https://europe-west3-uab-coin.cloudfunctions.net/function-1"
+
+        val byteArrayOutputStream = ByteArrayOutputStream()
+        imageBitmap.compress(Bitmap.CompressFormat.JPEG, 100, byteArrayOutputStream)
+        val byteArray = byteArrayOutputStream.toByteArray()
+
+        val requestBody = MultipartBody.Builder()
+            .setType(MultipartBody.FORM)
+            .addFormDataPart(
+                "image",
+                "captured_image.jpg",
+                RequestBody.create("image/jpeg".toMediaTypeOrNull(), byteArray)
+            )
+            .build()
+
+        val request = Request.Builder()
+            .url(url)
+            .post(requestBody)
+            .build()
+
+        val client = OkHttpClient()
+
+        client.newCall(request).enqueue(object : Callback {
+            override fun onFailure(call: Call, e: IOException) {
+                runOnUiThread {
+                    Toast.makeText(
+                        applicationContext,
+                        "Error al llamar a la función en la nube",
+                        Toast.LENGTH_SHORT
+                    ).show()
+                }
+            }
+
+            override fun onResponse(call: Call, response: Response) {
+                val responseData = response.body?.string()
+
+                if (responseData != null) {
+                    val result = JSONObject(responseData)
+                    val isTrash = result.getBoolean("isTrash")
+                    val message = if (isTrash) "Es basura" else "No es basura"
+
+                    runOnUiThread {
+                        Toast.makeText(applicationContext, message, Toast.LENGTH_SHORT).show()
+                    }
+                } else {
+                    runOnUiThread {
+                        Toast.makeText(
+                            applicationContext,
+                            "Error al obtener la respuesta de la función en la nube",
+                            Toast.LENGTH_SHORT
+                        ).show()
+                    }
+                }
+            }
+        })
+    }
+
     private lateinit var binding: ActivityGetCoinsBinding
 
-    override fun onCreate(savedInstanceState: Bundle?) {
+    override fun onCreate(savedInstanceState: Bundle?)
+    {
+        // Afegir barra d'eines
         super.onCreate(savedInstanceState)
         binding = ActivityGetCoinsBinding.inflate(layoutInflater)
         setContentView(binding.root)
 
         userId = intent.getStringExtra("id").toString()
-
+        val btnTrash= findViewById<Button>(btnTrash)
+        binding.btnTrash.setOnClickListener{
+            startForResult.launch(Intent(MediaStore.ACTION_IMAGE_CAPTURE))
+        }
         binding.btnScan.setOnClickListener { initScanner() }
 
 
     }
-
+    private val startForResult = registerForActivityResult(ActivityResultContracts.StartActivityForResult()){
+            result: ActivityResult ->
+        if(result.resultCode == Activity.RESULT_OK){
+            val intent = result.data
+            val imageBitmap = intent?.extras?.get("data") as Bitmap
+            val imageView = findViewById<ImageView>(R.id.imageView)
+            imageView.setImageBitmap(imageBitmap)
+        }
+    }
     private fun checkRedeem(getCode : String, callback: (String) -> Unit)  {
 
         var redeemed = "No"
@@ -143,7 +244,5 @@ class GetCoinsActivity : DrawerBaseActivity()
                     TODO("Not yet implemented")
                 }
             })
-
     }
-
 }

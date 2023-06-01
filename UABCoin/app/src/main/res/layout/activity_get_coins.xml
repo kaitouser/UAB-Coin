@@ -10,7 +10,7 @@
     <LinearLayout
         android:id="@+id/welcomeLinearLayout"
         android:layout_width="0dp"
-        android:layout_height="250dp"
+        android:layout_height="150dp"
         android:gravity="center_horizontal|center_vertical"
         android:orientation="vertical"
         android:paddingLeft="12dp"
@@ -34,8 +34,8 @@
     </LinearLayout>
 
     <LinearLayout
-        android:layout_width="408dp"
-        android:layout_height="479dp"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
         android:orientation="vertical"
         android:paddingLeft="10dp"
         android:paddingRight="10dp"
@@ -53,6 +53,15 @@
             android:text="Scan"
             android:textSize="16sp" />
 
+        <Button
+            android:id="@+id/btnTrash"
+            android:layout_width="match_parent"
+            android:layout_height="64dp"
+            android:backgroundTint="@color/greenUab"
+            android:fontFamily="@font/mada_bold"
+            android:text="Trash"
+            android:textSize="16sp" />
+
         <TextView
             android:id="@+id/result"
             android:layout_width="match_parent"
@@ -63,6 +72,12 @@
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/btnScan" />
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            tools:srcCompat="@tools:sample/avatars" />
 
 
     </LinearLayout>
