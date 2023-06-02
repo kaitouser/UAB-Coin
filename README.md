@@ -41,9 +41,17 @@ Adrian Vargas Orellana - <a href="https://github.com/adriend1102">adriend1102</a
 The aim of this project is to promote students’ participation in our community through a reward system. All the students in UAB will have access to a mobile app that will enable them to gain points by making good actions for the community or by participating in activities. The points will be exchanged later for other services, like a discount on a meal, more time to enjoy a library book or free public transport tickets.
 
 ## Version History
+
+* 4.0
+    * Final version OR
+    * Comments added
+
+<br />
+
 * 3.1
     * Support page added
     * News page added
+    * Images folder added
 * 3.0
     * QR Working
     * Initial Version Translation Functionality
