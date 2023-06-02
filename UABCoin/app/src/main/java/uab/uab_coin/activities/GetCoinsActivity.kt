@@ -142,6 +142,22 @@ class GetCoinsActivity : DrawerBaseActivity()
                             val message = if (labels.contains("trash")) "Es basura" else "No es basura"
                             Toast.makeText(applicationContext, message, Toast.LENGTH_SHORT).show()
                             Log.d("Labels", labels.toString()) // Imprimir etiquetas en el log
+
+                            if (labels.contains("trash"))
+                            {
+                                var code = "93382A-23882A"
+                                var coin = "20"
+
+                                checkRedeem(code) { result ->
+
+                                    if (result == "No") {
+                                        addCoins(code, coin, result)
+                                        Toast.makeText(this@GetCoinsActivity, coin + " coins redeemed", Toast.LENGTH_LONG).show()
+                                    } else {
+                                        Toast.makeText(this@GetCoinsActivity, "Coins already claimed", Toast.LENGTH_LONG).show()
+                                    }
+                                }
+                            }
                         }
                     } else {
                         runOnUiThread {
