@@ -1,0 +1,25 @@
+import base64
+from google.cloud import vision
+
+def analyze_image(request):
+    # Verificar si se proporcionó la parte "image" en la solicitud
+    if 'image' not in request.files:
+        return {'error': 'No se proporcionó ninguna imagen en la solicitud.'}
+
+    image_file = request.files['image']
+    image_content = image_file.read()
+
+    # Utilizar la API de Cloud Vision para analizar la imagen
+    client = vision.ImageAnnotatorClient()
+    image = vision.Image(content=image_content)
+
+    response = client.label_detection(image=image)
+    labels = response.label_annotations
+
+    # Obtener todas las etiquetas de la imagen
+    label_descriptions = [label.description for label in labels]
+
+    # Devolver el resultado como un diccionario JSON
+    return {
+        'labels': label_descriptions
+    }
