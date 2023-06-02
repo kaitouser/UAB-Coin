@@ -2703,6 +2703,7 @@ id auto
 id autoComplete
 id autoCompleteToEnd
 id autoCompleteToStart
+id b_offer_LoadingData
 id barrier
 id baseline
 id beginOnFirstDraw
@@ -2710,6 +2711,7 @@ id beginning
 id bestChoice
 id blocking
 id bottom
+id bought_Offers
 id bounce
 id bounceBoth
 id bounceEnd
@@ -3136,6 +3138,7 @@ id transition_position
 id transition_scene_layoutid_cache
 id transition_transform
 id triangle
+id tvBoughtPrice
 id tvLoadingData
 id tvLoadingData2
 id tvNewName
@@ -3299,6 +3302,7 @@ layout design_navigation_menu
 layout design_navigation_menu_item
 layout design_text_input_end_icon
 layout design_text_input_start_icon
+layout history_list_item
 layout m3_alert_dialog
 layout m3_alert_dialog_actions
 layout m3_alert_dialog_title

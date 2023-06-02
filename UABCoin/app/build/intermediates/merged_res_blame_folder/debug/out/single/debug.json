@@ -156,6 +156,10 @@
         "source": "uab.uab_coin.app-main-37:/font/baloo_bhai_2_bold.xml"
     },
     {
+        "merged": "uab.uab_coin.app-merged_res-35:/layout_history_list_item.xml.flat",
+        "source": "uab.uab_coin.app-main-37:/layout/history_list_item.xml"
+    },
+    {
         "merged": "uab.uab_coin.app-merged_res-35:/layout_news_list_item.xml.flat",
         "source": "uab.uab_coin.app-main-37:/layout/news_list_item.xml"
     },

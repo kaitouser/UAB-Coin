@@ -2,6 +2,7 @@ package uab.uab_coin.activities
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.util.Log
 import android.widget.Button
 import android.widget.ImageView
 import android.widget.TextView
@@ -36,10 +37,9 @@ class OfferActivity : AppCompatActivity()
 
     private var alreadyRedeemed = "Waiting"
 
-    private var sourceLanguageTitle = "CATALAN"
-    private var targetLanguageTitle = Locale.getDefault().displayLanguage.uppercase()
+    private var sourceLanguageTitle = "ca"
+    private var targetLanguageTitle = Locale.getDefault().language
 
-    // Create an English-German translator:
     private val options = TranslatorOptions.Builder()
         .setSourceLanguage(TranslateLanguage.fromLanguageTag(sourceLanguageTitle).toString())
         .setTargetLanguage(TranslateLanguage.fromLanguageTag(targetLanguageTitle).toString())

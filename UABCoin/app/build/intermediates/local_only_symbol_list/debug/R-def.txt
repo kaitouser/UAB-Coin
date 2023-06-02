@@ -47,6 +47,8 @@ id LangMenu
 id NewImageDisplay
 id activityContainer
 id appBarLayout
+id b_offer_LoadingData
+id bought_Offers
 id btnEditName
 id btnEditNiu
 id btnScan
@@ -101,6 +103,7 @@ id textViewNCoins
 id textViewRedeemCoins2
 id textViewWelcomeUser
 id toolBar
+id tvBoughtPrice
 id tvLoadingData
 id tvLoadingData2
 id tvNewName
@@ -124,6 +127,7 @@ layout activity_settings
 layout activity_statistics
 layout activity_welcome
 layout content_layout
+layout history_list_item
 layout main_drawer_header
 layout news_list_item
 layout offers_list_item

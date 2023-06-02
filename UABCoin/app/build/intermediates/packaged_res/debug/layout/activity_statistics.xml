@@ -9,64 +9,51 @@
     tools:context=".activities.StatisticsActivity">
 
     <LinearLayout
+        android:id="@+id/linearLayout"
         android:layout_width="0dp"
-        android:layout_height="400dp"
-        android:layout_marginTop="332dp"
-        android:gravity="center_horizontal|center_vertical"
+        android:layout_height="250dp"
+        android:gravity="center"
         android:orientation="vertical"
-        android:paddingLeft="12dp"
-        android:paddingRight="12dp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent">
 
         <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:fontFamily="@font/sansita_extrabold"
-            android:gravity="fill_horizontal|center_vertical"
-            android:text="Shop history"
-            android:textColor="@color/blackUab"
-            android:textIsSelectable="false"
-            android:textSize="35sp" />
-
-        <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:orientation="horizontal"
-            android:gravity="center_vertical"
-            android:paddingLeft="20dp"
-            android:paddingRight="20dp"
-            android:layout_marginTop="20dp">
-
-            <ImageView
-                android:layout_width="30dp"
-                android:layout_height="30dp"
-                android:src="@drawable/ic_person_profile"/>
-
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginLeft="8dp"
-                android:text="Placeholder"
-                android:textStyle="bold"
-                android:textColor="@color/blackUab"
-                android:textSize="16dp"
-                android:fontFamily="@font/mada_bold" />
-
-            <TextView
-                android:id="@+id/textUserName"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginLeft="20dp"
-                android:text="Placeholder"
-                android:fontFamily="@font/mada_bold"
-                android:textColor="@color/blackUab"
-                android:textSize="16sp"/>
-
-        </LinearLayout>
-
+            android:fontFamily="@font/sansita_extrabold"
+            android:text="Purchase history"
+            android:textAlignment="center"
+            android:textColor="@color/blackUab"
+            android:textIsSelectable="false"
+            android:textSize="32sp" />
     </LinearLayout>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/bought_Offers"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginBottom="1dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout"
+        tools:listitem="@layout/offers_list_item" />
+
+    <TextView
+        android:id="@+id/b_offer_LoadingData"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Loading Data....."
+        android:textColor="@color/black"
+        android:textSize="28sp"
+        android:textStyle="bold"
+        android:visibility="gone"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

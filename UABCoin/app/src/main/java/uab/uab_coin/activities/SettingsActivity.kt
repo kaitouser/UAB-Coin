@@ -47,31 +47,31 @@ class SettingsActivity  : DrawerBaseActivity()
     // Funcio per canviar de llenguatge
     private fun changeLanguage()
     {
-    var languages = arrayOf("English", "EspaÃ±ol")
-    var builder = AlertDialog.Builder(this)
-    builder.setTitle("Choose Language");
-    builder.setSingleChoiceItems(languages, -1) { dialogInterface, i->
-        var menu = findViewById<TextView>(R.id.LangMenu)
-        menu.text = languages[i]
-        dialogInterface.dismiss()
-        if(i==0)
-        {
-            setLocale("en")
-            recreate()
-        }
-        if(i==1)
-        {
-            setLocale("es")
-            recreate()
-        }
+        var languages = arrayOf("English", "Español")
+        var builder = AlertDialog.Builder(this)
+        builder.setTitle("Choose Language");
+        builder.setSingleChoiceItems(languages, -1) { dialogInterface, i->
+            var menu = findViewById<TextView>(R.id.LangMenu)
+            menu.text = languages[i]
+            dialogInterface.dismiss()
+            if(i==0)
+            {
+                setLocale("en")
+                recreate()
+            }
+            if(i==1)
+            {
+                setLocale("es")
+                recreate()
+            }
 
+        }
+        builder.setNeutralButton("Cancel") { dialog, which ->
+            dialog.cancel()
+        }
+        val mDialog = builder.create()
+        mDialog.show()
     }
-    builder.setNeutralButton("Cancel") { dialog, which ->
-        dialog.cancel()
-    }
-    val mDialog = builder.create()
-    mDialog.show()
-}
 
     // Funcio per establir llenguatge local per defecte
     private fun setLocale(s: String)
