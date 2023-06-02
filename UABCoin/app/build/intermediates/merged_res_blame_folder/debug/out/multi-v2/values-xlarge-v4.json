@@ -4,7 +4,7 @@
             "outputFile": "uab.uab_coin.app-mergeDebugResources-33:/values-xlarge-v4/values-xlarge-v4.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\marin\\.gradle\\caches\\transforms-3\\2d82247bc56c74c449adef124963cf5b\\transformed\\appcompat-1.4.1\\res\\values-xlarge-v4\\values-xlarge-v4.xml",
+                    "source": "C:\\Users\\adria\\.gradle\\caches\\transforms-3\\2d82247bc56c74c449adef124963cf5b\\transformed\\appcompat-1.4.1\\res\\values-xlarge-v4\\values-xlarge-v4.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7",
                         "startColumns": "4,4,4,4,4,4",

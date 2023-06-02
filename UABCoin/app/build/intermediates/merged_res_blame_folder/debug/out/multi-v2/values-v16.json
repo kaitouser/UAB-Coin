@@ -4,7 +4,7 @@
             "outputFile": "uab.uab_coin.app-mergeDebugResources-33:/values-v16/values-v16.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\marin\\.gradle\\caches\\transforms-3\\2d82247bc56c74c449adef124963cf5b\\transformed\\appcompat-1.4.1\\res\\values-v16\\values-v16.xml",
+                    "source": "C:\\Users\\adria\\.gradle\\caches\\transforms-3\\2d82247bc56c74c449adef124963cf5b\\transformed\\appcompat-1.4.1\\res\\values-v16\\values-v16.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
@@ -23,7 +23,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\marin\\.gradle\\caches\\transforms-3\\3958dc0d0d1a288dda471589c72af510\\transformed\\core-1.8.0\\res\\values-v16\\values-v16.xml",
+                    "source": "C:\\Users\\adria\\.gradle\\caches\\transforms-3\\3958dc0d0d1a288dda471589c72af510\\transformed\\core-1.8.0\\res\\values-v16\\values-v16.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
